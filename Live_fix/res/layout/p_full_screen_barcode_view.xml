@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/com_garena_beepay_img_loading_barcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p_loading_barcode" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/com_garena_beepay_img_barcode" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/com_garena_beepay_margin_mmmm_gigantic" android:layout_marginRight="@dimen/com_garena_beepay_margin_mmmm_gigantic" android:layout_centerInParent="true" />
+</RelativeLayout>

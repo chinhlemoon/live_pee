@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/chat_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:garena="http://schemas.android.com/apk/res-auto">
+    <com.shopee.app.ui.chat2.KeyboardPane android:id="@id/keyboardPanel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.shopee.app.ui.subaccount.ui.chatroom.sdk.ChatMessageListView android:id="@id/chatListView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <com.shopee.app.ui.common.NoticeView_ android:id="@id/noticeViewSearchNeedMoreCharacter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" garena:notice_background_color="@color/yellow_banner" garena:notice_hide_dismiss_button="true" garena:notice_text="@string/sp_search_notice_need_more_character" garena:notice_text_color="@color/black87" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/hintText" android:background="@color/black40" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="8.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_above="@id/searchNavigationView" style="@style/RobotoRNormal" />
+            <com.shopee.app.ui.chat2.ChatSearchNavigationView android:id="@id/searchNavigationView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_above="@id/offsetLayout" />
+            <LinearLayout android:orientation="vertical" android:id="@id/offsetLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <com.shopee.app.ui.chat2.subview.ChatReplyBarView android:id="@id/chatReplyView" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <RelativeLayout android:id="@id/chatInputSection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.shopee.app.ui.chat2.send.ChatSendView_ android:id="@id/chatSendView" android:layout_width="fill_parent" android:layout_height="wrap_content" garena:showPhone="true" garena:showPhoto="true" garena:textHint="@string/sp_send_message" />
+                    <ViewStub android:id="@id/vs_chat_input_cover" android:layout="@layout/chat_input_layout_cover" android:inflatedId="@id/vs_chat_input_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/chatSendView" android:layout_alignBottom="@id/chatSendView" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/restartConvOverlayContainer" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/sp_label_conversation_closed" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" style="@style/RobotoRNormal" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/restartConvBtn" android:background="@drawable/btn_secondary_primary_2dp" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_margin="12.0dip">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_chat_message" android:adjustViewBounds="true" android:layout_marginEnd="4.0dip" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_label_restart_conversation" style="@style/RobotoRLarge" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.shopee.app.ui.chat2.KeyboardPane>
+</RelativeLayout>

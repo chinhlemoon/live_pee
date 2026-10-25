@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="79.0dip" android:layout_height="79.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutAddFile" android:background="@drawable/bg_border_stroke" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="25.0dip" android:textColor="@color/primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/primary" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_report_issue_add_photo_or_video" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/layoutFileItem" android:background="@color/two_tier_variant_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0sp" android:textColor="@color/black87" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tvFileName" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="2" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ivThumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutRetry" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_warning_upload_file" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/bt_retry" />
+        </LinearLayout>
+        <ImageButton android:id="@id/tvDeleteItem" android:background="#66000000" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/close_icon" />
+        <com.shopee.addon.commonerrorhandler.impl.ui.file.SmartProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:spb_animated="false" app:spb_clockwise="true" app:spb_max="100" app:spb_percent_text_color="@android:color/white" app:spb_percent_text_size="12.0sp" app:spb_progress="0" app:spb_progress_bar_bg_color="#66000000" app:spb_progress_center_color="#fff5f5f5" app:spb_progress_end_color="#fff5f5f5" app:spb_progress_start_color="#fff5f5f5" app:spb_shape_style="RECTANGLE" app:spb_show_percent_sign="true" app:spb_show_percent_text="true" />
+    </RelativeLayout>
+</FrameLayout>

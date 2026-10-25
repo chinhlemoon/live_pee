@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.shopee.app.ui.home.native_home.cell.CenterCropImageView android:id="@id/content_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+        <com.google.android.material.card.MaterialCardView android:theme="@style/Theme.MaterialComponents.Light" android:layout_gravity="bottom" android:id="@id/logo_image_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="-12.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:elevation="2.0dip" app:cardCornerRadius="12.0dip" app:cardElevation="2.0dip">
+            <com.shopee.app.ui.home.native_home.cell.SimpleImgView android:id="@id/logo_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="3.0dip" />
+        </com.google.android.material.card.MaterialCardView>
+    </FrameLayout>
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="6.0dip" android:maxLines="2" style="@style/RobotoM14" />
+</LinearLayout>

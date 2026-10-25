@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" app:layout_constraintBottom_toTopOf="@id/view_bottom_background" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/p_item_payment_code_result_header_layout" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_payable_amount" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/airpay_bsc_payable_amount" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_product" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/airpay_bsc_product" />
+            <Space android:layout_width="0.0dip" android:layout_height="10.0dip" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_txn_fee" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/txn_transaction_fee" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_event_discount" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/txn_event_discount" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_coupon_discount" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/txn_coupon_discount" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_coupon_name" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/txn_coupon_name" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_redeem_shopee_coins" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/airpay_bsc_redeem_shopee_coins" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_coins_earned" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/airpay_bsc_coins_earned" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_cashback" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/airpay_bsc_cashback" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_payment_option" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/airpay_bsc_payment_option" />
+            <Space android:layout_width="0.0dip" android:layout_height="10.0dip" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_airpay_ref" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/airpay_bsc_airpay_ref" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_merchant_ref" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" app:p_item_name="@string/airpay_bsc_merchant_ref" />
+            <com.airpay.cashier.ui.view.PaymentCodeResultItem android:id="@id/item_more_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_item_name="@string/airpay_bsc_more_detail" />
+            <LinearLayout android:orientation="vertical" android:id="@id/item_ref_qr_layout" android:background="@drawable/p_view_touchable_white_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/item_ref_qr_img" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="12.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/p_base_color_8A000000" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/item_ref_qr_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="20.0dip" android:maxLines="2" android:layout_marginStart="91.0dip" android:layout_marginEnd="91.0dip" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dip" android:layout_height="10.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/view_bottom_background" android:background="@color/p_white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <Button android:textColor="@color/p_selector_bsc_btn_font_color" android:layout_gravity="bottom" android:id="@id/btn_ok" android:background="@drawable/p_bg_btn_theme_radius_2_spp" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_margin="8.0dip" android:text="@string/airpay_bsc_ok" android:textAllCaps="false" app:layout_constraintBottom_toBottomOf="@id/view_bottom_background" app:layout_constraintEnd_toEndOf="@id/view_bottom_background" app:layout_constraintStart_toStartOf="@id/view_bottom_background" app:layout_constraintTop_toTopOf="@id/view_bottom_background" />
+    </FrameLayout>
+</LinearLayout>

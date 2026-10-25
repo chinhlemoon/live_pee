@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pa_dp12" android:text="@string/pluginaccount_username_preview_title" style="@style/RobotoR12" />
+    <TextView android:textSize="@dimen/pa_sp10" android:id="@id/txt_shop_url" android:background="@drawable/pa_bg_shop_url" android:paddingLeft="@dimen/pa_dp12" android:paddingTop="@dimen/pa_dp8" android:paddingRight="@dimen/pa_dp12" android:paddingBottom="@dimen/pa_dp8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/RobotoR" />
+</LinearLayout>

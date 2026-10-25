@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/cl_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/media_sdk_music_panel_musictab_title" android:layout_weight="1.0" />
+        <ImageView android:id="@id/iv_trimmer" android:paddingLeft="20.0dip" android:paddingTop="12.0dip" android:paddingRight="20.0dip" android:paddingBottom="12.0dip" android:visibility="invisible" android:layout_width="64.0dip" android:layout_height="48.0dip" android:src="@drawable/media_sdk_ic_music_trimmer_24" android:scaleType="fitXY" />
+    </LinearLayout>
+    <View android:id="@id/v_ver_divider" android:background="@color/media_sdk_474747" android:layout_width="fill_parent" android:layout_height="1.0px" app:layout_constraintTop_toBottomOf="@id/ll_title" />
+    <FrameLayout android:id="@id/fl_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="90.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/v_ver_divider">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/rv_music" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/fl_container" app:layout_constraintEnd_toEndOf="@id/fl_container" app:layout_constraintStart_toStartOf="@id/fl_container" app:layout_constraintTop_toTopOf="@id/fl_container" />
+    <com.shopee.sz.mediasdk.widget.LoadingFailedView android:id="@id/v_loading_failed" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/fl_container" app:layout_constraintEnd_toEndOf="@id/fl_container" app:layout_constraintStart_toStartOf="@id/fl_container" app:layout_constraintTop_toTopOf="@id/fl_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

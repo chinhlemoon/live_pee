@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/cl_image_root" android:background="@drawable/media_sdk_bg_magic_item_select" android:padding="4.5dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginRight="7.0dip" android:layout_marginEnd="7.0dip">
+        <com.shopee.sz.mediauicomponent.roundedimageview.RoundedImageView android:layout_gravity="center" android:id="@id/image_effect" android:layout_width="66.0dip" android:layout_height="88.0dip" android:scaleType="centerCrop" app:riv_corner_radius="4.0dip" />
+        <ProgressBar android:layout_gravity="right" android:id="@id/pb" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:indeterminateDrawable="@drawable/media_sdk_download_progress" />
+        <ImageView android:layout_gravity="right" android:id="@id/image_download" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/media_sdk_ic_download_effects" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/ic_delete" android:padding="8.0dip" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="1.5dip" android:layout_marginRight="-4.5dip" android:src="@drawable/media_sdk_ic_delete_sticker" />
+</FrameLayout>

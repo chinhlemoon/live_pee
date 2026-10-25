@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="#fff3f4f5" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MMKV write error preference" />
+            <EditText android:id="@id/edit_file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="enter file name,if use default enter default" />
+            <EditText android:id="@id/edit_key_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="enter key name" />
+            <EditText android:id="@id/edit_key_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="enter key value" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="date type：" />
+                <EditText android:id="@id/edit_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="enter data type of " />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="DATA_TYPE_STRING = 1\n         DATA_TYPE_STRING_SET = 2 \n         DATA_TYPE_INT = 3 \n         DATA_TYPE_LONG = 4 \n         DATA_TYPE_FLOAT = 5 \n         DATA_TYPE_BOOLEAN = 6 \n         DATA_TYPE_DOUBLE = 7" />
+            <Button android:id="@id/btn_write" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="write" />
+            <Button android:id="@id/btn_read" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="read content of key" />
+            <TextView android:id="@id/text_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

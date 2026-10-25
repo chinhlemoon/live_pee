@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shopee.sz.mediasdk.sticker.view.DispatchFrameLayout android:id="@id/local_sticker_frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/no_sticker_tip_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="68.0dip" android:layout_height="68.0dip" android:src="@drawable/media_sdk_sticker_fragment_ic_no_item" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/white_54" android:gravity="center" android:id="@id/tv_upload_guidance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxWidth="280.0dip" android:text="@string/media_sdk_live_sticker_upload_guidance" android:lineSpacingExtra="3.0dip" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_upload" android:background="@drawable/media_sdk_background_btn_upload_sticker" android:layout_width="145.0dip" android:layout_height="32.0dip" android:layout_marginTop="24.0dip" android:text="@string/media_sdk_live_sticker_upload" app:robotoTypeface="roboto_medium" />
+    </LinearLayout>
+    <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:layout_gravity="center" android:id="@id/loading_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:media_enable_tip="true" />
+    <com.shopee.sz.mediasdk.widget.DispatchRecycleView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.shopee.sz.mediasdk.sticker.view.DispatchFrameLayout>

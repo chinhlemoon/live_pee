@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2023-08-03 11:50:56.264",
+  "version": "0.0.17",
+  "branch": "master",
+  "commitId": "f4493516934efb3c1029bfc138052e1aad21dc34",
+  "moduleCommitId": "94fa4468923a5895f5d8cdd2aa25e2c71f0a61d1",
+  "lastMessage": "Merge branch \u0027zhoujian/v3.07/feature\u0027 into \u0027master\u0027",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "shopeeimage",
+  "path": ":shopeeimage",
+  "remoteUrl": "https://git.garena.com/zhixi.wen/images.git"
+}

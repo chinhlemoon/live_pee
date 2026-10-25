@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-04-15 10:56:44.374",
+  "version": "1.12.14",
+  "branch": "master",
+  "commitId": "5320329e40971bd6942fc2f4f32f80998448da86",
+  "moduleCommitId": "232f76cb6165ceca644dbb76d48829c93a721fc6",
+  "lastMessage": "Merge branch \u0027alanLin/internal/SPAPP-26727-remove-unused-tracking-point\u0027 into \u0027master\u0027",
+  "extraInfo": "master",
+  "groupId": "com.shopee",
+  "artifactId": "friends-sdk",
+  "path": ":friends-sdk",
+  "remoteUrl": "ssh://gitlab@git.garena.com:2222/shopee/android/shopee-friends-sdk.git"
+}

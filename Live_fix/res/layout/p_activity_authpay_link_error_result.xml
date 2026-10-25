@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="140.0dip" android:layout_marginTop="70.0dip">
+        <ImageView android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@drawable/p_icon_link_error" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textColor="@color/p_color_DE000000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_text_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/p_color_8A000000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_text_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:singleLine="false" />
+    <com.shopee.ui.component.button.PButton android:layout_gravity="center_horizontal" android:id="@id/btn_back_to_merchant" android:layout_width="160.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:text="@string/airpay_auth_pay_phone_button_back_to_merchant" />
+</LinearLayout>

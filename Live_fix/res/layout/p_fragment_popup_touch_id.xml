@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/com_garena_beepay_margin_mmmm_gigantic" android:paddingRight="@dimen/com_garena_beepay_margin_mmmm_gigantic" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/p_bg_color_white" android:paddingTop="@dimen/com_garena_beepay_margin_xx_large" android:paddingBottom="@dimen/com_garena_beepay_margin_ll_normal_x" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/com_garena_beepay_iv_state" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/p_txt_size_normal" android:gravity="center" android:id="@id/com_garena_beepay_tv_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="3" />
+    </LinearLayout>
+    <View android:background="@color/p_border_color_normal" android:layout_width="fill_parent" android:layout_height="@dimen/com_garena_beepay_border_width_thin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/p_txt_size_normal" android:textColor="@color/p_txt_color_blue" android:gravity="center" android:id="@id/com_garena_beepay_btn_password" android:background="@drawable/p_bg_btn_popup" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/com_garena_beepay_item_height" android:text="@string/com_garena_beepay_label_password" android:layout_weight="1.0" android:textAllCaps="true" />
+        <View android:background="@color/p_border_color_normal" android:layout_width="@dimen/com_garena_beepay_border_width_thin" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/p_txt_size_normal" android:textColor="@color/p_txt_color_blue" android:gravity="center" android:id="@id/com_garena_beepay_btn_cancel" android:background="@drawable/p_bg_btn_popup" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/com_garena_beepay_item_height" android:text="@string/com_garena_beepay_label_cancel" android:layout_weight="1.0" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

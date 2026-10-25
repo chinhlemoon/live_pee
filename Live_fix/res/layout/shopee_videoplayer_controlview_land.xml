@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/videocontrol_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shopeeplayer_icon_play" android:layout_centerInParent="true" android:rotation="270.0" />
+    <ImageButton android:id="@id/videocontrol_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shopeeplayer_icon_pause" android:layout_centerInParent="true" android:rotation="270.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffbebebe" android:id="@id/videocontrol_position" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="00:00" android:includeFontPadding="false" android:rotation="90.0" />
+        <com.shopee.video_player.view.SSZVerticalFramelayout android:layout_gravity="center_horizontal" android:id="@id/seekBarContainer1" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.shopee.video_player.view.SSZVerticalTimerBar android:id="@id/videocontrol_progress" android:layout_width="0.0dip" android:layout_height="0.0dip" android:progressDrawable="@drawable/player_seekbar_style" android:thumb="@drawable/player_seek_bar_thumb" android:splitTrack="false" app:seekBarRotation="CW90" />
+        </com.shopee.video_player.view.SSZVerticalFramelayout>
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffbebebe" android:id="@id/videocontrol_duration" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="03:00" android:includeFontPadding="false" android:rotation="90.0" />
+    </LinearLayout>
+</RelativeLayout>

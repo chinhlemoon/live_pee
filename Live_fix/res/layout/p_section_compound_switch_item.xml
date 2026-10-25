@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="12.0dip" android:paddingRight="@dimen/com_garena_beepay_margin_normal" android:layout_width="fill_parent" android:layout_height="@dimen/com_garena_beepay_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center|left" android:id="@id/bs_section_header_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/p_txt_color_dark" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/bs_section_header_title" android:background="@color/p_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.shopee.ui.component.selection.PToggleButton android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/bs_section_toggle_button" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

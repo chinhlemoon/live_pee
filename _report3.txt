@@ -1,0 +1,1382 @@
+﻿=== Wolf entries === 449
+AndroidManifest.xml 6816
+DebugProbesKt.bin 1738
+META-INF/androidx.activity_activity.version 6
+META-INF/androidx.annotation_annotation-experimental.version 6
+META-INF/androidx.appcompat_appcompat-resources.version 6
+META-INF/androidx.appcompat_appcompat.version 6
+META-INF/androidx.arch.core_core-runtime.version 67
+META-INF/androidx.cardview_cardview.version 6
+META-INF/androidx.core_core-ktx.version 7
+META-INF/androidx.core_core.version 7
+META-INF/androidx.cursoradapter_cursoradapter.version 6
+META-INF/androidx.customview_customview.version 6
+META-INF/androidx.drawerlayout_drawerlayout.version 6
+META-INF/androidx.emoji2_emoji2-views-helper.version 6
+META-INF/androidx.emoji2_emoji2.version 6
+META-INF/androidx.fragment_fragment.version 6
+META-INF/androidx.interpolator_interpolator.version 6
+META-INF/androidx.lifecycle_lifecycle-livedata-core.version 78
+META-INF/androidx.lifecycle_lifecycle-livedata.version 73
+META-INF/androidx.lifecycle_lifecycle-process.version 72
+META-INF/androidx.lifecycle_lifecycle-runtime.version 72
+META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version 85
+META-INF/androidx.lifecycle_lifecycle-viewmodel.version 74
+META-INF/androidx.loader_loader.version 6
+META-INF/androidx.profileinstaller_profileinstaller.version 6
+META-INF/androidx.savedstate_savedstate.version 6
+META-INF/androidx.startup_startup-runtime.version 6
+META-INF/androidx.tracing_tracing.version 6
+META-INF/androidx.vectordrawable_vectordrawable-animated.version 6
+META-INF/androidx.vectordrawable_vectordrawable.version 6
+META-INF/androidx.versionedparcelable_versionedparcelable.version 6
+META-INF/androidx.viewpager_viewpager.version 6
+META-INF/com/android/build/gradle/app-metadata.properties 56
+META-INF/kotlinx_coroutines_android.version 5
+META-INF/kotlinx_coroutines_core.version 5
+META-INF/services/fhdsjfsdjfdsfdsdsff.jsdfhhhhhhhh.fksdfsalfjufewsrofeowrfeifd.b6 65
+META-INF/services/fhdsjfsdjfdsfdsdsff.jsdfhhhhhhhh.fksdfsalfjufewsrofeowrfeifd.hg 65
+assets/xposed_init 25
+classes.dex 3963092
+kotlin/annotation/annotation.kotlin_builtins 926
+kotlin/collections/collections.kotlin_builtins 3685
+kotlin/coroutines/coroutines.kotlin_builtins 200
+kotlin/internal/internal.kotlin_builtins 646
+kotlin/kotlin.kotlin_builtins 17783
+kotlin/ranges/ranges.kotlin_builtins 3305
+kotlin/reflect/reflect.kotlin_builtins 2395
+lib/arm64-v8a/libtest.so 248176
+lib/armeabi-v7a/libtest.so 145320
+okhttp3/internal/publicsuffix/NOTICE 218
+okhttp3/internal/publicsuffix/publicsuffixes.gz 37730
+res/anim-v21/fragment_fast_out_extra_slow_in.xml 364
+res/anim/abc_fade_in.xml 388
+res/anim/abc_fade_out.xml 388
+res/anim/abc_grow_fade_in_from_bottom.xml 852
+res/anim/abc_popup_enter.xml 508
+res/anim/abc_popup_exit.xml 508
+res/anim/abc_shrink_fade_out_from_bottom.xml 852
+res/anim/abc_slide_in_bottom.xml 396
+res/anim/abc_slide_in_top.xml 396
+res/anim/abc_slide_out_bottom.xml 396
+res/anim/abc_slide_out_top.xml 396
+res/anim/abc_tooltip_enter.xml 388
+res/anim/abc_tooltip_exit.xml 388
+res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml 2124
+res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml 2780
+res/anim/btn_checkbox_to_checked_icon_null_animation.xml 1196
+res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml 2360
+res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml 2520
+res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml 1196
+res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml 1656
+res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml 1656
+res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml 1028
+res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml 1656
+res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml 1656
+res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml 1028
+res/animator/fragment_close_enter.xml 1128
+res/animator/fragment_close_exit.xml 1128
+res/animator/fragment_fade_enter.xml 452
+res/animator/fragment_fade_exit.xml 452
+res/animator/fragment_open_enter.xml 1128
+res/animator/fragment_open_exit.xml 1128
+res/color-v21/abc_btn_colored_borderless_text_material.xml 464
+res/color-v23/abc_btn_colored_borderless_text_material.xml 500
+res/color-v23/abc_btn_colored_text_material.xml 500
+res/color-v23/abc_color_highlight_material.xml 544
+res/color-v23/abc_tint_btn_checkable.xml 624
+res/color-v23/abc_tint_default.xml 1120
+res/color-v23/abc_tint_edittext.xml 668
+res/color-v23/abc_tint_seek_thumb.xml 500
+res/color-v23/abc_tint_spinner.xml 668
+res/color-v23/abc_tint_switch_track.xml 664
+res/color/abc_background_cache_hint_selector_material_dark.xml 468
+res/color/abc_background_cache_hint_selector_material_light.xml 468
+res/color/abc_btn_colored_text_material.xml 604
+res/color/abc_hint_foreground_material_dark.xml 564
+res/color/abc_hint_foreground_material_light.xml 564
+res/color/abc_primary_text_disable_only_material_dark.xml 464
+res/color/abc_primary_text_disable_only_material_light.xml 464
+res/color/abc_primary_text_material_dark.xml 464
+res/color/abc_primary_text_material_light.xml 464
+res/color/abc_search_url_text.xml 588
+res/color/abc_secondary_text_material_dark.xml 464
+res/color/abc_secondary_text_material_light.xml 464
+res/color/abc_tint_btn_checkable.xml 728
+res/color/abc_tint_default.xml 1224
+res/color/abc_tint_edittext.xml 772
+res/color/abc_tint_seek_thumb.xml 604
+res/color/abc_tint_spinner.xml 772
+res/color/abc_tint_switch_track.xml 768
+res/color/switch_thumb_material_dark.xml 464
+res/color/switch_thumb_material_light.xml 464
+res/drawable-anydpi-v21/ic_call_answer.xml 1356
+res/drawable-anydpi-v21/ic_call_answer_low.xml 1320
+res/drawable-anydpi-v21/ic_call_answer_video.xml 772
+res/drawable-anydpi-v21/ic_call_answer_video_low.xml 736
+res/drawable-anydpi-v21/ic_call_decline.xml 1528
+res/drawable-anydpi-v21/ic_call_decline_low.xml 1492
+res/drawable-anydpi-v24/$ic_launcher_foreground__0.xml 788
+res/drawable-anydpi-v24/ic_launcher_foreground.xml 1572
+res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png 272
+res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png 227
+res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png 404
+res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png 464
+res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png 563
+res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png 1096
+res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png 1243
+res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png 226
+res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png 171
+res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png 167
+res/drawable-hdpi-v4/abc_list_focused_holo.9.png 244
+res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png 212
+res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png 208
+res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png 208
+res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png 228
+res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png 229
+res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png 738
+res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png 1098
+res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png 201
+res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png 196
+res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png 272
+res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png 205
+res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png 196
+res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png 345
+res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png 484
+res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png 190
+res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl.png 278
+res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl.png 396
+res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl.png 262
+res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png 186
+res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png 192
+res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png 178
+res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png 178
+res/drawable-hdpi-v4/ic_call_answer.png 472
+res/drawable-hdpi-v4/ic_call_answer_low.png 472
+res/drawable-hdpi-v4/ic_call_answer_video.png 254
+res/drawable-hdpi-v4/ic_call_answer_video_low.png 254
+res/drawable-hdpi-v4/ic_call_decline.png 375
+res/drawable-hdpi-v4/ic_call_decline_low.png 375
+res/drawable-hdpi-v4/notification_bg_low_normal.9.png 212
+res/drawable-hdpi-v4/notification_bg_low_pressed.9.png 225
+res/drawable-hdpi-v4/notification_bg_normal.9.png 212
+res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png 225
+res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png 107
+res/drawable-ldpi-v4/ic_call_answer.png 270
+res/drawable-ldpi-v4/ic_call_answer_low.png 270
+res/drawable-ldpi-v4/ic_call_answer_video.png 199
+res/drawable-ldpi-v4/ic_call_answer_video_low.png 199
+res/drawable-ldpi-v4/ic_call_decline.png 201
+res/drawable-ldpi-v4/ic_call_decline_low.png 201
+res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png 345
+res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png 318
+res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png 417
+res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png 525
+res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png 437
+res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png 267
+res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png 214
+res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png 321
+res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png 324
+res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png 356
+res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png 754
+res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png 825
+res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png 216
+res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png 173
+res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png 167
+res/drawable-mdpi-v4/abc_list_focused_holo.9.png 222
+res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png 211
+res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png 207
+res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png 207
+res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png 217
+res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png 217
+res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png 541
+res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png 776
+res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png 159
+res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png 145
+res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png 197
+res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png 203
+res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png 194
+res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png 327
+res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png 395
+res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png 186
+res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl.png 203
+res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl.png 310
+res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl.png 186
+res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png 181
+res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png 178
+res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png 178
+res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png 178
+res/drawable-mdpi-v4/ic_call_answer.png 317
+res/drawable-mdpi-v4/ic_call_answer_low.png 317
+res/drawable-mdpi-v4/ic_call_answer_video.png 206
+res/drawable-mdpi-v4/ic_call_answer_video_low.png 206
+res/drawable-mdpi-v4/ic_call_decline.png 264
+res/drawable-mdpi-v4/ic_call_decline_low.png 264
+res/drawable-mdpi-v4/notification_bg_low_normal.9.png 215
+res/drawable-mdpi-v4/notification_bg_low_pressed.9.png 223
+res/drawable-mdpi-v4/notification_bg_normal.9.png 215
+res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png 223
+res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png 98
+res/drawable-v21/abc_action_bar_item_background_material.xml 264
+res/drawable-v21/abc_btn_colored_material.xml 1716
+res/drawable-v21/abc_dialog_material_background.xml 716
+res/drawable-v21/abc_edit_text_material.xml 1172
+res/drawable-v21/abc_list_divider_material.xml 516
+res/drawable-v21/notification_action_background.xml 1180
+res/drawable-v23/abc_control_background_material.xml 304
+res/drawable-watch-v20/abc_dialog_material_background.xml 372
+res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png 280
+res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png 281
+res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png 432
+res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png 651
+res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png 785
+res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png 1526
+res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png 1731
+res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png 229
+res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png 228
+res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png 167
+res/drawable-xhdpi-v4/abc_list_focused_holo.9.png 244
+res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png 214
+res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png 209
+res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png 209
+res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png 236
+res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png 235
+res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png 966
+res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png 1544
+res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png 267
+res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png 267
+res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png 391
+res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png 208
+res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png 198
+res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png 448
+res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png 618
+res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png 194
+res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl.png 335
+res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl.png 585
+res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl.png 318
+res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png 189
+res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png 187
+res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png 184
+res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png 182
+res/drawable-xhdpi-v4/ic_call_answer.png 623
+res/drawable-xhdpi-v4/ic_call_answer_low.png 623
+res/drawable-xhdpi-v4/ic_call_answer_video.png 290
+res/drawable-xhdpi-v4/ic_call_answer_video_low.png 290
+res/drawable-xhdpi-v4/ic_call_decline.png 452
+res/drawable-xhdpi-v4/ic_call_decline_low.png 452
+res/drawable-xhdpi-v4/notification_bg_low_normal.9.png 221
+res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png 252
+res/drawable-xhdpi-v4/notification_bg_normal.9.png 221
+res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png 247
+res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png 138
+res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png 286
+res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png 307
+res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png 593
+res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png 984
+res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png 1208
+res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png 2463
+res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png 2834
+res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png 237
+res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png 224
+res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png 171
+res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png 245
+res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png 221
+res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png 212
+res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png 212
+res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png 260
+res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png 258
+res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png 1779
+res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png 2305
+res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png 322
+res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png 403
+res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png 595
+res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png 210
+res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png 207
+res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png 524
+res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png 851
+res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png 204
+res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl.png 420
+res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl.png 753
+res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl.png 422
+res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png 199
+res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png 200
+res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png 187
+res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png 186
+res/drawable-xxhdpi-v4/ic_call_answer.png 884
+res/drawable-xxhdpi-v4/ic_call_answer_low.png 884
+res/drawable-xxhdpi-v4/ic_call_answer_video.png 384
+res/drawable-xxhdpi-v4/ic_call_answer_video_low.png 384
+res/drawable-xxhdpi-v4/ic_call_decline.png 628
+res/drawable-xxhdpi-v4/ic_call_decline_low.png 628
+res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png 275
+res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png 476
+res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png 785
+res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png 946
+res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png 2505
+res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png 2816
+res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png 415
+res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png 631
+res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png 430
+res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png 813
+res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png 202
+res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl.png 513
+res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl.png 513
+res/drawable-xxxhdpi-v4/ic_call_answer.png 1171
+res/drawable-xxxhdpi-v4/ic_call_answer_low.png 1171
+res/drawable-xxxhdpi-v4/ic_call_answer_video.png 465
+res/drawable-xxxhdpi-v4/ic_call_answer_video_low.png 465
+res/drawable-xxxhdpi-v4/ic_call_decline.png 823
+res/drawable-xxxhdpi-v4/ic_call_decline_low.png 823
+res/drawable/abc_btn_borderless_material.xml 588
+res/drawable/abc_btn_check_material.xml 464
+res/drawable/abc_btn_check_material_anim.xml 816
+res/drawable/abc_btn_default_mtrl_shape.xml 932
+res/drawable/abc_btn_radio_material.xml 464
+res/drawable/abc_btn_radio_material_anim.xml 816
+res/drawable/abc_cab_background_internal_bg.xml 372
+res/drawable/abc_cab_background_top_material.xml 336
+res/drawable/abc_ic_ab_back_material.xml 692
+res/drawable/abc_ic_arrow_drop_right_black_24dp.xml 1000
+res/drawable/abc_ic_clear_material.xml 684
+res/drawable/abc_ic_go_search_api_material.xml 640
+res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml 756
+res/drawable/abc_ic_menu_cut_mtrl_alpha.xml 1096
+res/drawable/abc_ic_menu_overflow_material.xml 792
+res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml 796
+res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml 920
+res/drawable/abc_ic_menu_share_mtrl_alpha.xml 980
+res/drawable/abc_ic_search_api_material.xml 812
+res/drawable/abc_ic_voice_search_api_material.xml 828
+res/drawable/abc_item_background_holo_dark.xml 1012
+res/drawable/abc_item_background_holo_light.xml 1012
+res/drawable/abc_list_selector_background_transition_holo_dark.xml 424
+res/drawable/abc_list_selector_background_transition_holo_light.xml 424
+res/drawable/abc_list_selector_holo_dark.xml 1064
+res/drawable/abc_list_selector_holo_light.xml 1064
+res/drawable/abc_ratingbar_indicator_material.xml 124
+res/drawable/abc_ratingbar_material.xml 124
+res/drawable/abc_ratingbar_small_material.xml 124
+res/drawable/abc_seekbar_thumb_material.xml 1100
+res/drawable/abc_seekbar_tick_mark_material.xml 516
+res/drawable/abc_seekbar_track_material.xml 1408
+res/drawable/abc_spinner_textfield_background_material.xml 1160
+res/drawable/abc_star_black_48dp.xml 640
+res/drawable/abc_star_half_black_48dp.xml 600
+res/drawable/abc_switch_thumb_material.xml 464
+res/drawable/abc_tab_indicator_material.xml 468
+res/drawable/abc_text_cursor_material.xml 516
+res/drawable/abc_textfield_search_material.xml 756
+res/drawable/abc_vector_test.xml 612
+res/drawable/btn_checkbox_checked_mtrl.xml 2688
+res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml 688
+res/drawable/btn_checkbox_unchecked_mtrl.xml 2660
+res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml 688
+res/drawable/btn_radio_off_mtrl.xml 1728
+res/drawable/btn_radio_off_to_on_mtrl_animation.xml 680
+res/drawable/btn_radio_on_mtrl.xml 1656
+res/drawable/btn_radio_on_to_off_mtrl_animation.xml 680
+res/drawable/ic_launcher_background.xml 5696
+res/drawable/notification_bg.xml 532
+res/drawable/notification_bg_low.xml 532
+res/drawable/notification_icon_background.xml 372
+res/drawable/notification_tile_bg.xml 304
+res/drawable/nqc.png 606283
+res/drawable/test_level_drawable.xml 448
+res/drawable/tooltip_frame_dark.xml 484
+res/drawable/tooltip_frame_light.xml 484
+res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml 316
+res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml 328
+res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml 316
+res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml 328
+res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml 320
+res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml 320
+res/interpolator/fast_out_slow_in.xml 400
+res/layout-v21/notification_action.xml 1052
+res/layout-v21/notification_action_tombstone.xml 1228
+res/layout-v21/notification_template_custom_big.xml 2456
+res/layout-v21/notification_template_icon_group.xml 988
+res/layout-v22/abc_alert_dialog_button_bar_material.xml 1584
+res/layout-v26/abc_screen_toolbar.xml 1560
+res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml 1208
+res/layout-watch-v20/abc_alert_dialog_title_material.xml 1352
+res/layout/abc_action_bar_title_item.xml 872
+res/layout/abc_action_bar_up_container.xml 440
+res/layout/abc_action_menu_item_layout.xml 768
+res/layout/abc_action_menu_layout.xml 576
+res/layout/abc_action_mode_bar.xml 464
+res/layout/abc_action_mode_close_item_material.xml 840
+res/layout/abc_activity_chooser_view.xml 1684
+res/layout/abc_activity_chooser_view_list_item.xml 1304
+res/layout/abc_alert_dialog_button_bar_material.xml 1536
+res/layout/abc_alert_dialog_material.xml 2648
+res/layout/abc_alert_dialog_title_material.xml 1560
+res/layout/abc_cascading_menu_item_layout.xml 1868
+res/layout/abc_dialog_title_material.xml 1116
+res/layout/abc_expanded_menu_layout.xml 388
+res/layout/abc_list_menu_item_checkbox.xml 528
+res/layout/abc_list_menu_item_icon.xml 780
+res/layout/abc_list_menu_item_layout.xml 1396
+res/layout/abc_list_menu_item_radio.xml 532
+res/layout/abc_popup_menu_header_item_layout.xml 848
+res/layout/abc_popup_menu_item_layout.xml 2072
+res/layout/abc_screen_content_include.xml 548
+res/layout/abc_screen_simple.xml 832
+res/layout/abc_screen_simple_overlay_action_mode.xml 792
+res/layout/abc_screen_toolbar.xml 1504
+res/layout/abc_search_dropdown_item_icons_2line.xml 1916
+res/layout/abc_search_view.xml 3472
+res/layout/abc_select_dialog_material.xml 1020
+res/layout/abc_tooltip.xml 1056
+res/layout/activity_main.xml 4416
+res/layout/custom_dialog.xml 612
+res/layout/notification_template_part_chronometer.xml 440
+res/layout/notification_template_part_time.xml 440
+res/layout/select_dialog_item_material.xml 640
+res/layout/select_dialog_multichoice_material.xml 864
+res/layout/select_dialog_singlechoice_material.xml 864
+res/layout/support_simple_spinner_dropdown_item.xml 464
+res/mipmap-anydpi-v26/ic_launcher.xml 448
+res/mipmap-anydpi-v26/ic_launcher_round.xml 448
+res/mipmap-hdpi-v4/ic_launcher.webp 1404
+res/mipmap-hdpi-v4/ic_launcher_round.webp 2898
+res/mipmap-mdpi-v4/ic_launcher.webp 982
+res/mipmap-mdpi-v4/ic_launcher_round.webp 1772
+res/mipmap-xhdpi-v4/ic_launcher.webp 1900
+res/mipmap-xhdpi-v4/ic_launcher_round.webp 3918
+res/mipmap-xxhdpi-v4/ic_launcher.webp 2884
+res/mipmap-xxhdpi-v4/ic_launcher_round.webp 5914
+res/mipmap-xxxhdpi-v4/ic_launcher.webp 3844
+res/mipmap-xxxhdpi-v4/ic_launcher_round.webp 7778
+resources.arsc 287644
+--- strings from AndroidManifest.xml: 79 ---
+--- strings from META-INF/com/android/build/gradle/app-metadata.properties: 3 ---
+--- strings from assets/xposed_init: 2 ---
+--- strings from classes.dex: 81012 ---
+--- strings from lib/arm64-v8a/libtest.so: 3554 ---
+--- strings from lib/armeabi-v7a/libtest.so: 3783 ---
+--- strings from res/anim-v21/fragment_fast_out_extra_slow_in.xml: 6 ---
+--- strings from res/anim/abc_fade_in.xml: 9 ---
+--- strings from res/anim/abc_fade_out.xml: 9 ---
+--- strings from res/anim/abc_grow_fade_in_from_bottom.xml: 19 ---
+--- strings from res/anim/abc_popup_enter.xml: 10 ---
+--- strings from res/anim/abc_popup_exit.xml: 10 ---
+--- strings from res/anim/abc_shrink_fade_out_from_bottom.xml: 20 ---
+--- strings from res/anim/abc_slide_in_bottom.xml: 9 ---
+--- strings from res/anim/abc_slide_in_top.xml: 9 ---
+--- strings from res/anim/abc_slide_out_bottom.xml: 10 ---
+--- strings from res/anim/abc_slide_out_top.xml: 10 ---
+--- strings from res/anim/abc_tooltip_enter.xml: 9 ---
+--- strings from res/anim/abc_tooltip_exit.xml: 9 ---
+--- strings from res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml: 16 ---
+--- strings from res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml: 16 ---
+--- strings from res/anim/btn_checkbox_to_checked_icon_null_animation.xml: 13 ---
+--- strings from res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml: 16 ---
+--- strings from res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml: 16 ---
+--- strings from res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml: 13 ---
+--- strings from res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml: 14 ---
+--- strings from res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml: 18 ---
+--- strings from res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml: 13 ---
+--- strings from res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml: 14 ---
+--- strings from res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml: 18 ---
+--- strings from res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml: 13 ---
+--- strings from res/animator/fragment_close_enter.xml: 14 ---
+--- strings from res/animator/fragment_close_exit.xml: 16 ---
+--- strings from res/animator/fragment_fade_enter.xml: 11 ---
+--- strings from res/animator/fragment_fade_exit.xml: 11 ---
+--- strings from res/animator/fragment_open_enter.xml: 14 ---
+--- strings from res/animator/fragment_open_exit.xml: 14 ---
+--- strings from res/color-v21/abc_btn_colored_borderless_text_material.xml: 10 ---
+--- strings from res/color-v23/abc_btn_colored_borderless_text_material.xml: 11 ---
+--- strings from res/color-v23/abc_btn_colored_text_material.xml: 11 ---
+--- strings from res/color-v23/abc_color_highlight_material.xml: 12 ---
+--- strings from res/color-v23/abc_tint_btn_checkable.xml: 13 ---
+--- strings from res/color-v23/abc_tint_default.xml: 21 ---
+--- strings from res/color-v23/abc_tint_edittext.xml: 14 ---
+--- strings from res/color-v23/abc_tint_seek_thumb.xml: 11 ---
+--- strings from res/color-v23/abc_tint_spinner.xml: 14 ---
+--- strings from res/color-v23/abc_tint_switch_track.xml: 13 ---
+--- strings from res/color/abc_background_cache_hint_selector_material_dark.xml: 8 ---
+--- strings from res/color/abc_background_cache_hint_selector_material_light.xml: 8 ---
+--- strings from res/color/abc_btn_colored_text_material.xml: 12 ---
+--- strings from res/color/abc_hint_foreground_material_dark.xml: 12 ---
+--- strings from res/color/abc_hint_foreground_material_light.xml: 12 ---
+--- strings from res/color/abc_primary_text_disable_only_material_dark.xml: 10 ---
+--- strings from res/color/abc_primary_text_disable_only_material_light.xml: 10 ---
+--- strings from res/color/abc_primary_text_material_dark.xml: 10 ---
+--- strings from res/color/abc_primary_text_material_light.xml: 10 ---
+--- strings from res/color/abc_search_url_text.xml: 9 ---
+--- strings from res/color/abc_secondary_text_material_dark.xml: 10 ---
+--- strings from res/color/abc_secondary_text_material_light.xml: 10 ---
+--- strings from res/color/abc_tint_btn_checkable.xml: 14 ---
+--- strings from res/color/abc_tint_default.xml: 22 ---
+--- strings from res/color/abc_tint_edittext.xml: 15 ---
+--- strings from res/color/abc_tint_seek_thumb.xml: 12 ---
+--- strings from res/color/abc_tint_spinner.xml: 15 ---
+--- strings from res/color/abc_tint_switch_track.xml: 14 ---
+--- strings from res/color/switch_thumb_material_dark.xml: 10 ---
+--- strings from res/color/switch_thumb_material_light.xml: 10 ---
+--- strings from res/drawable-anydpi-v21/ic_call_answer.xml: 15 ---
+--- strings from res/drawable-anydpi-v21/ic_call_answer_low.xml: 14 ---
+--- strings from res/drawable-anydpi-v21/ic_call_answer_video.xml: 15 ---
+--- strings from res/drawable-anydpi-v21/ic_call_answer_video_low.xml: 14 ---
+--- strings from res/drawable-anydpi-v21/ic_call_decline.xml: 15 ---
+--- strings from res/drawable-anydpi-v21/ic_call_decline_low.xml: 14 ---
+--- strings from res/drawable-anydpi-v24/$ic_launcher_foreground__0.xml: 18 ---
+--- strings from res/drawable-anydpi-v24/ic_launcher_foreground.xml: 19 ---
+--- strings from res/drawable-v21/abc_action_bar_item_background_material.xml: 6 ---
+--- strings from res/drawable-v21/abc_btn_colored_material.xml: 26 ---
+--- strings from res/drawable-v21/abc_dialog_material_background.xml: 16 ---
+--- strings from res/drawable-v21/abc_edit_text_material.xml: 21 ---
+--- strings from res/drawable-v21/abc_list_divider_material.xml: 12 ---
+--- strings from res/drawable-v21/notification_action_background.xml: 25 ---
+--- strings from res/drawable-v23/abc_control_background_material.xml: 7 ---
+--- strings from res/drawable-watch-v20/abc_dialog_material_background.xml: 8 ---
+--- strings from res/drawable/abc_btn_borderless_material.xml: 9 ---
+--- strings from res/drawable/abc_btn_check_material.xml: 8 ---
+--- strings from res/drawable/abc_btn_check_material_anim.xml: 15 ---
+--- strings from res/drawable/abc_btn_default_mtrl_shape.xml: 19 ---
+--- strings from res/drawable/abc_btn_radio_material.xml: 8 ---
+--- strings from res/drawable/abc_btn_radio_material_anim.xml: 15 ---
+--- strings from res/drawable/abc_cab_background_internal_bg.xml: 8 ---
+--- strings from res/drawable/abc_cab_background_top_material.xml: 6 ---
+--- strings from res/drawable/abc_ic_ab_back_material.xml: 15 ---
+--- strings from res/drawable/abc_ic_arrow_drop_right_black_24dp.xml: 22 ---
+--- strings from res/drawable/abc_ic_clear_material.xml: 14 ---
+--- strings from res/drawable/abc_ic_go_search_api_material.xml: 14 ---
+--- strings from res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml: 14 ---
+--- strings from res/drawable/abc_ic_menu_cut_mtrl_alpha.xml: 14 ---
+--- strings from res/drawable/abc_ic_menu_overflow_material.xml: 14 ---
+--- strings from res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml: 13 ---
+--- strings from res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml: 13 ---
+--- strings from res/drawable/abc_ic_menu_share_mtrl_alpha.xml: 13 ---
+--- strings from res/drawable/abc_ic_search_api_material.xml: 14 ---
+--- strings from res/drawable/abc_ic_voice_search_api_material.xml: 14 ---
+--- strings from res/drawable/abc_item_background_holo_dark.xml: 15 ---
+--- strings from res/drawable/abc_item_background_holo_light.xml: 15 ---
+--- strings from res/drawable/abc_list_selector_background_transition_holo_dark.xml: 8 ---
+--- strings from res/drawable/abc_list_selector_background_transition_holo_light.xml: 8 ---
+--- strings from res/drawable/abc_list_selector_holo_dark.xml: 16 ---
+--- strings from res/drawable/abc_list_selector_holo_light.xml: 16 ---
+--- strings from res/drawable/abc_ratingbar_indicator_material.xml: 2 ---
+--- strings from res/drawable/abc_ratingbar_material.xml: 2 ---
+--- strings from res/drawable/abc_ratingbar_small_material.xml: 2 ---
+--- strings from res/drawable/abc_seekbar_thumb_material.xml: 18 ---
+--- strings from res/drawable/abc_seekbar_tick_mark_material.xml: 12 ---
+--- strings from res/drawable/abc_seekbar_track_material.xml: 17 ---
+--- strings from res/drawable/abc_spinner_textfield_background_material.xml: 19 ---
+--- strings from res/drawable/abc_star_black_48dp.xml: 13 ---
+--- strings from res/drawable/abc_star_half_black_48dp.xml: 13 ---
+--- strings from res/drawable/abc_switch_thumb_material.xml: 8 ---
+--- strings from res/drawable/abc_tab_indicator_material.xml: 9 ---
+--- strings from res/drawable/abc_text_cursor_material.xml: 11 ---
+--- strings from res/drawable/abc_textfield_search_material.xml: 14 ---
+--- strings from res/drawable/abc_vector_test.xml: 13 ---
+--- strings from res/drawable/btn_checkbox_checked_mtrl.xml: 27 ---
+--- strings from res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml: 13 ---
+--- strings from res/drawable/btn_checkbox_unchecked_mtrl.xml: 27 ---
+--- strings from res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml: 13 ---
+--- strings from res/drawable/btn_radio_off_mtrl.xml: 28 ---
+--- strings from res/drawable/btn_radio_off_to_on_mtrl_animation.xml: 13 ---
+--- strings from res/drawable/btn_radio_on_mtrl.xml: 26 ---
+--- strings from res/drawable/btn_radio_on_to_off_mtrl_animation.xml: 13 ---
+--- strings from res/drawable/ic_launcher_background.xml: 111 ---
+--- strings from res/drawable/notification_bg.xml: 11 ---
+--- strings from res/drawable/notification_bg_low.xml: 11 ---
+--- strings from res/drawable/notification_icon_background.xml: 9 ---
+--- strings from res/drawable/notification_tile_bg.xml: 6 ---
+--- strings from res/drawable/test_level_drawable.xml: 10 ---
+--- strings from res/drawable/tooltip_frame_dark.xml: 12 ---
+--- strings from res/drawable/tooltip_frame_light.xml: 12 ---
+--- strings from res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml: 6 ---
+--- strings from res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml: 6 ---
+--- strings from res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml: 6 ---
+--- strings from res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml: 6 ---
+--- strings from res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml: 6 ---
+--- strings from res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml: 6 ---
+--- strings from res/interpolator/fast_out_slow_in.xml: 9 ---
+--- strings from res/layout-v21/notification_action.xml: 20 ---
+--- strings from res/layout-v21/notification_action_tombstone.xml: 23 ---
+--- strings from res/layout-v21/notification_template_custom_big.xml: 36 ---
+--- strings from res/layout-v21/notification_template_icon_group.xml: 17 ---
+--- strings from res/layout-v22/abc_alert_dialog_button_bar_material.xml: 29 ---
+--- strings from res/layout-v26/abc_screen_toolbar.xml: 26 ---
+--- strings from res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml: 20 ---
+--- strings from res/layout-watch-v20/abc_alert_dialog_title_material.xml: 23 ---
+--- strings from res/layout/abc_action_bar_title_item.xml: 18 ---
+--- strings from res/layout/abc_action_bar_up_container.xml: 11 ---
+--- strings from res/layout/abc_action_menu_item_layout.xml: 18 ---
+--- strings from res/layout/abc_action_menu_layout.xml: 11 ---
+--- strings from res/layout/abc_action_mode_bar.xml: 11 ---
+--- strings from res/layout/abc_action_mode_close_item_material.xml: 17 ---
+--- strings from res/layout/abc_activity_chooser_view.xml: 28 ---
+--- strings from res/layout/abc_activity_chooser_view_list_item.xml: 23 ---
+--- strings from res/layout/abc_alert_dialog_button_bar_material.xml: 29 ---
+--- strings from res/layout/abc_alert_dialog_material.xml: 38 ---
+--- strings from res/layout/abc_alert_dialog_title_material.xml: 28 ---
+--- strings from res/layout/abc_cascading_menu_item_layout.xml: 30 ---
+--- strings from res/layout/abc_dialog_title_material.xml: 23 ---
+--- strings from res/layout/abc_expanded_menu_layout.xml: 8 ---
+--- strings from res/layout/abc_list_menu_item_checkbox.xml: 12 ---
+--- strings from res/layout/abc_list_menu_item_icon.xml: 17 ---
+--- strings from res/layout/abc_list_menu_item_layout.xml: 24 ---
+--- strings from res/layout/abc_list_menu_item_radio.xml: 12 ---
+--- strings from res/layout/abc_popup_menu_header_item_layout.xml: 17 ---
+--- strings from res/layout/abc_popup_menu_item_layout.xml: 35 ---
+--- strings from res/layout/abc_screen_content_include.xml: 10 ---
+--- strings from res/layout/abc_screen_simple.xml: 16 ---
+--- strings from res/layout/abc_screen_simple_overlay_action_mode.xml: 15 ---
+--- strings from res/layout/abc_screen_toolbar.xml: 25 ---
+--- strings from res/layout/abc_search_dropdown_item_icons_2line.xml: 31 ---
+--- strings from res/layout/abc_search_view.xml: 80 ---
+--- strings from res/layout/abc_select_dialog_material.xml: 23 ---
+--- strings from res/layout/abc_tooltip.xml: 24 ---
+--- strings from res/layout/activity_main.xml: 81 ---
+--- strings from res/layout/custom_dialog.xml: 13 ---
+--- strings from res/layout/notification_template_part_chronometer.xml: 10 ---
+--- strings from res/layout/notification_template_part_time.xml: 10 ---
+--- strings from res/layout/select_dialog_item_material.xml: 15 ---
+--- strings from res/layout/select_dialog_multichoice_material.xml: 20 ---
+--- strings from res/layout/select_dialog_singlechoice_material.xml: 20 ---
+--- strings from res/layout/support_simple_spinner_dropdown_item.xml: 12 ---
+--- strings from res/mipmap-anydpi-v26/ic_launcher.xml: 9 ---
+--- strings from res/mipmap-anydpi-v26/ic_launcher_round.xml: 9 ---
+total strings 91347
+=== MENU / OVERLAY related ===
+classes.dex |   mNeedMenuInvalidate=
+classes.dex |  mHasMenu=
+classes.dex |  mMenuVisible=
+classes.dex | $EnumSwitchMapping$0
+classes.dex | BIT_BUTTON_NEGATIVE
+classes.dex | BIT_BUTTON_NEUTRAL
+classes.dex | BIT_BUTTON_POSITIVE
+classes.dex | FloatResponseBodyConverter
+classes.dex | Fragments Created Menus:
+classes.dex | *Landroid/view/ContextMenu$ContextMenuInfo;
+classes.dex | Landroid/view/ContextMenu;
+classes.dex | Landroid/view/Menu;
+classes.dex | Landroid/view/MenuInflater;
+classes.dex | .Landroid/view/MenuItem$OnActionExpandListener;
+classes.dex | /Landroid/view/MenuItem$OnMenuItemClickListener;
+classes.dex | Landroid/view/MenuItem;
+classes.dex | Landroid/view/SubMenu;
+classes.dex | /Landroid/view/View$OnCreateContextMenuListener;
+classes.dex | )Landroid/view/WindowManager$LayoutParams;
+classes.dex | Landroid/view/WindowManager;
+classes.dex | Landroid/widget/Button;
+classes.dex | Landroid/widget/CheckBox;
+classes.dex | 7Landroid/widget/CompoundButton$OnCheckedChangeListener;
+classes.dex | Landroid/widget/CompoundButton;
+classes.dex | Landroid/widget/ImageButton;
+classes.dex | Landroid/widget/RadioButton;
+classes.dex | Landroid/widget/SeekBar;
+classes.dex | Landroid/widget/Switch;
+classes.dex | Landroid/widget/ToggleButton;
+classes.dex | Landroidx/appcompat/view/menu/ActionMenuItemView$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsad
+classes.dex | Landroidx/appcompat/view/menu/ActionMenuItemView$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsds
+classes.dex | 1Landroidx/appcompat/view/menu/ActionMenuItemView;
+classes.dex | /Landroidx/appcompat/view/menu/ExpandedMenuView;
+classes.dex | /Landroidx/appcompat/view/menu/ListMenuItemView;
+classes.dex | Landroidx/appcompat/view/menu/a$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassa;
+classes.dex |  Landroidx/appcompat/view/menu/a;
+classes.dex | Landroidx/appcompat/view/menu/b$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassa;
+classes.dex |  Landroidx/appcompat/view/menu/b;
+classes.dex | Landroidx/appcompat/view/menu/c$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassa;
+classes.dex | Landroidx/appcompat/view/menu/c$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassax
+classes.dex |  Landroidx/appcompat/view/menu/c;
+classes.dex |  Landroidx/appcompat/view/menu/d;
+classes.dex | Landroidx/appcompat/view/menu/xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassa;
+classes.dex | Landroidx/appcompat/view/menu/xadsadasadaafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxa
+classes.dex | Landroidx/appcompat/view/menu/xadsadasadaafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxa
+classes.dex | Landroidx/appcompat/view/menu/xadsadasadaafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxa
+classes.dex | Landroidx/appcompat/view/menu/xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsadsadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxads
+classes.dex | Landroidx/appcompat/view/menu/xadsdaasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsdsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxads
+classes.dex | Landroidx/appcompat/view/menu/xadsdsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxads
+classes.dex | Landroidx/appcompat/view/menu/xadsdsadaafsaafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsdsadaafsaafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | Landroidx/appcompat/view/menu/xadsdsadaafsaafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxad
+classes.dex | $Landroidx/appcompat/view/menu/
+classes.dex | #Landroidx/appcompat/view/menu/
+classes.dex | Landroidx/appcompat/widget/ActionBarOverlayLayout$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsa
+classes.dex | Landroidx/appcompat/widget/ActionBarOverlayLayout$xadsadasadaafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxads
+classes.dex | Landroidx/appcompat/widget/ActionBarOverlayLayout$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsd
+classes.dex | Landroidx/appcompat/widget/ActionBarOverlayLayout$xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsd
+classes.dex | Landroidx/appcompat/widget/ActionBarOverlayLayout$xadsadsadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsds
+classes.dex | 2Landroidx/appcompat/widget/ActionBarOverlayLayout;
+classes.dex | Landroidx/appcompat/widget/ActionMenuView$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafas
+classes.dex | Landroidx/appcompat/widget/ActionMenuView$xadsadasadaafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsa
+classes.dex | Landroidx/appcompat/widget/ActionMenuView$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsaf
+classes.dex | Landroidx/appcompat/widget/ActionMenuView$xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsaf
+classes.dex | Landroidx/appcompat/widget/ActionMenuView$xadsadsadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafa
+classes.dex | *Landroidx/appcompat/widget/ActionMenuView;
+classes.dex | +Landroidx/appcompat/widget/AppCompatButton;
+classes.dex | -Landroidx/appcompat/widget/AppCompatCheckBox;
+classes.dex | 0Landroidx/appcompat/widget/AppCompatImageButton;
+classes.dex | 0Landroidx/appcompat/widget/AppCompatRadioButton;
+classes.dex | ,Landroidx/appcompat/widget/AppCompatSeekBar;
+classes.dex | 1Landroidx/appcompat/widget/AppCompatToggleButton;
+classes.dex | +Landroidx/appcompat/widget/ButtonBarLayout;
+classes.dex | Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafas
+classes.dex | @Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;
+classes.dex | Landroidx/appcompat/widget/MenuPopupWindow$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafa
+classes.dex | Landroidx/appcompat/widget/MenuPopupWindow$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsa
+classes.dex | +Landroidx/appcompat/widget/MenuPopupWindow;
+classes.dex | Landroidx/appcompat/widget/SwitchCompat$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfa
+classes.dex | Landroidx/appcompat/widget/SwitchCompat$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafas
+classes.dex | Landroidx/appcompat/widget/SwitchCompat$xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafas
+classes.dex | (Landroidx/appcompat/widget/SwitchCompat;
+classes.dex | Lcom/example/vcam/Menu$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassa;
+classes.dex | Lcom/example/vcam/Menu$xadsadasadaafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsada
+classes.dex | Lcom/example/vcam/Menu$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadaf
+classes.dex | Lcom/example/vcam/Menu$xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadaf
+classes.dex | Lcom/example/vcam/Menu$xadsadsadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafs
+classes.dex | Lcom/example/vcam/Menu$xadsdaasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadaf
+classes.dex | Lcom/example/vcam/Menu$xadsdsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafs
+classes.dex | Lcom/example/vcam/Menu;
+classes.dex | $Ljava/lang/Class<Ljava/lang/Float;>;
+classes.dex | Ljava/lang/Float;
+classes.dex | KLjava/lang/ref/WeakReference<Landroidx/appcompat/view/menu/MenuPresenter;>;
+classes.dex | .Ljava/util/ArrayList<Landroid/view/MenuItem;>;
+classes.dex | BLjava/util/ArrayList<Landroidx/appcompat/view/menu/MenuItemImpl;>;
+classes.dex | =Ljava/util/List<Landroidx/appcompat/view/menu/MenuItemImpl;>;
+classes.dex | ULretrofit2/converter/scalars/ScalarResponseBodyConverters$FloatResponseBodyConverter;
+classes.dex | MenuDropDownListView
+classes.dex | MenuItemImpl
+classes.dex | 0MenuPopupHelper cannot be used without an anchor
+classes.dex | MenuPopupWindow
+classes.dex | 2StandardMenuPopup cannot be used without an anchor
+classes.dex | =This is not supported, use MenuItemCompat.getActionProvider()
+classes.dex | =This is not supported, use MenuItemCompat.setActionProvider()
+classes.dex | [Landroid/view/MenuItem;
+classes.dex | [Landroidx/appcompat/view/menu/xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxa
+classes.dex | addSubMenu
+classes.dex | addedMenus
+classes.dex | allMenusAreClosing
+classes.dex | android.widget.Switch
+classes.dex | android:menu:actionviewstates
+classes.dex | android:menu:expandedactionview
+classes.dex | button
+classes.dex | buttonDrawable
+classes.dex | buttonHeight
+classes.dex | buttonPanel
+classes.dex | buttonWantsHeight
+classes.dex | canDrawOverlays
+classes.dex | closeAllMenus
+classes.dex | closeButtonImg
+classes.dex | closeOptionsMenu
+classes.dex | collapseButtonParent
+classes.dex | compoundButton
+classes.dex | createIconButton
+classes.dex | createStyledButton
+classes.dex | createTabButton
+classes.dex | customButtonPanel
+classes.dex | defaultButtonPanel
+classes.dex | enableCascadingSubmenus
+classes.dex | enforceSwitchWidth
+classes.dex | $expandActivityOverflowButtonDrawable
+classes.dex | expandButton
+classes.dex | firstButton
+classes.dex | floatValue
+classes.dex | floatingLayout
+classes.dex | getButtonDrawable
+classes.dex | getButtonTintList
+classes.dex | getButtonTintMode
+classes.dex | getCurrentMenuItems
+classes.dex | getFloat
+classes.dex | getMenu
+classes.dex | getMenuInflater
+classes.dex | getMenuInfo
+classes.dex | getNavButtonView
+classes.dex | getOuterActionMenuPresenter
+classes.dex | getSubMenu
+classes.dex | getSupportButtonTintList
+classes.dex | getSupportButtonTintMode
+classes.dex | getSwitchMinWidth
+classes.dex | getSwitchPadding
+classes.dex | hasButtonPanel
+classes.dex | hasButtons
+classes.dex | hasMenu
+classes.dex | hasPermanentMenuKey
+classes.dex | hasSubMenu
+classes.dex | hasSubmenu
+classes.dex | hideFloatingUI
+classes.dex | invalidateOptionsMenu
+classes.dex | isActionButton
+classes.dex | lambda$showFloatingUI$37
+classes.dex | lambda$showToggleButton$38
+classes.dex | lambda$showToggleButton$39
+classes.dex | menu
+classes.dex | menuAdapter
+classes.dex | menuColor
+classes.dex | menuContext
+classes.dex | menuIndex
+classes.dex | menuInfo
+classes.dex | menuItem
+classes.dex | menuItems
+classes.dex | menuLayoutRes
+classes.dex | menuName
+classes.dex | menuParent
+classes.dex | menuType
+classes.dex | menuView
+classes.dex | menuWidth
+classes.dex | newMenuItemList
+classes.dex | newMenus
+classes.dex | nextMenuIndex
+classes.dex | nextMenuPosition
+classes.dex | nextMenuWidth
+classes.dex | ofFloat
+classes.dex | oldMenu
+classes.dex | oldMenuItem
+classes.dex | oldMenuItemList
+classes.dex | oldMenuView
+classes.dex | onCreateContextMenu
+classes.dex | onCreatePanelMenu
+classes.dex | onMenuItemActionCollapse
+classes.dex | onMenuItemActionExpand
+classes.dex | onMenuItemClick
+classes.dex | onMenuItemSelected
+classes.dex | onMenuOpened
+classes.dex | onPrepareSubMenu
+classes.dex | onTextContextMenuItem
+classes.dex | openOptionsMenu
+classes.dex | otherCompoundButton
+classes.dex | overlayMode
+classes.dex | parentMenu
+classes.dex | parseFloat
+classes.dex | providerHasSubMenu
+classes.dex | putFloat
+classes.dex | putFloatArray
+classes.dex | setButtonDrawable
+classes.dex | setButtonTintList
+classes.dex | setButtonTintMode
+classes.dex | (setDefaultActionButtonContentDescription
+classes.dex | setEnforceSwitchWidth
+classes.dex | 1setExpandActivityOverflowButtonContentDescription
+classes.dex | 'setExpandActivityOverflowButtonDrawable
+classes.dex | setOnMenuItemClickListener
+classes.dex | setOverlayMode
+classes.dex | setSubMenuArrowVisible
+classes.dex | setSubmitButtonEnabled
+classes.dex | setSupportButtonTintList
+classes.dex | setSupportButtonTintMode
+classes.dex | setSwitchMinWidth
+classes.dex | setSwitchPadding
+classes.dex | setSwitchTypeface
+classes.dex | *shouldShowMenuShortcutsWhenKeyboardPresent
+classes.dex | showFloatingUI
+classes.dex | showToggleButton
+classes.dex | startVideoSwitchTimer
+classes.dex | stopVideoSwitchTimer
+classes.dex | subMenu
+classes.dex | submenu
+classes.dex | switchAutoClickEnabled
+classes.dex | switchBottom
+classes.dex | switchConnectionBlockerEnabled
+classes.dex | switchHeight
+classes.dex | switchInnerBottom
+classes.dex | switchInnerTop
+classes.dex | switchLeft
+classes.dex | switchLogEnabled
+classes.dex | switchProxyEnabled
+classes.dex | switchRight
+classes.dex | switchText
+classes.dex | switchToRandomVideo
+classes.dex | switchToTab
+classes.dex | switchTop
+classes.dex | switchWidth
+classes.dex | toggleButton
+classes.dex | topSubMenu
+classes.dex | updateChildrenOnMenuViews
+classes.dex | videoSwitchInterval
+classes.dex | videoSwitchIntervalMinutes
+classes.dex | whichButtons
+classes.dex | windowManager
+lib/arm64-v8a/libtest.so | Mod_Menu
+lib/arm64-v8a/libtest.so | float
+lib/arm64-v8a/libtest.so | __float128
+lib/arm64-v8a/libtest.so | N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+lib/arm64-v8a/libtest.so | N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+lib/arm64-v8a/libtest.so | N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+lib/armeabi-v7a/libtest.so | getFloatRegister
+lib/armeabi-v7a/libtest.so | Unknown ARM float register
+lib/armeabi-v7a/libtest.so | setFloatRegister
+res/drawable/btn_checkbox_checked_mtrl.xml | btn_checkbox_checked
+res/drawable/btn_checkbox_unchecked_mtrl.xml | btn_checkbox_unchecked
+res/layout-v22/abc_alert_dialog_button_bar_material.xml | Button
+res/layout-v22/abc_alert_dialog_button_bar_material.xml | ))androidx.appcompat.widget.ButtonBarLayout
+res/layout-v26/abc_screen_toolbar.xml | 00androidx.appcompat.widget.ActionBarOverlayLayout
+res/layout/abc_action_menu_item_layout.xml | //androidx.appcompat.view.menu.ActionMenuItemView
+res/layout/abc_action_menu_layout.xml | ((androidx.appcompat.widget.ActionMenuView
+res/layout/abc_cascading_menu_item_layout.xml | --androidx.appcompat.view.menu.ListMenuItemView
+res/layout/abc_expanded_menu_layout.xml | --androidx.appcompat.view.menu.ExpandedMenuView
+res/layout/abc_list_menu_item_checkbox.xml | CheckBox
+res/layout/abc_list_menu_item_radio.xml | RadioButton
+res/layout/abc_select_dialog_material.xml | paddingBottomNoButtons
+res/layout/activity_main.xml | Auto Switch Video
+res/layout/activity_main.xml | Switch
+res/layout/activity_main.xml | Switch Interval (minutes):
+=== URLs ===
+AndroidManifest.xml | *http://schemas.android.com/apk/res/android
+classes.dex | http://localhost/
+classes.dex | https://
+lib/arm64-v8a/libtest.so | Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+lib/arm64-v8a/libtest.so | Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+lib/armeabi-v7a/libtest.so | Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+lib/armeabi-v7a/libtest.so | Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+res/anim-v21/fragment_fast_out_extra_slow_in.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_fade_in.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_fade_out.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_grow_fade_in_from_bottom.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_popup_enter.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_popup_exit.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_shrink_fade_out_from_bottom.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_slide_in_bottom.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_slide_in_top.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_slide_out_bottom.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_slide_out_top.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_tooltip_enter.xml | **http://schemas.android.com/apk/res/android
+res/anim/abc_tooltip_exit.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_checkbox_to_checked_icon_null_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml | **http://schemas.android.com/apk/res/android
+res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml | **http://schemas.android.com/apk/res/android
+res/animator/fragment_close_enter.xml | **http://schemas.android.com/apk/res/android
+res/animator/fragment_close_exit.xml | **http://schemas.android.com/apk/res/android
+res/animator/fragment_fade_enter.xml | **http://schemas.android.com/apk/res/android
+res/animator/fragment_fade_exit.xml | **http://schemas.android.com/apk/res/android
+res/animator/fragment_open_enter.xml | **http://schemas.android.com/apk/res/android
+res/animator/fragment_open_exit.xml | **http://schemas.android.com/apk/res/android
+res/color-v21/abc_btn_colored_borderless_text_material.xml | **http://schemas.android.com/apk/res/android
+res/color-v23/abc_btn_colored_borderless_text_material.xml | **http://schemas.android.com/apk/res/android
+res/color-v23/abc_btn_colored_text_material.xml | **http://schemas.android.com/apk/res/android
+res/color-v23/abc_color_highlight_material.xml | **http://schemas.android.com/apk/res/android
+res/color-v23/abc_tint_btn_checkable.xml | **http://schemas.android.com/apk/res/android
+res/color-v23/abc_tint_default.xml | **http://schemas.android.com/apk/res/android
+res/color-v23/abc_tint_edittext.xml | **http://schemas.android.com/apk/res/android
+res/color-v23/abc_tint_seek_thumb.xml | **http://schemas.android.com/apk/res/android
+res/color-v23/abc_tint_spinner.xml | **http://schemas.android.com/apk/res/android
+res/color-v23/abc_tint_switch_track.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_background_cache_hint_selector_material_dark.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_background_cache_hint_selector_material_light.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_btn_colored_text_material.xml | ''http://schemas.android.com/apk/res-auto
+res/color/abc_btn_colored_text_material.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_hint_foreground_material_dark.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_hint_foreground_material_light.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_primary_text_disable_only_material_dark.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_primary_text_disable_only_material_light.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_primary_text_material_dark.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_primary_text_material_light.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_search_url_text.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_secondary_text_material_dark.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_secondary_text_material_light.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_tint_btn_checkable.xml | ''http://schemas.android.com/apk/res-auto
+res/color/abc_tint_btn_checkable.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_tint_default.xml | ''http://schemas.android.com/apk/res-auto
+res/color/abc_tint_default.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_tint_edittext.xml | ''http://schemas.android.com/apk/res-auto
+res/color/abc_tint_edittext.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_tint_seek_thumb.xml | ''http://schemas.android.com/apk/res-auto
+res/color/abc_tint_seek_thumb.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_tint_spinner.xml | ''http://schemas.android.com/apk/res-auto
+res/color/abc_tint_spinner.xml | **http://schemas.android.com/apk/res/android
+res/color/abc_tint_switch_track.xml | ''http://schemas.android.com/apk/res-auto
+res/color/abc_tint_switch_track.xml | **http://schemas.android.com/apk/res/android
+res/color/switch_thumb_material_dark.xml | **http://schemas.android.com/apk/res/android
+res/color/switch_thumb_material_light.xml | **http://schemas.android.com/apk/res/android
+res/drawable-anydpi-v21/ic_call_answer.xml | **http://schemas.android.com/apk/res/android
+res/drawable-anydpi-v21/ic_call_answer_low.xml | **http://schemas.android.com/apk/res/android
+res/drawable-anydpi-v21/ic_call_answer_video.xml | **http://schemas.android.com/apk/res/android
+res/drawable-anydpi-v21/ic_call_answer_video_low.xml | **http://schemas.android.com/apk/res/android
+res/drawable-anydpi-v21/ic_call_decline.xml | **http://schemas.android.com/apk/res/android
+res/drawable-anydpi-v21/ic_call_decline_low.xml | **http://schemas.android.com/apk/res/android
+res/drawable-anydpi-v24/$ic_launcher_foreground__0.xml | http://schemas.android.com/aapt
+res/drawable-anydpi-v24/$ic_launcher_foreground__0.xml | **http://schemas.android.com/apk/res/android
+res/drawable-anydpi-v24/ic_launcher_foreground.xml | http://schemas.android.com/aapt
+res/drawable-anydpi-v24/ic_launcher_foreground.xml | **http://schemas.android.com/apk/res/android
+res/drawable-v21/abc_action_bar_item_background_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable-v21/abc_btn_colored_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable-v21/abc_dialog_material_background.xml | **http://schemas.android.com/apk/res/android
+res/drawable-v21/abc_edit_text_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable-v21/abc_list_divider_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable-v21/notification_action_background.xml | **http://schemas.android.com/apk/res/android
+res/drawable-v23/abc_control_background_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable-watch-v20/abc_dialog_material_background.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_btn_borderless_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_btn_check_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_btn_check_material_anim.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_btn_default_mtrl_shape.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_btn_radio_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_btn_radio_material_anim.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_cab_background_internal_bg.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_cab_background_top_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_ab_back_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_arrow_drop_right_black_24dp.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_clear_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_go_search_api_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_menu_cut_mtrl_alpha.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_menu_overflow_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_menu_share_mtrl_alpha.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_search_api_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_ic_voice_search_api_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_item_background_holo_dark.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_item_background_holo_light.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_list_selector_background_transition_holo_dark.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_list_selector_background_transition_holo_light.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_list_selector_holo_dark.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_list_selector_holo_light.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_seekbar_thumb_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_seekbar_tick_mark_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_seekbar_track_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_spinner_textfield_background_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_star_black_48dp.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_star_half_black_48dp.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_switch_thumb_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_tab_indicator_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_text_cursor_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_textfield_search_material.xml | **http://schemas.android.com/apk/res/android
+res/drawable/abc_vector_test.xml | **http://schemas.android.com/apk/res/android
+res/drawable/btn_checkbox_checked_mtrl.xml | **http://schemas.android.com/apk/res/android
+res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml | **http://schemas.android.com/apk/res/android
+res/drawable/btn_checkbox_unchecked_mtrl.xml | **http://schemas.android.com/apk/res/android
+res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml | **http://schemas.android.com/apk/res/android
+res/drawable/btn_radio_off_mtrl.xml | **http://schemas.android.com/apk/res/android
+res/drawable/btn_radio_off_to_on_mtrl_animation.xml | **http://schemas.android.com/apk/res/android
+res/drawable/btn_radio_on_mtrl.xml | **http://schemas.android.com/apk/res/android
+res/drawable/btn_radio_on_to_off_mtrl_animation.xml | **http://schemas.android.com/apk/res/android
+res/drawable/ic_launcher_background.xml | **http://schemas.android.com/apk/res/android
+res/drawable/notification_bg.xml | **http://schemas.android.com/apk/res/android
+res/drawable/notification_bg_low.xml | **http://schemas.android.com/apk/res/android
+res/drawable/notification_icon_background.xml | **http://schemas.android.com/apk/res/android
+res/drawable/notification_tile_bg.xml | **http://schemas.android.com/apk/res/android
+res/drawable/test_level_drawable.xml | **http://schemas.android.com/apk/res/android
+res/drawable/tooltip_frame_dark.xml | **http://schemas.android.com/apk/res/android
+res/drawable/tooltip_frame_light.xml | **http://schemas.android.com/apk/res/android
+res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml | **http://schemas.android.com/apk/res/android
+res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml | **http://schemas.android.com/apk/res/android
+res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml | **http://schemas.android.com/apk/res/android
+res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml | **http://schemas.android.com/apk/res/android
+res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml | **http://schemas.android.com/apk/res/android
+res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml | **http://schemas.android.com/apk/res/android
+res/interpolator/fast_out_slow_in.xml | **http://schemas.android.com/apk/res/android
+res/layout-v21/notification_action.xml | **http://schemas.android.com/apk/res/android
+res/layout-v21/notification_action_tombstone.xml | **http://schemas.android.com/apk/res/android
+res/layout-v21/notification_template_custom_big.xml | **http://schemas.android.com/apk/res/android
+res/layout-v21/notification_template_icon_group.xml | **http://schemas.android.com/apk/res/android
+res/layout-v22/abc_alert_dialog_button_bar_material.xml | **http://schemas.android.com/apk/res/android
+res/layout-v26/abc_screen_toolbar.xml | ''http://schemas.android.com/apk/res-auto
+res/layout-v26/abc_screen_toolbar.xml | **http://schemas.android.com/apk/res/android
+res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml | **http://schemas.android.com/apk/res/android
+res/layout-watch-v20/abc_alert_dialog_title_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_action_bar_title_item.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_action_bar_up_container.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_action_menu_item_layout.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_action_menu_layout.xml | ''http://schemas.android.com/apk/res-auto
+res/layout/abc_action_menu_layout.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_action_mode_bar.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_action_mode_close_item_material.xml | ''http://schemas.android.com/apk/res-auto
+res/layout/abc_action_mode_close_item_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_activity_chooser_view.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_activity_chooser_view_list_item.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_alert_dialog_button_bar_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_alert_dialog_material.xml | ''http://schemas.android.com/apk/res-auto
+res/layout/abc_alert_dialog_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_alert_dialog_title_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_cascading_menu_item_layout.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_dialog_title_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_expanded_menu_layout.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_list_menu_item_checkbox.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_list_menu_item_icon.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_list_menu_item_layout.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_list_menu_item_radio.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_popup_menu_header_item_layout.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_popup_menu_item_layout.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_screen_content_include.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_screen_simple.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_screen_simple_overlay_action_mode.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_screen_toolbar.xml | ''http://schemas.android.com/apk/res-auto
+res/layout/abc_screen_toolbar.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_search_dropdown_item_icons_2line.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_search_view.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_select_dialog_material.xml | ''http://schemas.android.com/apk/res-auto
+res/layout/abc_select_dialog_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/abc_tooltip.xml | **http://schemas.android.com/apk/res/android
+res/layout/activity_main.xml | **http://schemas.android.com/apk/res/android
+res/layout/custom_dialog.xml | **http://schemas.android.com/apk/res/android
+res/layout/notification_template_part_chronometer.xml | **http://schemas.android.com/apk/res/android
+res/layout/notification_template_part_time.xml | **http://schemas.android.com/apk/res/android
+res/layout/select_dialog_item_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/select_dialog_multichoice_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/select_dialog_singlechoice_material.xml | **http://schemas.android.com/apk/res/android
+res/layout/support_simple_spinner_dropdown_item.xml | **http://schemas.android.com/apk/res/android
+res/mipmap-anydpi-v26/ic_launcher.xml | **http://schemas.android.com/apk/res/android
+res/mipmap-anydpi-v26/ic_launcher_round.xml | **http://schemas.android.com/apk/res/android
+=== class-like / package strings (first 250) ===
+AndroidManifest.xml | com.example.vcam
+AndroidManifest.xml | com.example.vcam.MainActivity
+assets/xposed_init | com.example.vcam.HookMain
+classes.dex | Landroid/animation/Animator;
+classes.dex | Landroid/animation/AnimatorSet;
+classes.dex | Landroid/animation/Keyframe;
+classes.dex | Landroid/app/ActionBar;
+classes.dex | Landroid/app/Activity;
+classes.dex | Landroid/app/ActivityManager;
+classes.dex | Landroid/app/AlarmManager;
+classes.dex | Landroid/app/AppOpsManager;
+classes.dex | Landroid/app/Application;
+classes.dex | Landroid/app/Dialog;
+classes.dex | Landroid/app/DownloadManager;
+classes.dex | Landroid/app/Fragment;
+classes.dex | Landroid/app/FragmentManager;
+classes.dex | Landroid/app/Instrumentation;
+classes.dex | Landroid/app/KeyguardManager;
+classes.dex | Landroid/app/LocaleManager;
+classes.dex | Landroid/app/PendingIntent;
+classes.dex | Landroid/app/SearchManager;
+classes.dex | Landroid/app/SearchableInfo;
+classes.dex | Landroid/app/Service;
+classes.dex | Landroid/app/UiModeManager;
+classes.dex | Landroid/app/WallpaperManager;
+classes.dex | Landroid/app/job/JobInfo;
+classes.dex | Landroid/app/job/JobParameters;
+classes.dex | Landroid/app/job/JobScheduler;
+classes.dex | Landroid/app/job/JobWorkItem;
+classes.dex | Landroid/content/ClipData$Item;
+classes.dex | Landroid/content/ClipData;
+classes.dex | Landroid/content/ComponentName;
+classes.dex | Landroid/content/ContentUris;
+classes.dex | Landroid/content/ContentValues;
+classes.dex | Landroid/content/Context;
+classes.dex | Landroid/content/Intent;
+classes.dex | Landroid/content/IntentFilter;
+classes.dex | Landroid/content/IntentSender;
+classes.dex | Landroid/content/pm/Signature;
+classes.dex | Landroid/content/res/Resources;
+classes.dex | Landroid/database/Cursor;
+classes.dex | Landroid/database/MatrixCursor;
+classes.dex | Landroid/graphics/Bitmap;
+classes.dex | Landroid/graphics/BitmapShader;
+classes.dex | Landroid/graphics/Canvas;
+classes.dex | Landroid/graphics/Color;
+classes.dex | Landroid/graphics/ColorFilter;
+classes.dex | Landroid/graphics/ImageFormat;
+classes.dex | Landroid/graphics/Insets;
+classes.dex | Landroid/graphics/Matrix;
+classes.dex | Landroid/graphics/Outline;
+classes.dex | Landroid/graphics/Paint$Cap;
+classes.dex | Landroid/graphics/Paint$Join;
+classes.dex | Landroid/graphics/Paint$Style;
+classes.dex | Landroid/graphics/Paint;
+classes.dex | Landroid/graphics/Path;
+classes.dex | Landroid/graphics/PathMeasure;
+classes.dex | Landroid/graphics/Point;
+classes.dex | Landroid/graphics/Rect;
+classes.dex | Landroid/graphics/RectF;
+classes.dex | Landroid/graphics/Region$Op;
+classes.dex | Landroid/graphics/Region;
+classes.dex | Landroid/graphics/Shader;
+classes.dex | Landroid/graphics/Typeface;
+classes.dex | Landroid/graphics/fonts/Font;
+classes.dex | Landroid/hardware/Camera$Size;
+classes.dex | Landroid/hardware/Camera;
+classes.dex | Landroid/icu/util/ULocale;
+classes.dex | Landroid/location/Location;
+classes.dex | Landroid/media/AudioManager;
+classes.dex | Landroid/media/Image$Plane;
+classes.dex | Landroid/media/Image;
+classes.dex | Landroid/media/MediaCodec;
+classes.dex | Landroid/media/MediaCodecInfo;
+classes.dex | Landroid/media/MediaCrypto;
+classes.dex | Landroid/media/MediaExtractor;
+classes.dex | Landroid/media/MediaFormat;
+classes.dex | Landroid/media/MediaPlayer;
+classes.dex | Landroid/media/MediaRouter;
+classes.dex | Landroid/net/NetworkInfo;
+classes.dex | Landroid/net/Uri$Builder;
+classes.dex | Landroid/net/Uri;
+classes.dex | Landroid/net/nsd/NsdManager;
+classes.dex | Landroid/net/ssl/SSLSockets;
+classes.dex | Landroid/net/wifi/WifiManager;
+classes.dex | Landroid/nfc/NfcManager;
+classes.dex | Landroid/os/AsyncTask;
+classes.dex | Landroid/os/BatteryManager;
+classes.dex | Landroid/os/Binder;
+classes.dex | Landroid/os/Build$VERSION;
+classes.dex | Landroid/os/Build;
+classes.dex | Landroid/os/Bundle;
+classes.dex | Landroid/os/CancellationSignal;
+classes.dex | Landroid/os/DropBoxManager;
+classes.dex | Landroid/os/Environment;
+classes.dex | Landroid/os/Handler$Callback;
+classes.dex | Landroid/os/Handler;
+classes.dex | Landroid/os/IBinder;
+classes.dex | Landroid/os/IInterface;
+classes.dex | Landroid/os/LocaleList;
+classes.dex | Landroid/os/Looper;
+classes.dex | Landroid/os/Message;
+classes.dex | Landroid/os/Parcel;
+classes.dex | Landroid/os/Parcelable$Creator;
+classes.dex | Landroid/os/Parcelable;
+classes.dex | Landroid/os/PowerManager;
+classes.dex | Landroid/os/Process;
+classes.dex | Landroid/os/RemoteException;
+classes.dex | Landroid/os/ResultReceiver;
+classes.dex | Landroid/os/StrictMode;
+classes.dex | Landroid/os/SystemClock;
+classes.dex | Landroid/os/Trace;
+classes.dex | Landroid/os/UserManager;
+classes.dex | Landroid/os/Vibrator;
+classes.dex | Landroid/os/ext/SdkExtensions;
+classes.dex | Landroid/print/PrintManager;
+classes.dex | Landroid/provider/Settings;
+classes.dex | Landroid/system/ErrnoException;
+classes.dex | Landroid/system/Os;
+classes.dex | Landroid/system/OsConstants;
+classes.dex | Landroid/system/StructStat;
+classes.dex | Landroid/text/Editable$Factory;
+classes.dex | Landroid/text/Editable;
+classes.dex | Landroid/text/InputFilter;
+classes.dex | Landroid/text/Layout$Alignment;
+classes.dex | Landroid/text/Layout;
+classes.dex | Landroid/text/PrecomputedText;
+classes.dex | Landroid/text/Selection;
+classes.dex | Landroid/text/SpanWatcher;
+classes.dex | Landroid/text/Spannable;
+classes.dex | Landroid/text/SpannableString;
+classes.dex | Landroid/text/Spanned;
+classes.dex | Landroid/text/StaticLayout;
+classes.dex | Landroid/text/TextPaint;
+classes.dex | Landroid/text/TextUtils;
+classes.dex | Landroid/text/TextWatcher;
+classes.dex | Landroid/text/style/ImageSpan;
+classes.dex | Landroid/transition/Transition;
+classes.dex | Landroid/util/AttributeSet;
+classes.dex | Landroid/util/Base64;
+classes.dex | Landroid/util/DisplayMetrics;
+classes.dex | Landroid/util/Log;
+classes.dex | Landroid/util/LongSparseArray;
+classes.dex | Landroid/util/Property;
+classes.dex | Landroid/util/Size;
+classes.dex | Landroid/util/SizeF;
+classes.dex | Landroid/util/SparseArray;
+classes.dex | Landroid/util/SparseIntArray;
+classes.dex | Landroid/util/StateSet;
+classes.dex | Landroid/util/TypedValue;
+classes.dex | Landroid/util/Xml;
+classes.dex | Landroid/view/ActionMode;
+classes.dex | Landroid/view/ActionProvider;
+classes.dex | Landroid/view/Choreographer;
+classes.dex | Landroid/view/ContentInfo;
+classes.dex | Landroid/view/ContextMenu;
+classes.dex | Landroid/view/Display;
+classes.dex | Landroid/view/DisplayCutout;
+classes.dex | Landroid/view/DragEvent;
+classes.dex | Landroid/view/FocusFinder;
+classes.dex | Landroid/view/Gravity;
+classes.dex | Landroid/view/InflateException;
+classes.dex | Landroid/view/KeyCharacterMap;
+classes.dex | Landroid/view/KeyEvent;
+classes.dex | Landroid/view/LayoutInflater;
+classes.dex | Landroid/view/Menu;
+classes.dex | Landroid/view/MenuInflater;
+classes.dex | Landroid/view/MenuItem;
+classes.dex | Landroid/view/MotionEvent;
+classes.dex | Landroid/view/SearchEvent;
+classes.dex | Landroid/view/SubMenu;
+classes.dex | Landroid/view/Surface;
+classes.dex | Landroid/view/SurfaceHolder;
+classes.dex | Landroid/view/TouchDelegate;
+classes.dex | Landroid/view/VelocityTracker;
+classes.dex | Landroid/view/View$MeasureSpec;
+classes.dex | Landroid/view/View;
+classes.dex | Landroid/view/ViewGroup;
+classes.dex | Landroid/view/ViewParent;
+classes.dex | Landroid/view/ViewStub;
+classes.dex | Landroid/view/ViewTreeObserver;
+classes.dex | Landroid/view/Window$Callback;
+classes.dex | Landroid/view/Window;
+classes.dex | Landroid/view/WindowInsets;
+classes.dex | Landroid/view/WindowManager;
+classes.dex | Landroid/webkit/MimeTypeMap;
+classes.dex | Landroid/widget/AbsListView;
+classes.dex | Landroid/widget/Adapter;
+classes.dex | Landroid/widget/AdapterView;
+classes.dex | Landroid/widget/AdapterView<*>;
+classes.dex | Landroid/widget/ArrayAdapter;
+classes.dex | Landroid/widget/BaseAdapter;
+classes.dex | Landroid/widget/Button;
+classes.dex | Landroid/widget/CheckBox;
+classes.dex | Landroid/widget/CompoundButton;
+classes.dex | Landroid/widget/EdgeEffect;
+classes.dex | Landroid/widget/EditText;
+classes.dex | Landroid/widget/Filter;
+classes.dex | Landroid/widget/Filterable;
+classes.dex | Landroid/widget/FrameLayout;
+classes.dex | Landroid/widget/ImageButton;
+classes.dex | Landroid/widget/ImageView;
+classes.dex | Landroid/widget/LinearLayout;
+classes.dex | Landroid/widget/ListAdapter;
+classes.dex | Landroid/widget/ListView;
+classes.dex | Landroid/widget/OverScroller;
+classes.dex | Landroid/widget/PopupWindow;
+classes.dex | Landroid/widget/ProgressBar;
+classes.dex | Landroid/widget/RadioButton;
+classes.dex | Landroid/widget/RatingBar;
+classes.dex | Landroid/widget/ScrollView;
+classes.dex | Landroid/widget/Scroller;
+classes.dex | Landroid/widget/SeekBar;
+classes.dex | Landroid/widget/Spinner;
+classes.dex | Landroid/widget/SpinnerAdapter;
+classes.dex | Landroid/widget/Switch;
+classes.dex | Landroid/widget/TabHost;
+classes.dex | Landroid/widget/TextView;
+classes.dex | Landroid/widget/Toast;
+classes.dex | Landroid/widget/ToggleButton;
+classes.dex | Landroid/window/BackEvent;
+classes.dex | Landroidx/activity/ComponentActivity$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafa
+classes.dex | Landroidx/activity/ComponentActivity$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafa
+classes.dex | Landroidx/activity/ComponentActivity$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafa
+classes.dex | Landroidx/activity/ComponentActivity$xadsadasadaafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafs
+classes.dex | Landroidx/activity/ComponentActivity$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsa
+classes.dex | Landroidx/activity/ComponentActivity$xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsa
+classes.dex | Landroidx/activity/ComponentActivity$xadsadsadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsaf
+classes.dex | Landroidx/activity/ComponentActivity$xadsdaasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsa
+classes.dex | Landroidx/activity/ComponentActivity$xadsdsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsaf
+classes.dex | Landroidx/activity/OnBackPressedDispatcher$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsad
+classes.dex | Landroidx/activity/OnBackPressedDispatcher$xadsadasadaafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsd
+classes.dex | Landroidx/activity/OnBackPressedDispatcher$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsds
+classes.dex | Landroidx/activity/OnBackPressedDispatcher$xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsds
+classes.dex | Landroidx/activity/OnBackPressedDispatcher$xadsadsadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsa
+classes.dex | Landroidx/activity/OnBackPressedDispatcher$xadsdaasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsds
+classes.dex | Landroidx/activity/OnBackPressedDispatcher$xadsdsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsa
+classes.dex | Landroidx/activity/OnBackPressedDispatcher$xadsdsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsa
+classes.dex | Landroidx/activity/OnBackPressedDispatcher$xadsdsadaafsaafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsds
+classes.dex | Landroidx/activity/result/ActivityResultRegistry$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxa
+classes.dex | Landroidx/activity/result/ActivityResultRegistry$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassa
+classes.dex | Landroidx/activity/result/ActivityResultRegistry$xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassa
+classes.dex | Landroidx/activity/result/ActivityResultRegistry$xadsadsadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassax
+classes.dex | Landroidx/annotation/Keep;
+classes.dex | Landroidx/appcompat/app/AlertController$xadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafs
+classes.dex | Landroidx/appcompat/app/AlertController$xadsadasadaafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsad
+classes.dex | Landroidx/appcompat/app/AlertController$xadsadasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsada
+classes.dex | Landroidx/appcompat/app/AlertController$xadsadsaadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsada
+classes.dex | Landroidx/appcompat/app/AlertController$xadsadsadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadaf
+classes.dex | Landroidx/appcompat/app/AlertController$xadsdaasadafsafasfasassaxadasdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsadafsafasfasassaxadsdsada

@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-07-04 15:50:02.369",
+  "version": "0.129.2",
+  "branch": "884a9d7b33f11834d23c8cd5cabbddab3a776044",
+  "commitId": "884a9d7b33f11834d23c8cd5cabbddab3a776044",
+  "moduleCommitId": "fc106c4027e793c620c41d104219856f438698d9",
+  "lastMessage": "Merge branch \u0027version/3.30/adr_doorbell_restart_audio_zhencz\u0027 into \u0027v3.30\u0027",
+  "extraInfo": "v3.30",
+  "groupId": "com.shopee.sz",
+  "artifactId": "szconfigurationcenter",
+  "path": ":szconfigurationcenter",
+  "remoteUrl": "https://git.garena.com/shopee/live-tech/coreplayersdk/MMCLiveStreamer.git"
+}

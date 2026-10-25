@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/media_sdk_pick_main_color" android:gravity="center" android:id="@id/tv_start_over" android:layout_width="fill_parent" android:layout_height="39.0dip" android:text="@string/media_sdk_btn_startover" android:lineSpacingExtra="2.0dip" app:robotoTypeface="roboto_regular" />
+    <View android:background="@color/media_sdk_black_10" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/media_sdk_de000000" android:gravity="center" android:id="@id/tv_discard" android:layout_width="fill_parent" android:layout_height="39.0dip" android:text="@string/media_sdk_pick_button_discard" android:lineSpacingExtra="2.0dip" app:robotoTypeface="roboto_regular" />
+    <View android:background="@color/media_sdk_efefef" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/media_sdk_de000000" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="fill_parent" android:layout_height="39.0dip" android:text="@string/media_sdk_btn_cancel" android:lineSpacingExtra="2.0dip" app:robotoTypeface="roboto_regular" />
+</LinearLayout>

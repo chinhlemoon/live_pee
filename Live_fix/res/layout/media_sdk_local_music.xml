@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/lyt_music" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_music" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.shopee.sz.mediasdk.music.SSZMediaMusicProtocol android:id="@id/rv_protocol" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/lyt_no_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_no_content" android:layout_width="114.0dip" android:layout_height="96.0dip" android:src="@drawable/media_sdk_ic_music_local_no_content" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_no_content" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/media_sdk_music_empty_local" />
+            <TextView android:textSize="16.0dip" android:textColor="#8affffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_no_content_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/media_sdk_music_empty_local_description" />
+        </LinearLayout>
+        <com.shopee.sz.mediasdk.music.SSZMediaMusicProtocol android:id="@id/v_protocol" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:id="@id/middle_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

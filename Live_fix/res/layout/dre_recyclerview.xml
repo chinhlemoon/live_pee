@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shopee.leego.render.v3.DRERecyclerViewFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.shopee.leego.render.v3.DRESwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.shopee.leego.render.v3.DRENestedScrollRecyclerView android:id="@id/main_view" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:requiresFadingEdge="none" />
+    </com.shopee.leego.render.v3.DRESwipeRefreshLayout>
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/tangram_scroll_to_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+</com.shopee.leego.render.v3.DRERecyclerViewFrameLayout>

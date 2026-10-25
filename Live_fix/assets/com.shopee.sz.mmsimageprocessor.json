@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2023-09-22 17:25:46.921",
+  "version": "0.1.3",
+  "branch": "v3.11/test_app_3.11",
+  "commitId": "674bbdc1761dd27c27652ca61019a22f16737183",
+  "moduleCommitId": "c69f498999c0c587c50dafbda9c36e36c46edd72",
+  "lastMessage": "Merge branch \u0027chaojie/add_log\u0027 into \u0027v3.11/test_app_3.11\u0027",
+  "extraInfo": "v3.11/test_app_3.11",
+  "groupId": "com.shopee.sz",
+  "artifactId": "mmsimageprocessor",
+  "path": ":mmsimageprocessor",
+  "remoteUrl": "https://git.garena.com/shopee/mms/mms-client-sdk/android/mmsimageprocessingsdk.git"
+}

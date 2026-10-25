@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/com_garena_beepay_margin_small" android:paddingTop="@dimen/com_garena_beepay_margin_mm_normal" android:paddingRight="@dimen/com_garena_beepay_margin_small" android:paddingBottom="@dimen/com_garena_beepay_margin_mm_normal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/com_garena_beepay_image_view" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+    <TextView android:textSize="@dimen/p_txt_size_small" android:gravity="center" android:id="@id/com_garena_beepay_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/com_garena_beepay_margin_small" />
+</LinearLayout>

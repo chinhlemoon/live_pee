@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/search_box_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.rengwuxian.materialedittext.MaterialEditText android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/search_edit" android:background="@null" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="36.0dip" android:hint="@string/sp_label_search" android:singleLine="true" android:maxLength="50" android:layout_weight="1.0" android:imeOptions="actionSearch" app:met_hideUnderline="true" />
+    <ImageButton android:layout_gravity="end|center" android:id="@id/cross_btn" android:background="@drawable/action_bar_button_background" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/com_garena_shopee_ic_clear" android:scaleType="center" />
+</LinearLayout>

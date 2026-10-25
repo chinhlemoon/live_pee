@@ -1,0 +1,245 @@
+0	✓ Kết nối thành công (
+22	ms)
+25	#4CAF50
+32	Proxy hoạt động tốt!
+52	✗ 
+54	#F44336
+61	Lỗi: 
+0	Đã chọn: 
+9	【SCAMERA】Đã chọn video: 
+0	【SCAMERA】Selected rule index: 
+12	Đã tắt
+0	Đã áp dụng: 
+18	#4CAF50
+25	Đã chọn cấu hình: 
+0	window
+0	iStream Pro - Zalo 0911666743
+29	#007ACC
+36	window
+42	Vui lòng nhập hostname hoặc IP
+72	Cổng không hợp lệ (0-65535)
+72	Cổng không hợp lệ (0-65535)
+99	Cổng phải là số hợp lệ
+121	:
+122	Chặn 
+127	Đã thêm quy tắc: 
+144	
+Mục tiêu: 
+155	:
+156	
+Đã chặn: 
+166	 lần
+170	✎
+171	#2196F3
+178	X
+179	#F44336
+186	#FFEBEE
+193	#E8F5E8
+202	✅
+200	??
+210	#388E3C
+203	#D32F2F
+650	【SCAMERA】Sử dụng nqc.png cho toggle button
+692	【SCAMERA】Sử dụng system icon: 
+722	【SCAMERA】Không thể tải system icon: 
+758	Tự động chuyển Video:
+779	Bật âm thanh:
+792	/DCIM/TreoLive/no-silent.jpg
+820	Thời gian tự chuyển Video (phút):
+853	#F0F0F0
+860	Cập nhật thời gian
+878	Ưu tiên phát:
+891	Chọn video...
+904	Phát Video Đã Chọn
+922	Random Video
+934	Fake All
+942	SOCKS
+947	Bật Proxy:
+957	Tên Cấu Hình:
+970	Nhập tên cấu hình (VD: proxy1)
+1000	#F0F0F0
+1007	Loại Proxy:
+1018	HTTP
+1022	SOCKS
+1027	Host:
+1032	Nhập địa chỉ proxy
+1050	Port:
+1055	8080
+1059	Username (tùy chọn):
+1079	Username
+1087	Password (tùy chọn):
+1107	Password
+1115	Trạng thái: Chưa kết nối
+1139	#F5F5F5
+1146	Test Proxy
+1156	Lưu Cấu Hình
+1168	Danh sách Cấu Hình:
+1187	Xóa Cấu Hình
+1199	Xóa Tất Cả
+1209	#007ACC
+1216	【SCAMERA】Invalid menu color: 
+1245	, using default
+1260	#F0F0F0
+1267	#007ACC
+1274	【SCAMERA】Invalid menu color: 
+1303	, using default
+1318	??
+1320	??
+1322	??
+1324	??️
+1327	nqc
+1330	drawable
+1338	【SCAMERA】Đã tải icon nqc.png từ resources
+1379	【SCAMERA】Không tìm thấy nqc.png trong res/drawable/
+1430	【SCAMERA】Lỗi khi tải nqc.png: 
+1460	【SCAMERA】Đã ẩn giao diện nổi trong 
+1511	Chặn từ log: 
+1524	:
+1525	Đã chặn: 
+1534	Kết nối này đã bị chặn
+1556	AutoClick đã được bật
+1577	AutoClick đã được tắt
+1598	startRecording
+1612	Đang ghi thao tác, hãy chạm vào màn hình
+1652	License không hợp lệ
+1687	runScript
+1696	License không hợp lệ
+1716	Chọn kịch bản...
+1732	Đang chạy kịch bản: 
+1752	Vui lòng chọn một kịch bản
+1778	Chọn kịch bản...
+1794	Đã xóa kịch bản: 
+1811	Vui lòng chọn một kịch bản
+1837	Vui lòng chọn quy tắc
+1858	Đã xóa quy tắc
+1872	Vui lòng chọn quy tắc
+1906	Log Kết Nối ▶
+1893	Log Kết Nối ▼
+1937	Quản lý Cấu hình ▶
+1919	Quản lý Cấu hình ▼
+1981	Đã bật chặn kết nối
+2000	Đã tắt chặn kết nối
+2019	Đã bật log kết nối
+2037	Đã tắt log kết nối
+2055	MANUFACTURER
+2067	MODEL
+2072	SERIAL
+2078	PRODUCT
+2085	DEVICE
+2091	INCREMENTAL
+2102	ANDROID_ID
+2112	IMEI
+2116	MAC
+2119	DEVICE_ID
+2128	SUBSCRIBER_ID
+2141	SIM_SERIAL_NUMBER
+2158	CARRIER
+2165	AD_ID
+2170	JWS
+2173	Đã giả mạo tất cả thông tin
+2200	【SCAMERA】Fake All executed successfully
+2239	【SCAMERA】Error in Fake All: 
+2267	Lỗi khi giả mạo thông tin
+2292	Đã bật chuyển video tự động
+2319	Đã tắt chuyển video tự động
+2346	/DCIM/TreoLive/no-silent.jpg
+2374	【SCAMERA】Đã xóa no-silent.jpg để bật âm thanh
+2419	Đã bật âm thanh
+2434	【SCAMERA】Đã tạo no-silent.jpg để tắt âm thanh
+2479	Đã tắt âm thanh
+2494	【SCAMERA】Lỗi khi xử lý file no-silent.jpg: 
+2537	Lỗi khi thay đổi trạng thái âm thanh
+2573	 phút
+2578	Vui lòng nhập thời gian
+2664	Vui lòng nhập số lớn hơn 0
+2601	Đã đặt thời gian: 
+2619	【SCAMERA】Đã cập nhật thời gian chuyển video: 
+2690	Vui lòng nhập số hợp lệ
+2713	【SCAMERA】Lỗi nhập thời gian: 
+2746	Đang phát: 
+2757	【SCAMERA】Đang phát video: 
+2783	Vui lòng chọn video trước
+2834	Đã xóa cấu hình: 
+2851	Vui lòng chọn cấu hình để xóa
+2908	Vui lòng nhập hostname/IP
+2933	Cổng không hợp lệ (0-65535)
+2933	Cổng không hợp lệ (0-65535)
+2960	Cổng phải là số hợp lệ
+2982	Chặn 
+2987	:
+2988	Đã cập nhật quy tắc: 
+3020	Đã tắt
+3009	Đã cấu hình
+3026	#4CAF50
+3033	Chọn quy tắc...
+3052	【SCAMERA】Refreshed block rules list, size: 
+3048	 (
+3050	:
+3051	)
+3095	Chưa có log nào
+3110	Chọn cấu hình...
+3142	config.txt
+3152	【SCAMERA】Đã lưu thời gian chuyển video: 
+3192	 vào config.txt
+3207	【SCAMERA】Lỗi khi lưu config.txt: 
+3240	Vui lòng nhập tên cấu hình
+3266	Vui lòng nhập đầy đủ thông tin proxy
+3321	Đã tắt
+3302	Đã lưu và áp dụng: 
+3327	#4CAF50
+3362	Đã lưu cấu hình: 
+3334	Đã lưu và áp dụng cấu hình: 
+3379	#F0F0F0
+3386	Chỉnh sửa Quy tắc
+3403	Hostname/IP
+3414	Cổng (để trống nếu chặn mọi cổng)
+3447	Mô tả
+3452	Hủy
+3455	#757575
+3462	Lưu
+3465	#4CAF50
+3472	【SCAMERA】Lỗi khi hiển thị dialog chỉnh sửa: 
+3516	Lỗi khi mở dialog chỉnh sửa: 
+3545	【SCAMERA】Quyền overlay chưa được cấp, không thể hiển thị toggle button
+3615	Vui lòng cấp quyền hiển thị trên ứng dụng khác để sử dụng menu
+3677	package:
+3685	android.settings.action.MANAGE_OVERLAY_PERMISSION
+3734	【SCAMERA】Đã gọi Intent yêu cầu quyền overlay trong showToggleButton
+3801	[FAIL_LEN: C0059.f53 ^ WebSocketProtocol.CLOSE_CLIENT_GOING_AWAY]
+3852	Không thể mở màn hình cấp quyền, vui lòng cấp quyền thủ công trong Cài đặt
+3926	#007ACC
+3987	??
+3989	【SCAMERA】Toggle button fallback sử dụng emoji
+3933	【SCAMERA】Toggle button sử dụng ImageButton với nqc.png
+4034	【SCAMERA】Đã hiển thị toggle button trong 
+4075	#007ACC
+4082	#F0F0F0
+4089	Vui lòng nhập đầy đủ thông tin proxy
+4132	Đang test...
+4125	#2196F3
+4161	?? Đã tắt
+4144	?? Đang hoạt động
+4170	%s
+Quy tắc: %d/%d | Đã chặn: %d | Hôm nay: %d
+4215	#4CAF50
+4222	/DCIM/TreoLive/no-silent.jpg
+4250	【SCAMERA】Đã cập nhật âm lượng: 
+4281	【SCAMERA】Lỗi khi cập nhật âm lượng: 
+4317	Trạng thái: 
+4329	【SCAMERA】Menu destroyed successfully
+4365	【SCAMERA】Error during menu cleanup: 
+4401	【SCAMERA】Quyền overlay chưa được cấp, không thể hiển thị giao diện nổi
+4471	Vui lòng cấp quyền hiển thị trên ứng dụng khác để sử dụng menu
+4533	package:
+4541	android.settings.action.MANAGE_OVERLAY_PERMISSION
+4590	【SCAMERA】Đã gọi Intent yêu cầu quyền overlay trong showFloatingUI
+4655	【SCAMERA】Lỗi khi gọi Intent yêu cầu quyền overlay: 
+4706	Không thể mở màn hình cấp quyền, vui lòng cấp quyền thủ công trong Cài đặt
+4780	#CCCCCC
+4838	Ẩn Menu
+4845	【SCAMERA】Đã hiển thị giao diện nổi với 4 tabs trong 
+4897	【SCAMERA】Lỗi quyền overlay: 
+4925	Không thể hiển thị menu, vui lòng cấp quyền hiển thị trên ứng dụng khác
+4787	#007ACC
+4794	【SCAMERA】Invalid menu color: 
+4823	, using default

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.shopee.plugins.chat.utils.RoundedFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:bottomLeftCornerRadius="6.0dip" app:bottomRightCornerRadius="6.0dip" app:topLeftCornerRadius="6.0dip" app:topRightCornerRadius="6.0dip">
+        <ImageView android:id="@id/product_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.shopee.plugins.chat.utils.RoundedFrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black87" android:ellipsize="end" android:id="@id/product_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:lines="2" style="@style/RobotoRSmall" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary" android:ellipsize="end" android:id="@id/product_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="1" android:singleLine="true" style="@style/RobotoRNormal" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.shopee.app.ui.chat2.mediabrowser.ChatMediaBrowserPageView android:id="@id/browser" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/topBar" android:background="@color/black65" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+            <ImageButton android:id="@id/backButton" android:background="@drawable/action_bar_button_background" android:layout_width="@dimen/action_bar_height" android:layout_height="@dimen/action_bar_height" android:src="@drawable/com_garena_shopee_ic_back_white" />
+            <ImageButton android:layout_gravity="right" android:id="@id/saveButton" android:background="@drawable/action_bar_button_background" android:visibility="gone" android:layout_width="@dimen/action_bar_height" android:layout_height="@dimen/action_bar_height" android:src="@drawable/ic_save" />
+        </FrameLayout>
+    </FrameLayout>
+</merge>

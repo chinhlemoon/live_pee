@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-07-05 17:29:55.400",
+  "version": "2.33.219",
+  "branch": "master",
+  "commitId": "6aa786fa6db837eac8d46950e56f1a958e55a53a",
+  "moduleCommitId": "6aa786fa6db837eac8d46950e56f1a958e55a53a",
+  "lastMessage": "Merge branch \u0027v3.30/feature/SPLS-37995-defaultlivetab-optimization\u0027 into \u0027master\u0027",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "livestreaming",
+  "path": ":livestreaming",
+  "remoteUrl": "ssh://gitlab@git.garena.com:2222/shopee/ssz-client/toc-android/livestreaming.git"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shopee.sz.mediasdk.live.crop.view.SSZImgColorGroup android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/cg_colors" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkedButton="@id/cr_white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.shopee.sz.mediasdk.live.crop.view.SSZImgColorRadio android:id="@id/cr_white" android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/white" />
+    <com.shopee.sz.mediasdk.live.crop.view.SSZImgColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/black" />
+    <com.shopee.sz.mediasdk.live.crop.view.SSZImgColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/red" />
+    <com.shopee.sz.mediasdk.live.crop.view.SSZImgColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/black" />
+    <com.shopee.sz.mediasdk.live.crop.view.SSZImgColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/yellow" />
+    <com.shopee.sz.mediasdk.live.crop.view.SSZImgColorRadio android:layout_width="@dimen/image_color" android:layout_height="@dimen/image_color" android:layout_margin="@dimen/image_color_margin" app:image_color="@color/blue" />
+</com.shopee.sz.mediasdk.live.crop.view.SSZImgColorGroup>

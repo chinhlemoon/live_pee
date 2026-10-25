@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/see_more_card" android:tag="see_more_items_label" android:layout_width="139.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="12.0dip" android:textColor="#ffee4d2d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_see_all" android:drawableTop="@drawable/ic_shopee_seeall" android:drawablePadding="8.0dip" style="@style/RobotoR12" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

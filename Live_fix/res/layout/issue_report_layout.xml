@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/actionBar" layout="@layout/action_bar_report_issue_layout" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.shopee.addon.commonerrorhandler.impl.ui.view.DialogSelectableOption android:id="@id/issueTypeSelection" android:layout_width="fill_parent" android:layout_height="wrap_content" select:optionHintText="@string/label_select_issue" select:options="@array/common_error_issue_types" select:selectHintText="@string/text_select_type_of_issue" select:titleText="@string/label_type_of_issue" xmlns:select="http://schemas.android.com/apk/res-auto" />
+        <include layout="@layout/divider" />
+        <com.shopee.addon.commonerrorhandler.impl.ui.view.DialogSelectableOption android:id="@id/issueFeatureSelection" android:layout_width="fill_parent" android:layout_height="wrap_content" select:optionHintText="@string/label_select_feature" select:options="@array/common_error_issue_features" select:selectHintText="@string/text_select_feature_with_issue" select:titleText="@string/label_feature_with_issue" xmlns:select="http://schemas.android.com/apk/res-auto" />
+        <include layout="@layout/divider" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/black87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_desc" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black54" android:gravity="right" android:id="@id/tvTextCount" android:paddingRight="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0/2000" />
+        </LinearLayout>
+        <LinearLayout android:paddingLeft="12.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+            <EditText android:textSize="14.0sp" android:textColorHint="@color/black26" android:gravity="top" android:id="@id/etFeedback" android:background="@drawable/edittext_style_normal" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/text_report_technical_issue_description" android:maxLines="8" android:minLines="4" android:maxLength="2000" />
+        </LinearLayout>
+        <include layout="@layout/divider" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black87" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/label_supporting_documents" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black26" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="12.0dip" android:text="@string/text_supporting_documents_limit" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvFileList" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/blankSpaceUntilEndOfScreen" android:background="@color/two_tier_variant_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@color/black26" android:gravity="center" android:id="@id/tvReport" android:background="@color/two_tier_variant_bg" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/bt_report_issue" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,84 @@
+0	【SCAMERA】[LICENSE] Periodic license check triggered
+0	【SCAMERA】[LICENSE] License check failed: 
+41	Không thể kết nối server: 
+67	Giải mã hoặc xác minh HMAC thất bại
+102	【SCAMERA】[LICENSE] License response: 
+139	payload
+146	iv
+148	hmac
+152	【SCAMERA】[LICENSE] Error processing response: 
+198	Lỗi xác thực: 
+212	【SCAMERA】[LICENSE] License response failed: 
+256	Lỗi xác thực: HTTP 
+275	 - 
+18	%02x
+22	clipboard
+31	Device Key
+41	Thiết bị của bạn [
+59	] chưa được kích hoạt.
+Device Key đã được sao chép. Hãy gửi nó cho admin để kích hoạt.
+145	【SCAMERA】[LICENSE] Device Key copied to clipboard: 
+196	【SCAMERA】[LICENSE] Error showing toast or copying: 
+247	License chưa kích hoạt: 
+271	【SCAMERA】[LICENSE] Error showing toast: 
+311	❌ THIẾT BỊ CHƯA ĐƯỢC ĐĂNG KÝ
+339	THÔNG TIN ĐĂNG KÝ
+
+357	Khách hàng:	
+369	
+
+370	Ngày kích hoạt:	
+386	Hết hạn:	
+395	HmacSHA256
+405	UTF-8
+410	【SCAMERA】[LICENSE] Decrypting payload: 
+449	, iv: 
+455	, hmac: 
+463	【SCAMERA】[LICENSE] Decoded payload length: 
+506	, Decoded IV length: 
+527	AES/CBC/PKCS5Padding
+547	x9y8z7w6v5u4t3s2r1q0p9o8n7m6l5k4
+579	AES
+582	【SCAMERA】[LICENSE] Decryption successful: 
+624	nonce
+629	timestamp
+638	h9i8j7k6l5m4n3o2p1q0r9s8t7u6v5w4
+787	【SCAMERA】[LICENSE] HMAC and timestamp verified successfully
+730	【SCAMERA】[LICENSE] Response expired: timestamp=
+777	, current=
+670	【SCAMERA】[LICENSE] HMAC verification failed: expected 
+724	, got 
+846	【SCAMERA】[LICENSE] Missing nonce or timestamp in response
+903	【SCAMERA】[LICENSE] Decryption failed due to wrong block length: 
+967	, Payload length: 
+985	, Expected multiple of 16
+1072	【SCAMERA】[LICENSE] Decryption failed: 
+1110	, Stack trace: 
+1010	【SCAMERA】[LICENSE] Invalid payload or IV length: payload=
+1067	, iv=
+1125	dd/MM/yyyy
+1135	【SCAMERA】[LICENSE] Error parsing expiry date: 
+1181	connectivity
+1193	【SCAMERA】[LICENSE] Error checking network: 
+1236	success
+1243	message
+1250	data
+1254	customer_name
+1267	activation_date
+1282	expiry_date
+1293	menu_name
+1302	iStream Pro
+1313	menu_color
+1323	#007ACC
+1419	【SCAMERA】[LICENSE] License expired: 
+1455	License đã hết hạn: 
+1330	【SCAMERA】[LICENSE] License valid for: 
+1368	 until 
+1375	【SCAMERA】[LICENSE] Menu name: 
+1405	, Menu color: 
+1475	【SCAMERA】[LICENSE] License invalid: 
+1511	【SCAMERA】[LICENSE] Error parsing license response: 
+1562	Lỗi xử lý dữ liệu: 
+1581	【SCAMERA】[LICENSE] Verifying license for device: 
+1630	Không có kết nối mạng
+1651	unknown

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/v_template_unavailable" android:background="@color/media_sdk_121212" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.33">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_template_unavailable" android:layout_width="200.0dip" android:layout_height="120.0dip" android:scaleType="fitXY" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="16.0dip" android:textColor="@color/media_sdk_deffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_tip_unavailable_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minWidth="150.0dip" android:text="@string/media_sdk_tip_template_unavailable" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/media_sdk_8affffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_tip_unavailable_check" android:layout_width="280.0dip" android:layout_height="wrap_content" android:text="@string/media_sdk_tip_template_tryagain" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

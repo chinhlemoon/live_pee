@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/tv_base_dialog_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="16.0sp" android:textColor="@color/media_sdk_de000000" android:gravity="center_horizontal" android:id="@id/tv_base_dialog_title" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" app:robotoTypeface="roboto_medium" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="12.0sp" android:textColor="@color/media_sdk_8a000000" android:gravity="center_horizontal" android:id="@id/tv_base_dialog_description" android:paddingTop="8.0dip" android:paddingBottom="20.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" app:robotoTypeface="roboto_regular" />
+    </LinearLayout>
+    <View android:background="@color/media_sdk_black_10" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0sp" android:gravity="center" android:id="@id/tv_base_dialog_positive" android:layout_width="fill_parent" android:layout_height="39.0dip" android:lineSpacingExtra="2.0dip" app:robotoTypeface="roboto_regular" />
+    <View android:background="@color/media_sdk_black_10" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0sp" android:textColor="@color/media_sdk_de000000" android:gravity="center" android:id="@id/tv_base_dialog_negative" android:layout_width="fill_parent" android:layout_height="39.0dip" android:lineSpacingExtra="2.0dip" app:robotoTypeface="roboto_regular" />
+    <View android:background="@color/media_sdk_efefef" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0sp" android:textColor="@color/media_sdk_de000000" android:gravity="center" android:id="@id/tv_base_dialog_cancel" android:layout_width="fill_parent" android:layout_height="39.0dip" android:lineSpacingExtra="2.0dip" app:robotoTypeface="roboto_regular" />
+</LinearLayout>

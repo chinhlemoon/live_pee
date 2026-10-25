@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:id="@id/tv_show_hide" android:background="#51000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="hide/show" android:textAlignment="center" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/l_content" android:background="#60000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="200.0dip">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:id="@id/tv_copy" android:background="#65000000" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Click to copy" android:layout_weight="1.0" android:textAlignment="center" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:id="@id/tv_clear" android:background="#31b20000" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Click to clear" android:layout_weight="1.0" android:textAlignment="center" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="11.0sp" android:id="@id/tv_content" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="20" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

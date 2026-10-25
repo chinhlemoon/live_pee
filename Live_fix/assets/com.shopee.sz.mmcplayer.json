@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-07-03 17:23:45.016",
+  "version": "0.41.10",
+  "branch": "version/3.30/main",
+  "commitId": "bfb233e58190e1afc48eaac0d0b76b4d4213fd5a",
+  "moduleCommitId": "4e7f5c4073c5c320573af654c1fb637fc8688678",
+  "lastMessage": "Merge branch \u0027version/3.30/fix-null-datasource\u0027 into \u0027version/3.30/main\u0027",
+  "extraInfo": "version/3.30/main",
+  "groupId": "com.shopee.sz",
+  "artifactId": "mmcplayer",
+  "path": ":MMCPlayerSdk",
+  "remoteUrl": "https://git.garena.com/shopee/live-tech/coreplayersdk/mmcplayersdkandroid.git"
+}

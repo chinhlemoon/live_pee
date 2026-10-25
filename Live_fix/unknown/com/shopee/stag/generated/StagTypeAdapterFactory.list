@@ -1,0 +1,7 @@
+com.shopee.app.network.http.data.FeatureToggle
+com.shopee.app.data.viewmodel.ChatCounter.ChatCount
+com.shopee.app.data.store.setting.ImageConfig
+com.shopee.app.data.store.setting.SettingConfig
+com.shopee.app.data.store.setting.DTSConfig
+com.shopee.app.data.store.setting.CategoryRecommendationActive
+com.shopee.app.data.store.setting.ShopeeCreditConfigs

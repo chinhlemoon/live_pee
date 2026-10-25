@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/iv_triangle" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="60.0dip" android:layout_height="6.0dip" android:src="@drawable/media_sdk_ic_tool_triangle" android:paddingHorizontal="24.0dip" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="13.0dip" android:textColor="@color/media_sdk_white" android:gravity="center" android:id="@id/tv_tip" android:background="@drawable/media_sdk_bg_tool_tip" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="29.0dip" android:layout_marginRight="8.0dip" android:text="@string/media_sdk_pop_icon_fold" android:includeFontPadding="false" android:paddingHorizontal="12.0dip" app:robotoTypeface="roboto_medium" />
+</LinearLayout>

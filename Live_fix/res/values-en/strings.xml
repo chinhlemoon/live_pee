@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_role_button">Button</string>
+    <string name="accessibility_role_image">Image</string>
+    <string name="accessibility_role_input">Input</string>
+    <string name="accessibility_role_key">Keyboard</string>
+    <string name="accessibility_role_link">Link</string>
+    <string name="accessibility_role_search">Search</string>
+    <string name="accessibility_role_switch">Switch</string>
+    <string name="accessibility_role_text">Text</string>
+    <string name="app_name">hummersdk</string>
+    <string name="bio_biometric_verify_title">Authorize Biometric info</string>
+    <string name="bio_fingerprint_verify_state_failed">"Fingerprint not recognized.
+Try again."</string>
+    <string name="bio_fingerprint_verify_state_success">Fingerprint recognized</string>
+    <string name="bio_fingerprint_verify_title">Authorize Fingerprint</string>
+    <string name="bio_guide_popup_negative_button">Set Up Later</string>
+    <string name="bio_try_pin">Try PIN</string>
+    <string name="biometricprompt_network_error">Network error. Please try again.</string>
+    <string name="biometricprompt_verify_fingerprint">Touch the fingerprint sensor</string>
+    <string name="permission_rationale_message">"You have rejected us to apply for authorization, please agree to authorization, otherwise the function can't be used normally!"</string>
+</resources>

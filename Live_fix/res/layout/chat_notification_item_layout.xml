@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black65" android:gravity="center" android:layout_gravity="center" android:id="@id/label" android:background="@drawable/help_system_message_bg" android:paddingTop="8.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="@style/RobotoRSmall" />
+</merge>

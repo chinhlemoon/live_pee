@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_compose" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:id="@id/seek_bar_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginBottom="20.0dip">
+        <com.shopee.sz.mediaeffect.widget.SSZMarkIndicatorSeekBar android:layout_gravity="bottom" android:id="@id/mark_indicator_seek_bar" android:layout_width="fill_parent" android:layout_height="72.0dip" android:maxHeight="3.0dip" android:minHeight="3.0dip" app:percent_with_sign="false" app:textOffsetY="14.0dip" />
+        <View android:id="@id/seek_bar_gesture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_panel_container" android:background="@drawable/media_sdk_bg_effect_compose_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.shopee.sz.mediauicomponent.widget.SSZBadgeTabLayout android:id="@id/tl_effect_compose" android:layout_width="wrap_content" android:layout_height="46.0dip" android:layout_marginStart="12.0dip" app:tabGravity="center" app:tabIndicator="@drawable/media_sdk_tab_indicator" app:tabIndicatorColor="@color/transparent" app:tabIndicatorGravity="bottom" app:tabIndicatorHeight="8.0dip" app:tabMode="fixed" app:tabPaddingEnd="12.0dip" app:tabPaddingStart="12.0dip" app:tabSelectedTextColor="@color/media_sdk_white" app:tabTextAppearance="@style/media_sdk_music_panel_tablayout_style" app:tabTextColor="#60ffffff" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_reset" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_reset" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/media_sdk_ic_mmc_reset" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/media_sdk_8affffff" android:id="@id/reset_btn" android:background="@color/transparent" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reset All" android:textAllCaps="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/v_ver_divider" android:background="@color/media_sdk_474747" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <com.shopee.sz.mediasdk.ui.viewpager.WrapContentNoScrollViewPager android:id="@id/vp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

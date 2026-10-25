@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "beta",
+  "time": "2024-07-05 10:33:37.202",
+  "version": "0.0.369-v3.30-eefc76d-beta",
+  "branch": "v3.30",
+  "commitId": "eefc76df2c662aeb5c176f774e6a900da03cf679",
+  "moduleCommitId": "a02eda4bfd2685ed832e4f5d17d1ed6044ff9cc3",
+  "lastMessage": "Merge branch \u0027feature/focus_window_monitor\u0027 into \u0027v3.30\u0027",
+  "extraInfo": "pods",
+  "groupId": "com.shopee.luban",
+  "artifactId": "luban-ccms",
+  "path": ":ccms",
+  "remoteUrl": "gitlab@git.garena.com:shopee/android/AndroidAPM/luban.git"
+}

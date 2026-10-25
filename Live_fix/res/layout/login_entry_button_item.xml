@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_3rd_party_option_marginTop"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txt_method_name" android:layout_width="fill_parent" style="@style/ButtonLogin" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_method_icon" android:layout_width="@dimen/login_icon_size2" android:layout_height="@dimen/login_icon_size2" style="@style/ButtonLoginIcon" />
+</merge>

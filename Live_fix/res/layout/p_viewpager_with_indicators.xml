@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager android:id="@id/com_garena_beepay_viewpager_features" android:paddingBottom="@dimen/com_garena_beepay_margin_xx_large" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/com_garena_beepay_section_indicators" android:layout_width="fill_parent" android:layout_height="@dimen/com_garena_beepay_margin_lll_normal" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/com_garena_beepay_margin_m_normal" android:paddingRight="@dimen/com_garena_beepay_margin_m_normal" android:paddingBottom="@dimen/com_garena_beepay_margin_m_normal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:background="@color/p_bg_color_normal" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/shopping_cart_item_status" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="@dimen/com_garena_beepay_margin_small" />
+        <TextView android:textColor="@color/com_garena_beepay_transaction_cart_font_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/shopping_cart_item_status_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textColor="@color/com_garena_beepay_transaction_cart_font_color" android:gravity="center_vertical" android:id="@id/shopping_cart_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/com_garena_beepay_margin_lll_normal" android:layout_marginTop="@dimen/com_garena_beepay_margin_mmm_normal" />
+</LinearLayout>

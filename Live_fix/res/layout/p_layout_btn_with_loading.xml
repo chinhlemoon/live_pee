@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/root_layout" android:background="@drawable/p_bg_btn_color_primary_radius" android:clickable="true" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/p_color_FFFFFFFF" android:gravity="center" android:id="@id/start_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shopeepay_nfc_activate_now" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/processing_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:id="@id/processing_bar" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminateDrawable="@drawable/progressbar_white_circle" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/p_color_FFFFFFFF" android:gravity="center" android:id="@id/processing_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/shopeepay_nfc_activatepage_processing" />
+    </LinearLayout>
+</RelativeLayout>

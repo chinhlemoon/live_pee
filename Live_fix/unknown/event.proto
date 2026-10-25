@@ -1,0 +1,270 @@
+syntax = "proto2";
+
+option java_package = "com.shopee.sszrtc.proto";
+option java_outer_classname = "Stats";
+
+option go_package = "event";
+
+message EventList {
+  repeated Event events = 1;
+}
+
+message Event {
+  optional Header header = 1;
+  optional bytes body = 2;
+}
+
+enum StatsType {
+  ClientInboundRtp = 101;
+  ClientOutboundRtp = 102;
+  ServerInboundRtp = 103;
+  ServerOutboundRtp = 104;
+}
+
+enum SceneID { Rtc = 1; }
+
+enum MediaKind {
+  Audio = 1;
+  Video = 2;
+}
+
+message Header {
+  optional uint32 stats_type = 1;  // 事件类型，事件类型唯一，详见：StatsType
+  optional uint32 scene_id = 2;  // 场景ID，业务场景唯一，详见：SceneID
+  optional string client_ip = 3;  // 上报方ip
+  optional string uid = 4;        // 用户ID
+  optional uint64 server_timestamp =
+      16;  // server端收到事件的时间戳，unix毫秒，如果是server端事件，则与timestamp相同
+  //客户端信息
+  optional string device_id = 5;     // 设备ID
+  optional string device_model = 6;  // 设备类型，例如 “iPhone6 Plus”
+  optional uint32 platform = 7;      // 平台  0：Android 1: iOS 2: web
+  optional string os_version = 8;    // 系统版本号，例如 “10.3.1”
+  optional string client_version = 9;  // 客户端版本号，例如 “2.39”
+  optional string sdk_version = 10;    // 上报SDK版本
+  optional uint32 network =
+      11; // 网络类型 0: unknown; 1: WIFI；2：蜂窝(不知道具体几G); 3: 2G；4: 3G；5: 4G; 6: 5G;
+          // 7: ETHERNET; 8: BLUETOOTH; 9: VPN; 10: NONE
+  optional string country = 12;   // 地区，ID etc. 暂时可不填
+  optional uint32 app_id = 13;    // app类型 0-banking
+  optional uint64 timestamp = 15; // 时间戳，unix毫秒，ntp时间
+  optional string server_version = 17; // server版本号
+  optional string server_config_version = 18; // server使用配置的版本号
+  optional string server_ip = 19; // server的IP
+  repeated string ab_test = 20;  // ab test的标识
+  optional string ext = 21; // json 序列化好的字符串扩展字段
+  optional string channel_id = 22; // channelId是业务方的ID，在appId内唯一
+}
+
+message ServerRtpStreamSendStats {
+  optional string room_id = 1;
+  optional uint64 packets_sent = 2;
+  optional uint64 bytes_sent = 3;
+  optional uint32 bitrate = 4;
+  optional uint32 ssrc = 5;
+  optional uint32 kind = 6;
+  optional string mime_type = 7;
+  optional uint64 packets_lost = 8;
+  optional double fraction_lost = 9;
+  optional uint64 packets_discarded = 10;
+  optional uint64 packets_retransmitted = 11;
+  optional uint64 packets_repaired = 12;
+  optional uint64 nack_count = 13;
+  optional uint64 nack_packet_count = 14;
+  optional uint64 pli_count = 15;
+  optional uint64 fir_count = 16;
+  optional uint64 score = 17;
+  optional string rid = 18;
+  optional uint64 rtx_ssrc = 19;
+  optional uint64 rtt = 20;
+  optional string ext = 22; // json 序列化好的字符串扩展字段
+}
+
+message ServerRtpStreamRecvStats {
+  optional string room_id = 1;
+  optional uint64 packets_received = 2;
+  optional uint64 bytes_received = 3;
+  optional uint32 bitrate = 4;
+  optional uint32 ssrc = 5;
+  optional uint32 kind = 6;
+  optional string mime_type = 7;
+  optional uint64 packets_lost = 8;
+  optional double fraction_lost = 9;
+  optional uint64 packets_discarded = 10;
+  optional uint64 packets_retransmitted = 11;
+  optional uint64 packets_repaired = 12;
+  optional uint64 nack_count = 13;
+  optional uint64 nack_packet_count = 14;
+  optional uint64 pli_count = 15;
+  optional uint64 fir_count = 16;
+  optional uint64 score = 17;
+  optional string rid = 18;
+  optional uint64 rtx_ssrc = 19;
+  optional uint64 rtt = 20;
+  optional double jitter = 21;
+  optional string ext = 22; // json 序列化好的字符串扩展字段
+}
+
+enum RTCQualityLimitationReason {
+  NONE = 1;
+  CPU = 2;
+  BANDWIDTH = 3;
+  OTHER = 4;
+};
+
+message ClientRTCOutboundRtpStreamStats {
+  optional string room_id = 1;
+  optional uint32 ssrc = 2;
+  optional uint32 kind = 3;
+  optional string transport_id = 4;
+  optional string mime_type = 5;
+  optional uint64 packets_sent = 6;
+  optional uint64 bytes_sent = 7;
+  optional uint32 rtx_ssrc = 8;
+  optional string media_source_id = 9;
+  optional string sender_id = 10;
+  optional string remote_id = 11;
+  optional string rid = 12;
+  optional uint64 last_packet_sent_timestamp = 13;
+  optional uint64 header_bytes_sent = 14;
+  optional uint32 packets_discarded_on_send = 15;
+  optional uint64 bytes_discarded_on_send = 16;
+  optional uint32 fec_packets_sent = 17;
+  optional uint64 retransmitted_packets_sent = 18;
+  optional uint64 retransmitted_bytes_sent = 19;
+  optional double target_bitrate = 20;
+  optional uint64 total_encoded_bytes_target = 21;
+  optional uint32 frame_width = 22;
+  optional uint32 frame_height = 23;
+  optional uint32 frame_bitdepth = 24;
+  optional double frames_per_second = 25;
+  optional uint32 frames_sent = 26;
+  optional uint32 huge_frames_sent = 27;
+  optional uint32 frames_encoded = 28;
+  optional uint32 key_frames_encoded = 29;
+  optional uint32 frames_discarded_on_send = 30;
+  optional uint64 qp_sum = 31;
+  optional uint64 total_samples_sent = 32;
+  optional uint64 samples_encoded_with_silk = 33;
+  optional uint64 samples_encoded_with_celt = 34;
+  optional bool voice_activity_flag = 35;
+  optional double total_encode_time = 36;
+  optional double total_packet_send_delay = 37;
+  optional double average_rtcp_interval = 38;
+  optional uint32 quality_limitation_reason =
+      39;  //参见RTCQualityLimitationReason
+  optional uint32 cpu_quality_limitation_durations = 40;
+  optional uint32 bw_quality_limitation_durations = 41;
+  optional uint32 other_quality_limitation_durations = 42;
+  optional uint32 none_quality_limitation_durations = 43;
+  optional uint32 quality_limitation_resolution_changes = 44;
+  repeated DscpPacketStat dscp_pkt_send = 45;
+  optional uint32 nack_count = 46;
+  optional uint32 fir_count = 47;
+  optional uint32 pli_count = 48;
+  optional uint32 sli_count = 49;
+  optional string encoder_implementation = 50;
+  optional double fraction_lost = 51;
+  optional double real_fraction_lost = 52;
+  optional uint32 clock_rate = 53;
+  optional double prior_snr = 54;           //先验信噪比， 单位dB
+  optional double post_snr = 55;            //后验信噪比， 单位dB
+  optional double speech_probability = 56;  //当前帧语音概率值，0～1
+  optional double prior_speech_probability = 57;  //先验语音概率，0～1
+  optional double noise_suppression_gain = 58;    //当前帧整体抑制增益
+  optional int32 render_capture_diff = 59;  // 播放采集线程的回调差值
+  optional double initial_audio_level = 60;  // 前处理前的音量值
+  optional double residual_echo_likelihood_recent_max = 61;  // 残留回声估计
+  optional string apm_status = 62;
+}
+
+message DscpPacketStat {
+  optional string dscp = 1;
+  optional uint64 packet_cnt = 2;
+}
+
+message ClientRTCInboundRtpStreamStats {
+  optional string room_id = 1;
+  optional uint32 ssrc = 2;
+  optional uint32 kind = 3;
+  optional string transport_id = 4;
+  optional string mime_type = 5;
+  optional uint64 packets_received = 6;
+  optional int64 packets_lost = 7;
+  optional double jitter = 8;
+  optional uint64 packets_discarded = 9;
+  optional uint64 packets_repaired = 10;
+  optional uint64 burst_packets_lost = 11;
+  optional uint64 burst_packets_discarded = 12;
+  optional int32 burst_loss_count = 13;
+  optional int32 burst_discard_count = 14;
+  optional double burst_loss_rate = 15;
+  optional double burst_discard_rate = 16;
+  optional double gap_loss_rate = 17;
+  optional double gap_discard_rate = 18;
+  optional int32 frames_dropped = 19;
+  optional int32 partial_frames_lost = 20;
+  optional int32 full_frames_lost = 21;
+  optional string receiver_id = 22;
+  optional string remote_id = 23;
+  optional uint32 frames_decoded = 24;
+  optional uint32 key_frames_decoded = 25;
+  optional uint32 frame_width = 26;
+  optional uint32 frame_height = 27;
+  optional uint32 frame_bit_depth = 28;
+  optional double frames_per_second = 29;
+  optional uint64 qp_sum = 30;
+  optional double total_decode_time = 31;
+  optional double total_inter_frame_delay = 32;
+  optional double total_squared_inter_frame_delay = 33;
+  optional bool voice_activity_flag = 34;
+  optional uint64 last_packet_received_timestamp = 35;
+  optional double average_rtcp_interval = 36;
+  optional uint64 header_bytes_received = 37;
+  optional uint64 fec_packets_received = 38;
+  optional uint64 fec_packets_discarded = 39;
+  optional uint64 bytes_received = 40;
+  optional uint64 packets_failed_decryption = 41;
+  optional uint64 packets_duplicated = 42;
+  repeated DscpPacketStat dscp_pkt_received = 43;
+  optional uint32 nack_count = 44;
+  optional uint32 fir_count = 45;
+  optional uint32 pli_count = 46;
+  optional uint32 sli_count = 47;
+  optional double total_processing_delay = 48;
+  optional uint64 estimated_playout_timestamp = 49;
+  optional double jitter_buffer_delay = 50;
+  optional uint64 jitter_buffer_emitted_count = 51;
+  optional uint64 total_samples_received = 52;
+  optional uint64 total_samples_decoded = 53;
+  optional uint64 samples_decoded_with_silk = 54;
+  optional uint64 samples_decoded_with_celt = 55;
+  optional uint64 concealed_samples = 56;
+  optional uint64 silent_concealed_samples = 57;
+  optional uint64 concealment_events = 58;
+  optional uint64 inserted_samples_for_deceleration = 59;
+  optional uint64 removed_samples_for_acceleration = 60;
+  optional double audio_level = 61;
+  optional double total_audio_energy = 62;
+  optional double total_samples_duration = 63;
+  optional uint32 frames_received = 64;
+  optional string decoder_implementation = 65;
+  optional double fraction_lost = 66;
+  optional double real_fraction_lost = 67;
+  optional uint32 clock_rate = 68;
+  optional uint32 freeze_count = 69;
+  optional double total_freezes_duration = 70;
+  optional uint32 interruption_count = 71;
+  optional double total_interruption_duration = 72;
+  optional uint32 total_caton_frames_received = 73;
+  optional uint64 total_caton_frames_receive_delay = 74;
+  optional uint64 total_inter_frames_receive_delay = 75;
+  optional uint64 total_end_to_end_frames_receive_delay = 76;
+  optional uint32 total_end_to_end_frames = 77;
+  optional uint32 total_caton_frames_rendered = 78;
+  optional uint32 total_huge_caton_frames_rendered = 79;
+  optional uint64 total_caton_render_duration = 80;
+  optional uint64 total_huge_caton_render_duration = 81;
+  optional uint64 total_render_duration = 82;
+  optional uint32 frames_rendered = 83;
+}

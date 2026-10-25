@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:garena="http://schemas.android.com/apk/res-auto">
+    <com.shopee.app.ui.chat2.subview.ChatQuoteMessageView android:id="@id/chat_quote_view" android:background="@color/black03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" garena:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" garena:layout_constraintLeft_toLeftOf="parent" garena:layout_constraintStart_toStartOf="parent" garena:layout_constraintTop_toBottomOf="@id/chat_quote_view" />
+</merge>

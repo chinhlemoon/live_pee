@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="90.0dip" android:src="@drawable/ic_claim_phone_failure" android:scaleType="centerInside" />
+    <TextView android:textColor="@color/black87" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/sp_reclaim_phone_failed_title" style="@style/RobotoR18" />
+    <TextView android:textColor="@color/black65" android:gravity="center" android:id="@id/tvReclaimPhoneFailed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="42.0dip" android:text="@string/sp_reclaim_phone_failed_msg" style="@style/RobotoR14" />
+    <TextView android:id="@id/btnUseDifferentPhoneNumber" android:layout_marginLeft="22.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="22.0dip" android:text="@string/sp_use_different_phone_number" style="@style/ButtonPrimary2" />
+    <TextView android:id="@id/btnContactCustomerService" android:layout_marginLeft="22.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="22.0dip" android:text="@string/sp_delink_phone_help" style="@style/ButtonSecondaryPrimary2" />
+</merge>

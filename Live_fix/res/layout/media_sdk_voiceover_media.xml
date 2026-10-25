@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="38.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/video_frames_recyclerView" android:layout_width="fill_parent" android:layout_height="34.0dip" />
+    <com.shopee.sz.mediasdk.trim.MediaTrimHighlightView android:layout_gravity="center_vertical" android:id="@id/voiceover_highlight_view" android:layout_width="fill_parent" android:layout_height="34.0dip" />
+    <com.shopee.sz.mediasdk.voiceover.SeekBarView android:id="@id/seek_bar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

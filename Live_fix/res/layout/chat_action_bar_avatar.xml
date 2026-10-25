@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/chat_action_bar_avatar_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="54.0dip" android:layout_centerVertical="true" android:paddingEnd="8.0dip" android:layout_marginStart="@dimen/chat_action_bar_additional_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.shopee.app.ui.common.AvatarView android:layout_gravity="center" android:id="@id/chat_action_bar_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    <com.shopee.app.ui.common.AvatarView android:layout_gravity="center_horizontal" android:id="@id/chat_action_bar_ls_avatar" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="4.0dip" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/chat_action_bar_shop_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="54.0dip" />
+    <ImageView android:id="@id/chat_action_bar_livestream_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_live_tag_chatroom" android:scaleType="centerCrop" />
+</FrameLayout>

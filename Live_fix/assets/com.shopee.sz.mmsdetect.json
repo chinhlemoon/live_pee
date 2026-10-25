@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "release",
+  "time": "2024-06-27 15:29:21.498",
+  "version": "0.6.0",
+  "branch": "v3.30/test_app_3.30",
+  "commitId": "894381b6b2b90d643b144fd711180c5cfecb6a01",
+  "moduleCommitId": "7a2673817d5bcdbe8d42cfa33282087c76c35cc8",
+  "lastMessage": "Merge branch \u0027dss/3.29-tracker\u0027 into \u0027v3.30/test_app_3.30\u0027",
+  "extraInfo": "v3.30/test_app_3.30",
+  "groupId": "com.shopee.sz",
+  "artifactId": "mmsdetect",
+  "path": ":mmsdetect",
+  "remoteUrl": "https://git.garena.com/shopee/mms/mms-client-sdk/android/mmsendpointsdk.git"
+}

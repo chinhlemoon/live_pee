@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/media_sdk_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.shopee.sz.mediasdk.music.view.SSZMusicCategoryListView android:id="@id/view_category" android:layout_width="fill_parent" android:layout_height="wrap_content" app:bLimitSize="true" app:bSHowMoreCategory="true" app:bShowDefaultCategoryText="true" app:limitSize="6" />
+</FrameLayout>

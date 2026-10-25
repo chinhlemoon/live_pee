@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="media_sdk_root_theme" parent="@style/sdk_sp_shopee_theme">
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="media_album_content_main_text_color">#df000000</item>
+        <item name="media_album_content_secondary_text_color">#d9000000</item>
+        <item name="media_album_folder_file_num_text_color">#8a000000</item>
+        <item name="media_album_folder_name_text_color">@android:color/black</item>
+        <item name="media_album_main_color">@android:color/white</item>
+        <item name="media_album_title_main_text_color">#de000000</item>
+        <item name="media_album_title_secondary_text_color">#66000000</item>
+        <item name="media_album_top_arrow_icon">@drawable/media_sdk_utils_ic_arrow_down_v2</item>
+        <item name="media_album_top_back_icon">@drawable/media_sdk_utils_ic_library_back_v2</item>
+    </style>
+</resources>

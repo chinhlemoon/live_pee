@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layoutContent" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:paddingBottom="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black70" android:layout_gravity="center_horizontal" android:id="@id/tvTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" style="@style/RobotoR14" />
+            <TextView android:textColor="@color/black87" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvPhoneNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:drawablePadding="6.0dip" style="@style/RobotoR18" />
+            <com.shopee.design.otpedittext.OTPRobotoEditText android:textSize="28.0sp" android:textColor="@color/black87" android:id="@id/otpVerificationCode" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:maxLength="6" android:inputType="number" android:imeOptions="actionDone" android:fontFamily="sans-serif-medium" app:lineColor="@color/black26" app:lineNextColor="@color/black87" app:lineStroke="1.0dip" />
+            <TextView android:id="@id/btnContinue" android:layout_marginTop="20.0dip" android:text="@string/sp_label_next" style="@style/ButtonPrimary2" />
+            <TextView android:textColor="@color/black65" android:gravity="center_horizontal" android:id="@id/tvResendCooldown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/sp_label_resend_countdown" style="@style/RobotoR14" />
+            <TextView android:textColor="@color/black65" android:gravity="center_horizontal" android:id="@id/tvResendAction" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/sp_didnt_receive_code_two_action" style="@style/RobotoR14" />
+        </LinearLayout>
+    </ScrollView>
+    <ViewStub android:id="@id/stub_otp_error" android:layout="@layout/verify_otp_page_error_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/loadingViewContainer" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

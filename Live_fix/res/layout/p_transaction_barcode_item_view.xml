@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/com_garena_beepay_margin_ll_normal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/com_garena_beepay_margin_normal" android:layout_marginRight="@dimen/com_garena_beepay_margin_normal" android:minHeight="100.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/com_garena_beepay_img_loading_barcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p_loading_barcode" />
+        <ImageView android:layout_gravity="center" android:id="@id/com_garena_beepay_img_barcode" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/com_garena_beepay_img_tap_to_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p_icon_refresh_s" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/com_garena_beepay_text_size_small" android:textColor="@color/p_txt_color_grey" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/com_garena_beepay_margin_normal" android:layout_marginRight="@dimen/com_garena_beepay_margin_normal" android:layout_marginBottom="@dimen/com_garena_beepay_margin_normal" android:text="@string/com_garena_beepay_label_present_at_7_eleven_count" />
+    <View android:background="@color/p_border_color_normal" android:layout_width="fill_parent" android:layout_height="@dimen/com_garena_beepay_border_width_thin" />
+</LinearLayout>

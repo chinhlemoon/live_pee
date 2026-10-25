@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/ic_dd_no_product_found" />
+        <TextView android:textSize="16.0sp" android:textColor="#a6000000" android:gravity="center|top" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:minHeight="20.0dip" android:text="@string/sp_safe_mode_resolving" />
+        <TextView android:textSize="14.0sp" android:textColor="#8a000000" android:gravity="center" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="60.0dip" android:text="@string/sp_safe_mode_resolved" android:lineSpacingExtra="4.0sp" />
+        <TextView android:textSize="14.0sp" android:textColor="#8a000000" android:id="@id/update_shopee" android:layout_width="260.0dip" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" android:text="@string/sp_safe_mode_update_shopee" android:lineHeight="20.0dip" style="@style/ButtonPrimary2" />
+        <TextView android:textSize="14.0sp" android:textColor="#8a000000" android:id="@id/reset_shopee" android:layout_width="260.0dip" android:layout_height="36.0dip" android:layout_marginTop="12.0dip" android:text="@string/sp_safe_mode_reset_shopee" android:lineHeight="20.0dip" style="@style/ButtonLogin" />
+        <TextView android:textSize="14.0sp" android:textColor="#8a000000" android:id="@id/back_home" android:layout_width="260.0dip" android:layout_height="36.0dip" android:layout_marginTop="12.0dip" android:text="@string/sp_safe_mode_back_to_home" android:lineHeight="20.0dip" style="@style/ButtonLogin" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff4080ee" android:id="@id/report_issue" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="20.0dip" android:layout_marginTop="12.0dip" android:text="@string/bt_report_issue" android:drawableRight="@drawable/ic_arrow_right_blue" android:lineHeight="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_layout" android:background="#fff5f5f5" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/red_dot_image" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#a6000000" android:gravity="center" android:id="@id/loading_title" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:minHeight="20.0dip" android:text="@string/sp_safe_mode_identify" android:lineSpacingExtra="1.0sp" />
+        <TextView android:textSize="14.0sp" android:textColor="#8a000000" android:gravity="center" android:id="@id/loading_msg" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="60.0dip" android:text="@string/sp_safe_mode_loading" android:lineSpacingExtra="4.0sp" android:lineHeight="20.0dip" />
+    </LinearLayout>
+</FrameLayout>

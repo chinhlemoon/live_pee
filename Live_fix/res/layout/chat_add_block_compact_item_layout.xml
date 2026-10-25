@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:background="@color/black20" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center" android:id="@id/block_button" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sp_block" android:layout_weight="0.5" style="@style/RobotoRLarge" />
+    <View android:layout_gravity="center" android:background="@color/white65" android:layout_width="0.5dip" android:layout_height="36.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center" android:id="@id/add_button" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sp_add" android:layout_weight="0.5" style="@style/RobotoRLarge" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center" android:id="@id/report_button" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sp_report" android:layout_weight="0.5" style="@style/RobotoRLarge" />
+</merge>

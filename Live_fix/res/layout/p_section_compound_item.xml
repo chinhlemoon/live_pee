@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/com_garena_beepay_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:tag="field_header_img" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="25.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_weight="0.3" android:layout_marginEnd="25.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.5">
+        <EditText android:textSize="@dimen/com_garena_beepay_default_text_size" android:textColorHint="@color/com_garena_beepay_txt_color_hint" android:gravity="start|center" android:layout_gravity="center_vertical" android:tag="field_edit" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/com_garena_beepay_default_text_size" android:gravity="end|center" android:layout_gravity="center_vertical" android:tag="field_footer_text" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" />
+    </LinearLayout>
+</LinearLayout>

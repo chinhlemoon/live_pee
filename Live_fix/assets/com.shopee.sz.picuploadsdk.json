@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-07-05 16:35:10.025",
+  "version": "0.75.5",
+  "branch": "v3.30/test_app_3.30",
+  "commitId": "9d99b5cf8bc75f50cc9ed15846feab35f2be9322",
+  "moduleCommitId": "9b418c790d7cfe571bae953dbfd49384843c0926",
+  "lastMessage": "Merge branch \u0027v3.30/chaojie_fix_90012_uplaod_error\u0027 into \u0027v3.30/test_app_3.30\u0027",
+  "extraInfo": "v3.30/test_app_3.30",
+  "groupId": "com.shopee.sz",
+  "artifactId": "picuploadsdk",
+  "path": ":picuploadsdk",
+  "remoteUrl": "https://git.garena.com/shopee/mms/mms-client-sdk/android/mmsuploadsdk.git"
+}

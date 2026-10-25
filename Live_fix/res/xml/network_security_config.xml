@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user" />
+            <certificates src="system" />
+        </trust-anchors>
+    </debug-overrides>
+    <domain-config>
+        <domain includeSubdomains="true">finance.scredit.com.my</domain>
+        <pin-set>
+            <pin digest="SHA-256">NQCpipodY9DCgNAXtvQYHh4FJwrRWq2mPxctv15j7Hw=</pin>
+            <pin digest="SHA-256">4a6cPehI7OG6cuDZka5NDZ7FR8a60d3auda+sKfg4Ng=</pin>
+            <pin digest="SHA-256">vRU+17BDT2iGsXvOi76E7TQMcTLXAqj0+jGPdW7L1vM=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">sloanseller-admin.scredit.com.my</domain>
+        <pin-set>
+            <pin digest="SHA-256">f43xxp1W9avXRuDKqgNtG1PvEp05RltiEI3He9G6z3Q=</pin>
+            <pin digest="SHA-256">4a6cPehI7OG6cuDZka5NDZ7FR8a60d3auda+sKfg4Ng=</pin>
+            <pin digest="SHA-256">vRU+17BDT2iGsXvOi76E7TQMcTLXAqj0+jGPdW7L1vM=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">sloanseller.scredit.com.my</domain>
+        <pin-set>
+            <pin digest="SHA-256">9HDNqjhlV3eV6/TdvJNX16bHXDOFumiHTirJnJ2HYas=</pin>
+            <pin digest="SHA-256">4a6cPehI7OG6cuDZka5NDZ7FR8a60d3auda+sKfg4Ng=</pin>
+            <pin digest="SHA-256">x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=</pin>
+            <pin digest="SHA-256">vRU+17BDT2iGsXvOi76E7TQMcTLXAqj0+jGPdW7L1vM=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config>
+        <domain includeSubdomains="true">uat.scredit.com.my</domain>
+        <pin-set>
+            <pin digest="SHA-256">9buWY82FVfw2VPVzOFwelehwbSwOX2fMkTiQ1mcO/Z0=</pin>
+            <pin digest="SHA-256">jQJTbIh0grw0/1TkHSumWb+Fs0Ggogr621gT3PvPKG0=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>

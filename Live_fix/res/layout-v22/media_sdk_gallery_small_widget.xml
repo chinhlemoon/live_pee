@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lyt_widget_root" android:background="@drawable/media_sdk_bg_gallery_small_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/media_sdk_gallery_small_widget_margin" android:layout_marginRight="@dimen/media_sdk_gallery_small_widget_margin" android:layout_marginHorizontal="@dimen/media_sdk_gallery_small_widget_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_add" android:layout_width="@dimen/media_sdk_gallery_small_widget_add_icon" android:layout_height="@dimen/media_sdk_gallery_small_widget_add_icon" android:layout_marginLeft="@dimen/media_sdk_gallery_small_widget_add_margin" android:layout_marginRight="@dimen/media_sdk_gallery_small_widget_add_margin" android:src="@drawable/media_sdk_ic_plus_white" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginHorizontal="@dimen/media_sdk_gallery_small_widget_add_margin" />
+    <FrameLayout android:id="@id/lyt_gallery_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/iv_add">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/rv_gallery" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="5.0dip" />
+        <TextView android:textAppearance="@style/media_sdk_base_shadow_appearance" android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tv_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/media_sdk_album_empty" />
+    </FrameLayout>
+    <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

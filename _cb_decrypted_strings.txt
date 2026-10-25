@@ -1,0 +1,88 @@
+0	*
+1	.*
+0	Blocked
+7	Allowed
+14	[%tF %tT] %s:%d - %s
+0	【SCAMERA】[BLOCKER] TCP Socket connect attempt: Host: 
+53	, Port: 
+61	【SCAMERA】[BLOCKER] Blocked TCP Socket connection to 
+113	:
+114	TCP connection blocked by VCAM
+0	getRequest
+10	url
+13	host
+17	port
+21	【SCAMERA】[BLOCKER] OkHttp enqueue request to URL: 
+71	, Host: 
+79	, Port: 
+87	【SCAMERA】[BLOCKER] Blocked OkHttp enqueue to 
+132	:
+133	OkHttp enqueue blocked by VCAM
+0	【SCAMERA】[BLOCKER] UDP Datagram send attempt: Host: 
+52	, Port: 
+60	【SCAMERA】[BLOCKER] Blocked UDP Datagram to 
+103	:
+104	UDP connection blocked by VCAM
+0	url
+3	host
+7	port
+11	【SCAMERA】[BLOCKER] OkHttp request to URL: 
+53	, Host: 
+61	, Port: 
+69	【SCAMERA】[BLOCKER] Blocked OkHttp connection to 
+117	:
+118	OkHttp connection blocked by VCAM
+0	getRequest
+10	url
+13	host
+17	port
+21	【SCAMERA】[BLOCKER] OkHttp execute request to URL: 
+71	, Host: 
+79	, Port: 
+87	【SCAMERA】[BLOCKER] Blocked OkHttp execute to 
+132	:
+133	OkHttp execute blocked by VCAM
+36	【SCAMERA】[BLOCKER] Error in onNetworkLog callback: 
+87	【SCAMERA】[BLOCKER] Error showing toast: 
+127	【SCAMERA】[BLOCKER] Added block rule: 
+164	:
+165	【SCAMERA】[BLOCKER] Cleared all block rules
+278	【SCAMERA】[BLOCKER] RealCall class not found, skipping hook
+336	okhttp3.RealCall
+352	connect
+359	【SCAMERA】[BLOCKER] Successfully hooked Socket.connect
+412	send
+416	【SCAMERA】[BLOCKER] Successfully hooked DatagramSocket.send
+529	okhttp3.OkHttpClient
+630	【SCAMERA】[BLOCKER] OkHttpClient class not found, skipping hook
+549	newCall
+556	okhttp3.Request
+571	【SCAMERA】[BLOCKER] Successfully hooked OkHttpClient.newCall
+748	execute
+755	【SCAMERA】[BLOCKER] Successfully hooked RealCall.execute
+862	enqueue
+869	okhttp3.Callback
+885	【SCAMERA】[BLOCKER] Successfully hooked RealCall.enqueue
+992	【SCAMERA】[BLOCKER] Network connection hooks initialized
+940	【SCAMERA】[BLOCKER] Failed to hook RealCall.enqueue: 
+810	【SCAMERA】[BLOCKER] Failed to hook RealCall.execute: 
+692	【SCAMERA】[BLOCKER] Failed to hook OkHttpClient.newCall: 
+474	【SCAMERA】[BLOCKER] Failed to hook DatagramSocket.send: 
+1047	【SCAMERA】[BLOCKER] General error hooking network connections: 
+1109	Lỗi khi thiết lập chặn kết nối
+1139	【SCAMERA】[BLOCKER] Config loaded from 
+1177	【SCAMERA】[BLOCKER] Error loading config, resetting due to: 
+1236	Cấu hình không hợp lệ, đã reset
+1267	【SCAMERA】[BLOCKER] No config file found, using defaults
+1322	【SCAMERA】[BLOCKER] Unexpected error loading config: 
+1374	Lỗi không xác định khi tải cấu hình
+1409	【SCAMERA】[BLOCKER] Removed block rule at index: 
+1457	【SCAMERA】[BLOCKER] Deleted incompatible config file
+1508	【SCAMERA】[BLOCKER] Error resetting config: 
+1551	Lỗi khi reset cấu hình
+1573	【SCAMERA】[BLOCKER] Failed to create directory: 
+1620	Lỗi khi tạo thư mục lưu cấu hình
+1652	【SCAMERA】[BLOCKER] Config saved to 
+1687	【SCAMERA】[BLOCKER] Error saving config: 
+1727	Lỗi khi lưu cấu hình chặn: 
+1838	【SCAMERA】[BLOCKER] Updated block rule at index: 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="p_link_to_shopee_confirm_arrow_margin_top">38.0dip</dimen>
+    <dimen name="p_link_to_shopee_confirm_button_margin_top">10.0dip</dimen>
+    <dimen name="p_link_to_shopee_confirm_tip_faq_margin_top">28.0dip</dimen>
+    <dimen name="p_link_to_shopee_confirm_tip_margin_top">28.0dip</dimen>
+    <dimen name="p_link_to_shopee_result_avatar_margin_top">22.0dip</dimen>
+    <dimen name="p_link_to_shopee_result_button_margin_between">10.0dip</dimen>
+    <dimen name="p_link_to_shopee_result_button_margin_top">46.0dip</dimen>
+    <dimen name="p_link_to_shopee_result_name_margin_top">3.0dip</dimen>
+    <dimen name="p_link_to_shopee_result_phone_margin_top">4.0dip</dimen>
+    <dimen name="p_link_to_shopee_result_tip_margin_top">14.0dip</dimen>
+</resources>

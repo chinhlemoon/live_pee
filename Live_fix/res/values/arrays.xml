@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="com_garena_beepay_countries">
+        <item>AF:Afghanistan</item>
+        <item>AL:Albania</item>
+        <item>DZ:Algeria</item>
+        <item>AD:Andorra</item>
+        <item>AO:Angola</item>
+        <item>AQ:Antarctica</item>
+        <item>AR:Argentina</item>
+        <item>AM:Armenia</item>
+        <item>AW:Aruba</item>
+        <item>AU:Australia</item>
+        <item>AT:Austria</item>
+        <item>AZ:Azerbaijan</item>
+        <item>BH:Bahrain</item>
+        <item>BD:Bangladesh</item>
+        <item>BY:Belarus</item>
+        <item>BE:Belgium</item>
+        <item>BZ:Belize</item>
+        <item>BJ:Benin</item>
+        <item>BT:Bhutan</item>
+        <item>BO:Bolivia</item>
+        <item>BA:Bosnia And Herzegovina</item>
+        <item>BW:Botswana</item>
+        <item>BR:Brazil</item>
+        <item>BN:Brunei Darussalam</item>
+        <item>BG:Bulgaria</item>
+        <item>BF:Burkina Faso</item>
+        <item>BI:Burundi</item>
+        <item>KH:Cambodia</item>
+        <item>CM:Cameroon</item>
+        <item>CA:Canada</item>
+        <item>CV:Cape Verde</item>
+        <item>CF:Central African Republic</item>
+        <item>TD:Chad</item>
+        <item>CL:Chile</item>
+        <item>CN:China</item>
+        <item>CX:Christmas Island</item>
+        <item>CO:Colombia</item>
+        <item>KM:Comoros</item>
+        <item>CG:Congo</item>
+        <item>CD:Congo</item>
+        <item>CK:Cook Islands</item>
+        <item>CR:Costa Rica</item>
+        <item>HR:Croatia</item>
+        <item>CU:Cuba</item>
+        <item>CY:Cyprus</item>
+        <item>CZ:Czech Republic</item>
+        <item>DK:Denmark</item>
+        <item>DJ:Djibouti</item>
+        <item>EC:Ecuador</item>
+        <item>EG:Egypt</item>
+        <item>SV:El Salvador</item>
+        <item>GQ:Equatorial Guinea</item>
+        <item>ER:Eritrea</item>
+        <item>EE:Estonia</item>
+        <item>ET:Ethiopia</item>
+        <item>FO:Faroe Islands</item>
+        <item>FJ:Fiji</item>
+        <item>FI:Finland</item>
+        <item>FR:France</item>
+        <item>PF:French Polynesia</item>
+        <item>GA:Gabon</item>
+        <item>GM:Gambia</item>
+        <item>GE:Georgia</item>
+        <item>DE:Germany</item>
+        <item>GH:Ghana</item>
+        <item>GI:Gibraltar</item>
+        <item>GR:Greece</item>
+        <item>GL:Greenland</item>
+        <item>GT:Guatemala</item>
+        <item>GN:Guinea</item>
+        <item>GW:Guinea-bissau</item>
+        <item>GY:Guyana</item>
+        <item>HT:Haiti</item>
+        <item>HN:Honduras</item>
+        <item>HK:Hong Kong</item>
+        <item>HU:Hungary</item>
+        <item>IN:India</item>
+        <item>ID:Indonesia</item>
+        <item>IR:Iran</item>
+        <item>IQ:Iraq</item>
+        <item>IE:Ireland</item>
+        <item>IM:Isle Of Man</item>
+        <item>IL:Israel</item>
+        <item>IT:Italy</item>
+        <item>JP:Japan</item>
+        <item>JO:Jordan</item>
+        <item>KZ:Kazakhstan</item>
+        <item>KE:Kenya</item>
+        <item>KI:Kiribati</item>
+        <item>KP:Korea</item>
+        <item>KR:Korea</item>
+        <item>KW:Kuwait</item>
+        <item>KG:Kyrgyzstan</item>
+        <item>LA:Laos</item>
+        <item>LV:Latvia</item>
+        <item>LB:Lebanon</item>
+        <item>LS:Lesotho</item>
+        <item>LR:Liberia</item>
+        <item>LY:Libya</item>
+        <item>LI:Liechtenstein</item>
+        <item>LT:Lithuania</item>
+        <item>LU:Luxembourg</item>
+        <item>MO:Macao</item>
+        <item>MK:Macedonia</item>
+        <item>MG:Madagascar</item>
+        <item>MW:Malawi</item>
+        <item>MY:Malaysia</item>
+        <item>MV:Maldives</item>
+        <item>ML:Mali</item>
+        <item>MT:Malta</item>
+        <item>MH:Marshall Islands</item>
+        <item>MR:Mauritania</item>
+        <item>MU:Mauritius</item>
+        <item>YT:Mayotte</item>
+        <item>MX:Mexico</item>
+        <item>FM:Micronesia</item>
+        <item>MD:Moldova</item>
+        <item>MC:Monaco</item>
+        <item>MN:Mongolia</item>
+        <item>ME:Montenegro</item>
+        <item>MA:Morocco</item>
+        <item>MZ:Mozambique</item>
+        <item>MM:Myanmar</item>
+        <item>NA:Namibia</item>
+        <item>NR:Nauru</item>
+        <item>NP:Nepal</item>
+        <item>NL:Netherlands</item>
+        <item>NC:New Caledonia</item>
+        <item>NZ:New Zealand</item>
+        <item>NI:Nicaragua</item>
+        <item>NE:Niger</item>
+        <item>NG:Nigeria</item>
+        <item>NU:Niue</item>
+        <item>NO:Norway</item>
+        <item>OM:Oman</item>
+        <item>PK:Pakistan</item>
+        <item>PW:Palau</item>
+        <item>PA:Panama</item>
+        <item>PG:Papua New Guinea</item>
+        <item>PY:Paraguay</item>
+        <item>PE:Peru</item>
+        <item>PH:Philippines</item>
+        <item>PN:Pitcairn</item>
+        <item>PL:Poland</item>
+        <item>PT:Portugal</item>
+        <item>PR:Puerto Rico</item>
+        <item>QA:Qatar</item>
+        <item>RO:Romania</item>
+        <item>RU:Russia</item>
+        <item>RW:Rwanda</item>
+        <item>BL:Saint Barthélemy</item>
+        <item>SH:Saint Helena</item>
+        <item>PM:Saint Pierre And Miquelon</item>
+        <item>WS:Samoa</item>
+        <item>SM:San Marino</item>
+        <item>ST:Sao Tome And Principe</item>
+        <item>SA:Saudi Arabia</item>
+        <item>SN:Senegal</item>
+        <item>RS:Serbia</item>
+        <item>SC:Seychelles</item>
+        <item>SL:Sierra Leone</item>
+        <item>SG:Singapore</item>
+        <item>SK:Slovakia</item>
+        <item>SI:Slovenia</item>
+        <item>SB:Solomon Islands</item>
+        <item>SO:Somalia</item>
+        <item>ZA:South Africa</item>
+        <item>ES:Spain</item>
+        <item>LK:Sri Lanka</item>
+        <item>SD:Sudan</item>
+        <item>SR:Suriname</item>
+        <item>SZ:Swaziland</item>
+        <item>SE:Sweden</item>
+        <item>CH:Switzerland</item>
+        <item>SY:Syrian Arab Republic</item>
+        <item>TW:Taiwan</item>
+        <item>TZ:Tanzania</item>
+        <item>TH:Thailand</item>
+        <item>TL:Timor-leste</item>
+        <item>TG:Togo</item>
+        <item>TK:Tokelau</item>
+        <item>TO:Tonga</item>
+        <item>TN:Tunisia</item>
+        <item>TR:Turkey</item>
+        <item>TM:Turkmenistan</item>
+        <item>TV:Tuvalu</item>
+        <item>UG:Uganda</item>
+        <item>UA:Ukraine</item>
+        <item>AE:United Arab Emirates</item>
+        <item>GB:United Kingdom</item>
+        <item>US:United States</item>
+        <item>UY:Uruguay</item>
+        <item>UZ:Uzbekistan</item>
+        <item>VU:Vanuatu</item>
+        <item>VA:Vatican City State</item>
+        <item>VE:Venezuela</item>
+        <item>VN:Vietnam</item>
+        <item>WF:Wallis And Futuna</item>
+        <item>YE:Yemen</item>
+        <item>ZM:Zambia</item>
+        <item>ZW:Zimbabwe</item>
+    </string-array>
+    <string-array name="common_error_issue_features">
+        <item>@string/label_homepage</item>
+        <item>@string/label_product_page</item>
+        <item>@string/label_search</item>
+        <item>@string/label_cart</item>
+        <item>@string/label_payment_checkout</item>
+        <item>@string/label_shop</item>
+        <item>@string/label_orderlist</item>
+        <item>@string/label_mall</item>
+        <item>@string/label_flashsale</item>
+        <item>@string/label_coins</item>
+        <item>@string/label_others</item>
+    </string-array>
+    <string-array name="common_error_issue_types">
+        <item>@string/label_app_crash_keep_restarting</item>
+        <item>@string/label_page_not_loading</item>
+        <item>@string/label_feature_not_working</item>
+        <item>@string/label_app_is_lagging</item>
+        <item>@string/label_data_usage</item>
+        <item>@string/label_network_issue</item>
+        <item>@string/label_others</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <array name="slide_intro_images">
+        <item>@drawable/shopee_0</item>
+    </array>
+    <array name="sszemoji_com_google_android_gms_fonts_certs">
+        <item>@array/sszemoji_com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/sszemoji_com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="sszemoji_com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="sszemoji_com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+</resources>

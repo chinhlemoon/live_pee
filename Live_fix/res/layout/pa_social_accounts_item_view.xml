@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/youtube_panel" android:paddingLeft="14.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="14.0dip" android:paddingEnd="12.0dip">
+        <ImageView android:id="@id/ivIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_social_youtube" android:layout_centerVertical="true" />
+        <TextView android:textColor="@color/pa_black87" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/ivIcon" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_toEndOf="@id/ivIcon" style="@style/RobotoR14" />
+        <TextView android:textColor="@color/pa_primary" android:id="@id/btnAction" android:background="@drawable/action_bar_button_background" android:padding="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pluginaccount_unlink" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_alignParentEnd="true" style="@style/RobotoR14" />
+    </RelativeLayout>
+    <View android:background="@color/pa_black09" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</merge>

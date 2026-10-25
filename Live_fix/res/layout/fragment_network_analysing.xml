@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112.0dip" android:src="@drawable/network_analysing" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black87" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_generating_analysis" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/black65" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="32.0dip" android:text="@string/text_generating_analysis_desc" />
+    <com.shopee.addon.commonerrorhandler.impl.ui.file.SmartProgressBar android:layout_gravity="center_horizontal" android:id="@id/progressBar" android:layout_width="260.0dip" android:layout_height="8.0dip" app:spb_animated="false" app:spb_max="100" app:spb_progress="0" app:spb_progress_bar_bg_color="#ffe8e8e8" app:spb_progress_center_color="#ffee4d2d" app:spb_progress_end_color="#ffee4d2d" app:spb_progress_start_color="#ffee4d2d" app:spb_radius="4.0dip" app:spb_shape_style="HORIZONTAL" app:spb_show_percent_sign="false" app:spb_show_percent_text="false" />
+</LinearLayout>

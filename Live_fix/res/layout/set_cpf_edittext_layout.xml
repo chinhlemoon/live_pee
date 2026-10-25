@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.shopee.design.edittext.CustomRobotoEditText android:id="@id/etCpf" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:hint="@string/sp_label_cpf" android:maxLength="14" android:inputType="number" android:textDirection="ltr" app:cret_edit_text_drawable_left_icon="@drawable/ic_id_card" app:cret_enable_forgot="false" app:cret_text_clear_icon="@drawable/ic_close_circle" style="@style/CustomEditText" />
+    <TextView android:textColor="@color/component_gray1" android:id="@id/cpfErrorTextview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/sp_error_message_cpf_format" style="@style/RobotoR12" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/font_size_14" android:textColor="@color/black87" android:gravity="center_vertical" android:id="@id/banner_warn_max_account" android:background="@color/white" android:padding="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="8.0dip" app:drawableStartCompat="@drawable/ic_notification_circle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_account_list" android:paddingTop="12.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/sp_btn_remove_account_text_color" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_edit_mode_toggle" android:paddingLeft="40.0dip" android:paddingTop="24.0dip" android:paddingRight="40.0dip" android:paddingBottom="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_switch_account_remove_from_list" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/live_remote_video_view_container" android:background="@color/liveplayer_remoteBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="@dimen/liveplayer_remote_back_icon_size" android:layout_height="@dimen/liveplayer_remote_back_icon_size" android:src="@drawable/liveplayer_logo" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/live_local_video_view_container" android:background="@color/liveplayer_localBackground" android:layout_width="@dimen/liveplayer_local_preview_width" android:layout_height="@dimen/liveplayer_local_preview_height" android:layout_marginTop="@dimen/liveplayer_local_preview_margin_top" android:layout_marginRight="@dimen/liveplayer_local_preview_margin_right" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/liveplayer_local_preview_margin_right" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/liveplayer_local_back_icon_size" android:layout_height="@dimen/liveplayer_local_back_icon_size" android:src="@drawable/liveplayer_logo" android:scaleType="centerCrop" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shopee.materialdialogs.internal.MDRootLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:md_reduce_padding_no_title_no_buttons="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/md_content_padding_top" />
+    <include layout="@layout/md_stub_titleframe" />
+    <ScrollView android:id="@id/contentScrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/md_side_margin" android:layout_marginTop="@dimen/md_margin_top" android:layout_marginRight="@dimen/md_margin_top" android:layout_marginBottom="@dimen/md_bottom_margin" android:layout_marginStart="@dimen/md_side_margin" android:layout_marginEnd="@dimen/md_margin_top">
+        <TextView android:textSize="@dimen/md_content_textsize" android:layout_gravity="center" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <include layout="@layout/md_divider" />
+    <include layout="@layout/md_stub_actionbuttons" />
+</com.shopee.materialdialogs.internal.MDRootLayout>

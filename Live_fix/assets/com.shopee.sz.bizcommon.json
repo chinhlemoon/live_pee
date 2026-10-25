@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-07-04 18:08:34.931",
+  "version": "0.54.1",
+  "branch": "master",
+  "commitId": "00de79cc76d908e5170b859070c7d6daf6f75320",
+  "moduleCommitId": "1a5b47fe0ee5caffb034222e5a98d42ff32fde0c",
+  "lastMessage": "Merge branch \u0027v3.30/fix-crash\u0027 into \u0027master\u0027",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "bizcommon",
+  "path": ":bizcommon",
+  "remoteUrl": "ssh://gitlab@git.garena.com:2222/shopee/feed/luckyvideo/app/bizcommon.git"
+}

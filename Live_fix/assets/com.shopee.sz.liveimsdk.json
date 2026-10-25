@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-01-12 10:48:14.465",
+  "version": "1.9.14",
+  "branch": "master",
+  "commitId": "98ad3fbc48f924dcf0f3c3195e759b964370bf2a",
+  "moduleCommitId": "98ad3fbc48f924dcf0f3c3195e759b964370bf2a",
+  "lastMessage": "可配底层是否过滤自身弹幕，可由业务层控制",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "liveimsdk",
+  "path": ":liveimsdk",
+  "remoteUrl": "ssh://gitlab@git.garena.com:2222/shopee/ssz-client/android/toc/common.git"
+}

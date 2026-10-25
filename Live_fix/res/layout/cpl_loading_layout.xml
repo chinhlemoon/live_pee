@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#51ffffff" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/cpl_rounded_black" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="140.0dip" android:layout_height="wrap_content">
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/progress_wheel" android:layout_width="50.0dip" android:layout_height="50.0dip" android:indeterminate="true" android:layout_centerHorizontal="true" app:indicatorColor="@color/white" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Loading.." android:layout_below="@id/progress_wheel" style="@style/CplRobotoRNormal" />
+    </RelativeLayout>
+</FrameLayout>

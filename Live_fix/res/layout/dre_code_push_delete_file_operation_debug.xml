@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="#fff3f4f5" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="选中时测试内部，不选中时测试外部文件" />
+            <Button android:id="@id/btn_file" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="create error file" />
+            <TextView android:id="@id/text_filePath" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="there out put file path" />
+            <Button android:id="@id/btn_read" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="read error file" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="click the above button app will crash" />
+            <Button android:id="@id/btn_read_file" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="read file content" />
+            <TextView android:id="@id/text_file_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="there show file content read by the above button " />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

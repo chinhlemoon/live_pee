@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$sp_biometric_auth_avd_fingerprint_success_60__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="path_2" android:animation="@drawable/$sp_biometric_auth_avd_fingerprint_success_60__1" />
+    <target android:name="mask0" android:animation="@drawable/$sp_biometric_auth_avd_fingerprint_success_60__2" />
+    <target android:name="path_1" android:animation="@drawable/$sp_biometric_auth_avd_fingerprint_success_60__3" />
+    <target android:name="group" android:animation="@drawable/$sp_biometric_auth_avd_fingerprint_success_60__4" />
+    <target android:name="path_3" android:animation="@drawable/$sp_biometric_auth_avd_fingerprint_success_60__5" />
+</animated-vector>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/search_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_bar" android:background="@drawable/ic_search_bar_background_with_layer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp12" android:layout_marginBottom="@dimen/dp10" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/search_prefill_click" android:paddingLeft="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="36.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/search_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+            <FrameLayout android:id="@id/text_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="14.0sp" android:textColorHint="@color/primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/text_search" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="36.0dip" android:singleLine="true" />
+                <com.shopee.app.ui.home.native_home.view.textbanner.TextBanner android:id="@id/prefill_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/text_search_placeholder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search_shopee" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/action_btn1" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_search_bar_camera" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="@dimen/action_icon_width" android:layout_height="@dimen/action_bar_height">
+        <com.shopee.app.ui.home.native_home.cell.CalculateImageView android:id="@id/cart_btn" android:background="@drawable/md_selector" android:paddingLeft="@dimen/dp10" android:paddingTop="@dimen/dp16" android:paddingRight="@dimen/dp10" android:paddingBottom="@dimen/dp16" android:layout_width="@dimen/action_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/ic_nav_cart_white" android:layout_centerInParent="true" />
+        <com.shopee.design.badgeview.BadgeView android:id="@id/cart_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/dp4" android:layout_alignRight="@id/cart_btn" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="@dimen/action_icon_width" android:layout_height="@dimen/action_bar_height">
+        <ImageView android:id="@id/chat_btn" android:background="@drawable/md_selector" android:paddingLeft="@dimen/dp10" android:paddingTop="@dimen/dp16" android:paddingRight="@dimen/dp10" android:paddingBottom="@dimen/dp16" android:layout_width="@dimen/action_icon_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/ic_chat_android_white" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <com.shopee.design.badgeview.BadgeView android:id="@id/chat_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/dp4" android:layout_alignRight="@id/chat_btn" />
+    </RelativeLayout>
+    <Space android:id="@id/trailing_space" android:layout_width="2.0dip" android:layout_height="0.0dip" />
+</LinearLayout>

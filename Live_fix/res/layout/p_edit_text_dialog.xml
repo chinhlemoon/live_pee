@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/com_garena_beepay_popup_container">
+        <LinearLayout style="@style/com_garena_beepay_popup_body">
+            <TextView android:id="@id/com_garena_beepay_dialog_title" style="@style/com_garena_beepay_popup_title" />
+            <EditText android:textColorHint="@color/com_garena_beepay_txt_color_hint" android:id="@id/com_garena_beepay_edit_content" android:background="@drawable/p_edit_text_bg" android:layout_height="36.0dip" android:scrollHorizontally="false" style="@style/com_garena_beepay_popup_item_base" />
+            <TextView android:id="@id/com_garena_beepay_text_tips" android:visibility="gone" style="@style/com_garena_beepay_popup_item_base" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/com_garena_beepay_confirm_popup_btn_control_panel" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" style="@style/com_garena_beepay_popup_action_section">
+            <Button android:id="@id/com_garena_beepay_cancel_btn" android:text="@string/com_garena_beepay_label_cancel" style="@style/com_garena_beepay_popup_action_section_btn" />
+            <Button android:id="@id/com_garena_beepay_confirm_btn" android:text="@string/com_garena_beepay_label_ok" style="@style/com_garena_beepay_popup_action_section_btn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

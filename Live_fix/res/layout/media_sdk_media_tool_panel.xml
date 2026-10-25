@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/media_sdk_camera_btn_layout" />
+    <com.shopee.sz.mediasdk.ui.view.speed.SpeedPanel android:layout_gravity="bottom" android:id="@id/speed_panel" android:visibility="invisible" android:layout_width="260.0dip" android:layout_height="36.0dip" android:layout_marginLeft="58.0dip" android:layout_marginRight="58.0dip" android:layout_marginBottom="35.0dip" app:layout_constraintBottom_toTopOf="@id/camera_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <FrameLayout android:id="@id/magic_panel_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/beauty_panel_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/pause_panel_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/filter_panel_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/duet_layout_panel_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.shopee.sz.mediasdk.ui.view.tool.MediaToolIconPanel android:id="@id/ll_media_tool_icon_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

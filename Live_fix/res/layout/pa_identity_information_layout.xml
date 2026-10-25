@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/banner" android:visibility="gone" layout="@layout/pa_identity_banner_layout" />
+    <com.shopee.pluginaccount.ui.editprofile.EditProfileItemView android:id="@id/name_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/banner" app:action="@string/pluginaccount_set_now" app:actionColor="@color/pa_black26" app:isEditMode="false" app:isShowRightArrow="false" app:title="@string/pluginaccount_label_name" />
+    <com.shopee.pluginaccount.ui.editprofile.EditProfileItemView android:id="@id/cpf_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_item" app:action="000.000.000-00" app:actionColor="@color/pa_black87" app:isEditMode="true" app:isShowRightArrow="false" app:title="@string/pluginaccount_label_profile_cpf" />
+    <TextView android:textColor="@color/pa_identity_verify_failed_color" android:id="@id/cpf_error_textview" android:background="@color/pa_error_hint_red" android:padding="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pluginaccount_error_message_cpf_format" android:layout_below="@id/cpf_item" />
+    <com.shopee.pluginaccount.ui.editprofile.EditProfileItemView android:id="@id/birthday_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cpf_error_textview" app:action="DD/MM/AAAA" app:actionColor="@color/pa_black26" app:title="@string/pluginaccount_label_birthday" />
+    <TextView android:textColor="@color/pa_identity_verify_failed_color" android:id="@id/bottom_error_textview" android:background="@color/pa_error_hint_red" android:padding="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pluginaccount_error_message_birth_cpf" android:layout_below="@id/birthday_item" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/btn_area" android:background="@color/white" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:enabled="false" android:id="@id/btnContinue" android:layout_width="fill_parent" android:text="@string/pluginaccount_label_verify" style="@style/ButtonPrimary2" />
+    </LinearLayout>
+    <include android:id="@id/verify_dialog" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="10.0dip" layout="@layout/pa_dialog_verify_identity_information" />
+</RelativeLayout>

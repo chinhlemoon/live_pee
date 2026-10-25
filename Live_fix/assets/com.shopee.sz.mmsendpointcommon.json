@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "release",
+  "time": "2023-12-29 17:56:26.817",
+  "version": "0.16.0",
+  "branch": "v3.17/test_app_3.17",
+  "commitId": "dd1b1f8d18e1061cea3ec6e69de7b1d2e71f2d18",
+  "moduleCommitId": "cd4e3fdad37bc410ffc5fe0e72e4ec43f46f4681",
+  "lastMessage": "Merge branch \u0027chaojie/3.11_endpoint_remove_app_depency\u0027 into \u0027v3.17/test_app_3.17\u0027",
+  "extraInfo": "v3.17/test_app_3.17",
+  "groupId": "com.shopee.sz",
+  "artifactId": "mmsendpointcommon",
+  "path": ":mmsendpointcommon",
+  "remoteUrl": "https://git.garena.com/shopee/mms/mms-client-sdk/android/mmsendpointsdk.git"
+}

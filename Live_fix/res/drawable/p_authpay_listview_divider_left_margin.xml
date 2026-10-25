@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/p_border_color_normal" />
+    <stroke android:color="@color/p_border_color_normal" />
+    <padding android:left="@dimen/com_garena_beepay_margin_m_normal" />
+    <size android:height="@dimen/com_garena_beepay_border_width_thin" />
+</shape>

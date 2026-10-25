@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:garena="http://schemas.android.com/apk/res-auto">
+    <com.shopee.app.ui.myaccount.SocialAccounts.cell.SocialAccountsItemView android:id="@id/facebookItemView" android:layout_width="fill_parent" android:layout_height="wrap_content" garena:icon="@drawable/ic_social_facebook" garena:primaryText="@string/sp_label_facebook" />
+    <com.shopee.app.ui.myaccount.SocialAccounts.cell.SocialAccountsItemView android:id="@id/instagramItemView" android:layout_width="fill_parent" android:layout_height="wrap_content" garena:icon="@drawable/ic_social_instagram" garena:primaryText="@string/sp_label_instagram" />
+    <com.shopee.app.ui.myaccount.SocialAccounts.cell.SocialAccountsItemView android:id="@id/twitterItemView" android:layout_width="fill_parent" android:layout_height="wrap_content" garena:icon="@drawable/ic_social_twitter" garena:primaryText="@string/sp_label_twitter" />
+    <com.shopee.app.ui.myaccount.SocialAccounts.cell.SocialAccountsItemView android:id="@id/googleItemView" android:layout_width="fill_parent" android:layout_height="wrap_content" garena:icon="@drawable/ic_social_google" garena:primaryText="@string/sp_label_google" />
+    <com.shopee.app.ui.myaccount.SocialAccounts.cell.SocialAccountsItemView android:id="@id/youtubeItemView" android:layout_width="fill_parent" android:layout_height="wrap_content" garena:icon="@drawable/ic_social_youtube" garena:primaryText="@string/sp_label_youtube" />
+    <com.shopee.app.ui.myaccount.SocialAccounts.cell.SocialAccountsItemView android:id="@id/lineItemView" android:layout_width="fill_parent" android:layout_height="wrap_content" garena:icon="@drawable/ic_social_line" garena:primaryText="@string/sp_label_line" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/p_base_color_FFFFFF" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/content_recyceler_view" android:layout_width="fill_parent" android:layout_height="192.0dip" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/content_action_btn" android:background="@color/p_base_color_FFFFFF" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="192.0dip" android:elevation="4.0dip" app:layout_constraintEnd_toStartOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.shopee.ui.component.button.PButton android:layout_gravity="center_vertical" android:id="@id/content_reset_btn" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="4.0dip" android:text="Reset" android:layout_weight="1.0" app:p_btn_type="outline_btn" />
+        <com.shopee.ui.component.button.PButton android:layout_gravity="center_vertical" android:id="@id/content_apply_btn" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="8.0dip" android:text="Apply" android:layout_weight="1.0" app:p_btn_type="filled_btn" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

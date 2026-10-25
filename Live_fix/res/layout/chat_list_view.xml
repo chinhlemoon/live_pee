@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/listView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/action_bar_button_background" android:divider="@color/black06" android:dividerHeight="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/chatHistoryEmptyView" android:background="@color/empty_chat_list_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_required_list">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_no_chat" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black65" android:gravity="center" android:id="@id/chatHistoryMainLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/sp_no_chat_history" style="@style/RobotoMLarge" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black54" android:gravity="center" android:id="@id/chatHistorySubLabel" android:layout_width="240.0dip" android:layout_height="wrap_content" android:text="@string/sp_no_chat_starting" style="@style/RobotoRNormal" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/shp_typography_token_normal_text_size" android:id="@id/myContactsBtn" android:layout_width="168.0dip" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" android:text="@string/sp_label_my_contacts" style="@style/ButtonPrimary2" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/emptyView" android:background="@color/empty_chat_list_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_required_list">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black54" android:gravity="center" android:layout_gravity="center" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_no_chat_history" android:drawableTop="@drawable/ic_no_chat" android:drawablePadding="16.0dip" style="@style/RobotoRNormal" />
+    </FrameLayout>
+    <com.shopee.app.ui.common.AskLoginView_ android:id="@id/ask_login_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center_horizontal" android:id="@id/progress_wheel" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminate="true" app:indicatorColor="@color/black26" />
+</merge>

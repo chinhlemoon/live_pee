@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <size android:height="@dimen/com_garena_beepay_switch_thumb_size" android:width="@dimen/com_garena_beepay_switch_thumb_size" />
+            <stroke android:width="@dimen/com_garena_beepay_switch_thumb_margin" android:color="@color/p_transparent" />
+            <solid android:color="@color/p_bg_color_white" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/com_garena_beepay_switch_thumb_size" android:width="@dimen/com_garena_beepay_switch_thumb_size" />
+            <stroke android:width="@dimen/com_garena_beepay_switch_thumb_margin" android:color="@color/p_transparent" />
+            <solid android:color="@color/p_bg_color_switch_grey" />
+        </shape>
+    </item>
+</selector>

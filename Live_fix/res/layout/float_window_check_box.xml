@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:id="@id/radioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:textColor="@drawable/radio_text_color_change" android:id="@id/btnFullLoad" android:paddingTop="@dimen/space_2" android:paddingBottom="@dimen/space_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="FullLoad" android:paddingStart="@dimen/space_15" android:paddingEnd="@dimen/space_15" style="@style/radio_style_changed" />
+        <RadioButton android:textColor="@drawable/radio_text_color_change" android:id="@id/btnLcp" android:paddingTop="@dimen/space_2" android:paddingBottom="@dimen/space_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="LCP" android:paddingStart="@dimen/space_15" android:paddingEnd="@dimen/space_15" style="@style/radio_style_changed" />
+        <RadioButton android:textColor="@drawable/radio_text_color_change" android:id="@id/btnFps" android:paddingTop="@dimen/space_2" android:paddingBottom="@dimen/space_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="FPS" android:paddingStart="@dimen/space_15" android:paddingEnd="@dimen/space_15" style="@style/radio_style_changed" />
+    </RadioGroup>
+</LinearLayout>

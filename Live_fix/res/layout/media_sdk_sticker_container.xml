@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_sticker_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.shopee.sz.mediasdk.ui.view.edit.line.MediaPickEditLineView android:id="@id/view_line" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.shopee.sz.mediasdk.ui.view.edit.sticker.SSZMediaStickerContainer android:id="@id/sticker_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_gravity="bottom|center" android:id="@id/rl_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip">
+        <ImageView android:background="@drawable/media_sdk_photo_editor_delete_ring_bg" android:padding="4.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/media_sdk_ic_photo_editor_delete" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.shopee.sz.mediasdk.text.SSZArtTextEditView android:id="@id/view_art_text" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.shopee.sz.mediasdk.text.SSZArtDurationSettingView android:id="@id/view_art_duration" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

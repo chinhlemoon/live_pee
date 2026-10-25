@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_category_thumbnail" android:layout_width="56.0dip" android:layout_height="56.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="14.0sp" android:id="@id/tv_category_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_category_thumbnail" app:layout_constraintEnd_toStartOf="@id/tv_media_count" app:layout_constraintStart_toEndOf="@id/iv_category_thumbnail" app:layout_constraintTop_toTopOf="@id/iv_category_thumbnail" />
+    <TextView android:textSize="14.0sp" android:id="@id/tv_media_count" android:layout_width="0.0dip" android:layout_height="wrap_content" android:alpha="0.6" app:layout_constraintBottom_toBottomOf="@id/tv_category_name" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/tv_category_name" app:layout_constraintTop_toTopOf="@id/tv_category_name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

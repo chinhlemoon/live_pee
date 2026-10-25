@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/background_light" app:cardCornerRadius="0.0dip" app:cardElevation="1.0dip" app:cardPreventCornerOverlap="false" app:contentPadding="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black65" android:layout_gravity="center" android:paddingLeft="8.0dip" android:paddingTop="6.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_unread_message_bar" style="@style/RobotoRNormal" />
+</merge>

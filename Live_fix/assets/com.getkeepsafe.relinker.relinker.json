@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "beta",
+  "time": "2022-12-23 10:12:44.284",
+  "version": "1.4.5.2-master_shopee-32ca4f0-beta",
+  "branch": "master_shopee",
+  "commitId": "32ca4f0eda214b08ae65c3aace5485503c98581e",
+  "moduleCommitId": "32ca4f0eda214b08ae65c3aace5485503c98581e",
+  "lastMessage": "Add SystemLibrary WhiteList",
+  "extraInfo": "pods",
+  "groupId": "com.getkeepsafe.relinker",
+  "artifactId": "relinker",
+  "path": ":relinker",
+  "remoteUrl": "https://github.com/KeepSafe/ReLinker.git"
+}

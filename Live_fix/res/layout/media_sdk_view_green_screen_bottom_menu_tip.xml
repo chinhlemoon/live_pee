@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fly_left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+        <FrameLayout android:id="@id/fl_manual_cut" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:layout_gravity="center" android:id="@id/v_manual_cut_color" android:background="@color/media_sdk_green_22B50B" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+            <View android:layout_gravity="center" android:background="@drawable/media_sdk_ic_manual_cut" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+        </FrameLayout>
+        <View android:layout_gravity="center" android:id="@id/v_menu_ai_cut" android:background="@drawable/media_sdk_ic_ai_cut" android:visibility="invisible" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+    </FrameLayout>
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_tip_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_toRightOf="@id/fly_left_icon" app:autoSizeMaxTextSize="14.0dip" app:autoSizeMinTextSize="4.0dip" app:autoSizeTextType="uniform" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="12.0dip" android:textColor="#8fffffff" android:ellipsize="end" android:id="@id/tv_tip_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_toRightOf="@id/fly_left_icon" android:layout_below="@id/tv_tip_title" app:autoSizeMaxTextSize="12.0dip" app:autoSizeMinTextSize="4.0dip" app:autoSizeTextType="uniform" />
+</RelativeLayout>

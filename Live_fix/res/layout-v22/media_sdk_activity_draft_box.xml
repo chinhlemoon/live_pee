@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/media_sdk_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.shopee.sz.mediasdk.ui.view.edit.MediaPickMediaEditView android:id="@id/media_sdk_edit_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/lyt_error_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lyt_resource_delete" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="200.0dip" android:layout_height="120.0dip" android:src="@drawable/media_sdk_draft_box_resource_delete" android:scaleType="fitXY" />
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="#66ffffff" android:gravity="center" android:id="@id/tv_resource_delete_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="48.0dip" android:layout_marginHorizontal="48.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lyt_network_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="200.0dip" android:layout_height="200.0dip" android:src="@drawable/media_sdk_ic_network_error" android:scaleType="fitXY" />
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="16.0dip" android:textColor="@color/media_sdk_white_85" android:gravity="center" android:id="@id/tv_error_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:layout_marginHorizontal="48.0dip" />
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="#66ffffff" android:gravity="center" android:id="@id/tv_error_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="48.0dip" android:layout_marginHorizontal="48.0dip" />
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_retry" android:background="@drawable/media_sdk_next_btn_selector" android:layout_width="160.0dip" android:layout_height="36.0dip" android:layout_marginTop="24.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:id="@id/middle_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <com.shopee.sz.mediasdk.ui.view.edit.MediaPickEditToolView android:id="@id/edit_error_top_tool" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

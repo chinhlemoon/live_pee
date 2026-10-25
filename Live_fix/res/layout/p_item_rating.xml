@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/p_view_touchable_bg" android:paddingLeft="@dimen/com_garena_beepay_margin_normal" android:paddingTop="@dimen/com_garena_beepay_margin_xx_small" android:paddingRight="@dimen/com_garena_beepay_margin_normal" android:paddingBottom="@dimen/com_garena_beepay_margin_xx_small" android:layout_width="fill_parent" android:layout_height="@dimen/com_garena_beepay_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/com_garena_beepay_text_size_large" android:textColor="@color/p_txt_color_dark" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/com_garena_beepay_label_rate_this" android:layout_weight="1.0" />
+    <com.airpay.common.widget.BPRatingBar android:id="@id/com_garena_beepay_rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/com_garena_beepay_margin_xx_small" android:layout_marginRight="@dimen/com_garena_beepay_margin_xx_small" app:p_is_indicator="true" app:p_star_size="small" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/p_icon_arrow_right" />
+</LinearLayout>

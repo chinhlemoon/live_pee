@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="center" android:id="@id/error_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/media_sdk_sticker_picker_dialog_error" />
+    <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:layout_gravity="center" android:id="@id/loading_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:media_enable_tip="true" />
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+</FrameLayout>

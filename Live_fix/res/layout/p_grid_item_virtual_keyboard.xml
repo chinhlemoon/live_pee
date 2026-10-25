@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:textColor="#de000000" android:gravity="center" android:id="@id/btn_keys" android:background="@drawable/p_selector_gird_item" android:layout_width="fill_parent" android:layout_height="62.0dip" android:includeFontPadding="false" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/imgDelete" android:background="@drawable/p_selector_gird_item" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_centerInParent="true">
+        <ImageView android:layout_width="23.0dip" android:layout_height="17.0dip" android:src="@drawable/p_ic_keyboard_delete" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$sp_biometric_auth_avd_fingerprint_shake_60__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="group" android:animation="@drawable/$sp_biometric_auth_avd_fingerprint_shake_60__1" />
+    <target android:name="path" android:animation="@drawable/$sp_biometric_auth_avd_fingerprint_shake_60__2" />
+</animated-vector>

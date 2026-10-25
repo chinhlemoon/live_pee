@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112.0dip" android:src="@drawable/no_network_connection" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/black87" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_no_internet_connection" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:text="@string/text_how_to_connect_to_network" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="12.0dip" android:text="@string/text_how_to_connect_to_network_desc1" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:text="@string/text_how_to_connect_to_network_desc2" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:text="@string/text_how_to_connect_to_network_desc3" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/black65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:text="@string/text_how_to_connect_to_network_desc4" />
+</LinearLayout>

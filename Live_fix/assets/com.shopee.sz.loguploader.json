@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-03-19 20:50:39.444",
+  "version": "1.184.2",
+  "branch": "v3.22-new",
+  "commitId": "fe5cc59880d6360cba8ec85d61bb6008b4a6e0d1",
+  "moduleCommitId": "2e4a3458accc78ef146128540607fb015e3bf41b",
+  "lastMessage": "Merge branch \u0027ssh/3.22/fix-sdktype-report\u0027 into \u0027v3.22-new\u0027",
+  "extraInfo": "v3.22-new",
+  "groupId": "com.shopee.sz",
+  "artifactId": "loguploader",
+  "path": ":log-uploader",
+  "remoteUrl": "gitlab@git.garena.com:shopee/live-tech/coreplayersdk/MMCLiveStreamer.git"
+}

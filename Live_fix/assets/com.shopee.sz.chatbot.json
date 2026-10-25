@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-07-01 17:34:13.799",
+  "version": "0.2.47",
+  "branch": "master",
+  "commitId": "b135043270675fa63506ecea579e7fc704e4199c",
+  "moduleCommitId": "e89f53d68b5e197bfd11aeec232963e937e91c72",
+  "lastMessage": "[SPMS-33082]feat: 增加相册关闭和导出进度的回调接口，并支持配置阻塞式导出",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "chatbot",
+  "path": ":chatbot",
+  "remoteUrl": "https://git.garena.com/shopee/ssz-client/android/toc/features.git"
+}

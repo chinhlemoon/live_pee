@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="88.0dip" android:layout_height="108.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.shopee.feeds.mediapick.ui.view.RoundedImageView android:id="@id/iv_sample" android:layout_width="80.0dip" android:layout_height="100.0dip" android:src="@drawable/feed_media_pick_human_load" android:scaleType="centerCrop" android:adjustViewBounds="true" app:riv_corner_radius="4.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_play_symbol" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="28.0dip" android:src="@drawable/feed_media_pick_play_symbol" android:scaleType="centerCrop" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/rl_black_background" android:background="@drawable/feed_media_pick_round_sample_black" android:layout_width="fill_parent" android:layout_height="24.0dip">
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_view_sample" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rating_view_sample" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/iv_remove_icon" android:visibility="visible" android:layout_width="16.0dip" android:layout_height="wrap_content" android:src="@drawable/feed_media_pick_remove_icon" android:scaleType="centerCrop" />
+</FrameLayout>

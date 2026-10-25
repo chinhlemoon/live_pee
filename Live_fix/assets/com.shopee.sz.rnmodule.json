@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "release",
+  "time": "2022-02-14 15:01:05.677",
+  "version": "0.1.0",
+  "branch": "master",
+  "commitId": "27d9d38f46adf56f495619345a8f8e940cd07dfe",
+  "moduleCommitId": "dc769e6d17a93d4743f5be5210003c9a4811f2b0",
+  "lastMessage": "优化混淆配置",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "rnmodule",
+  "path": ":rnmodule",
+  "remoteUrl": "ssh://gitlab@git.garena.com:2222/shopee/ssz-client/android/toc/common.git"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/lyt_network_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="#8affffff" android:gravity="center" android:id="@id/tv_network_error_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:layout_marginTop="34.0dip" android:layout_marginRight="58.0dip" android:maxLines="3" android:layout_marginHorizontal="58.0dip" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="#8affffff" android:gravity="center" android:id="@id/btn_retry" android:background="@drawable/media_sdk_bg_arttext_retry" android:layout_width="160.0dip" android:layout_height="33.0dip" android:layout_marginTop="20.0dip" android:maxLines="1" android:layout_below="@id/tv_network_error_tip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:layout_gravity="center" android:id="@id/loading_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:media_enable_tip="true" />
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+</FrameLayout>

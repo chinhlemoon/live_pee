@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="90.0dip" android:layout_height="76.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_active_btn" android:background="@drawable/sp_chat_message_voucher_item_button_rect_1" android:focusable="true" android:clickable="true" android:layout_width="55.0dip" android:layout_height="24.0dip" android:text="@string/sp_voucher_claim" android:maxLines="1" android:singleLine="true" app:autoSizeMinTextSize="8.0sp" style="@style/RobotoRSmall" />
+    <FrameLayout android:id="@id/fl_use_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_stamp_claimed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.5dip" android:layout_marginTop="-18.0dip" android:src="@drawable/sp_chat_message_voucher_stamp_claimed" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="#ffee4d2d" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_use_btn" android:background="@drawable/sp_chat_message_voucher_item_button_rect_2" android:layout_width="55.0dip" android:layout_height="24.0dip" android:text="@string/sp_chat_voucher_use" android:maxLines="1" android:singleLine="true" app:autoSizeMinTextSize="8.0sp" style="@style/RobotoRSmall" />
+    </FrameLayout>
+    <ImageView android:textColor="#ffee4d2d" android:gravity="center" android:layout_gravity="center" android:id="@id/iv_loading" android:background="@drawable/sp_chat_message_voucher_item_button_rect_1" android:padding="3.0dip" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="24.0dip" android:src="@drawable/sp_chat_message_loading_dots" android:tint="@color/white" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_stamp" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/sp_chat_message_voucher_stamp_redeemed" />
+</FrameLayout>

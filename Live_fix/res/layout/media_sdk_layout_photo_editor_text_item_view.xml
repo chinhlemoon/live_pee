@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.shopee.sz.mediasdk.effecttext.widget.EffectTextEditText android:enabled="false" android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_text" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_url_domain_live_ir" android:cursorVisible="false" android:includeFontPadding="false" android:layout_centerInParent="true" android:textIsSelectable="false" app:robotoTypeface="roboto_bold" />
+</RelativeLayout>

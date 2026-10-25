@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/media_sdk_ic_photo_editor_text_highlight_unchecked" android:maxLevel="0" />
+    <item android:drawable="@drawable/media_sdk_ic_photo_editor_text_highlight_checked" android:maxLevel="1" />
+    <item android:drawable="@drawable/media_sdk_ic_photo_editor_text_stroke" android:maxLevel="2" />
+    <item android:drawable="@drawable/media_sdk_ic_photo_editor_text_translucent_highlight" android:maxLevel="3" />
+    <item android:drawable="@drawable/media_sdk_ic_photo_editor_text_rounded_highlight" android:maxLevel="4" />
+    <item android:drawable="@drawable/media_sdk_ic_photo_editor_text_regular" android:maxLevel="5" />
+</level-list>

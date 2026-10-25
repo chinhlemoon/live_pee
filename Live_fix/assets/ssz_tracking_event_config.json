@@ -1,0 +1,38 @@
+{
+  "db_event_table_max_records": 1800,
+  "db_event_table_remain_records": 1700,
+  "network_request_timeout": 30,
+  "send_interval": 30,
+  "send_limit_size": 80,
+  "config_update_interval": 600,
+  "ws_event_config": {
+    "host": {
+      "report_type": 0,
+      "custom_report_msg_types": []
+    },
+    "viewer": {
+      "report_type": 0,
+      "custom_report_msg_types": []
+    }
+  },
+  "api_event_need_to_report_response": [
+  ],
+
+  "should_report_performance_event": false,
+  "performance_event_detect_interval": 60,
+
+  "low_fps": 4,
+  "low_fps_report_interval": 10,
+  "black_screen_detect_time_for_connect": 10,
+  "black_screen_detect_time_for_first_frame": 10,
+  "sei_timestamp_send_interval_base_on_netstatus_count": 15,
+  "sei_timestamp_send_interval_base_on_netstatus_count_new": 0,
+  "sz_viewer_heartbeat_interval": 30,
+  "sg_viewer_heartbeat_interval": 5,
+  "live_play_warning_reconnect_detect_max_times": 5,
+  "live_play_warning_reconnect_detect_interval": 60,
+  "low_fps_new": {
+    "i": 4,
+    "a": 4
+  }
+}

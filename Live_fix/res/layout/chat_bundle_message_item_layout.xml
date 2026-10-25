@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black87" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:text="@string/sp_chat_history" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" style="@style/RobotoMLarge" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black65" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_preview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="4" style="@style/RobotoRNormal" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_loading" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+    </FrameLayout>
+    <com.shopee.app.ui.chat2.subview.ChatTimeAndStatusView android:gravity="end" android:id="@id/time_and_status_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="10.0dip" />
+    <View android:background="@color/black09" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary" android:gravity="center_horizontal" android:id="@id/tv_see_all_history" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sp_see_chat_history" style="@style/RobotoMNormal" />
+</merge>

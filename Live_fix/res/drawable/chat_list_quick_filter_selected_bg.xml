@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/selected_quick_filter_tick" />
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/colorPrimary" />
+            <stroke android:width="0.049999952dip" android:color="#ffd2d2d2" />
+            <corners android:topLeftRadius="10.0dip" android:topRightRadius="10.0dip" android:bottomLeftRadius="10.0dip" android:bottomRightRadius="10.0dip" />
+        </shape>
+    </item>
+    <item android:left="100.0dip" android:top="-300.0dip" android:right="-100.0dip" android:bottom="410.0dip">
+        <shape android:shape="oval"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#ffffffff" />
+        </shape>
+    </item>
+</layer-list>

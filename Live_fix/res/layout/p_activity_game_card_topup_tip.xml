@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/com_garena_beepay_topup_tip_webview_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="@drawable/p_section_item_separator_dark" android:layout_width="wrap_content" android:layout_height="0.5dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/com_garena_beepay_txt_color_grey" android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/com_garena_beepay_txt_disclaimer" android:background="@color/com_garena_beepay_field_bg_light_grey" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.25" />
+</LinearLayout>

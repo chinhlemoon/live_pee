@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/com_garena_beepay_popup_bg" android:paddingLeft="@dimen/com_garena_beepay_popup_horizontal_outer_margin" android:paddingRight="@dimen/com_garena_beepay_popup_horizontal_outer_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/p_view_popup_bg_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:id="@id/menuitem_title" android:paddingLeft="@dimen/com_garena_beepay_margin_lll_normal" android:paddingRight="@dimen/com_garena_beepay_margin_lll_normal" android:layout_width="fill_parent" android:text="@string/com_garena_beepay_label_options" android:singleLine="true" style="@style/com_garena_beepay_popup_menu_title_style" />
+        <View android:background="@color/com_garena_beepay_popup_divider_title" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <ListView android:id="@id/com_garena_beepay_menu_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/com_garena_beepay_popup_divider_menu" android:dividerHeight="0.5dip" />
+    </LinearLayout>
+</LinearLayout>

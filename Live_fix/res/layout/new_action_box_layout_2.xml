@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/action_required_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/action_bar_button_background" android:divider="@color/black06" android:dividerHeight="1.0dip" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progress_wheel" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminate="true" app:indicatorColor="@color/black26" />
+    <com.shopee.app.ui.common.AskLoginView_ android:id="@id/ask_login_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="@color/black26" android:gravity="center" android:layout_gravity="center" android:id="@id/emptyView" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sp_label_empty_action_required" android:drawableTop="@drawable/ic_notifolder_empty" android:drawablePadding="8.0dip" style="@style/RobotoR12" />
+</merge>

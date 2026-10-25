@@ -1,0 +1,866 @@
+{
+  "streaming_room_preview": {
+    "page_id": "",
+    "page_type": "streaming_room_preview",
+    "operation": "view",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_display": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "view",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_close_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "close_button"
+  },
+  "streaming_room_anchor_info_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "streamer_icon"
+  },
+  "streaming_room_follow_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "follow_button"
+  },
+  "streaming_room_show_product_impression": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "display_window",
+    "target_type": "item"
+  },
+  "streaming_room_show_product_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "display_window",
+    "target_type": "item"
+  },
+  "streaming_room_bottom_basket_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "item_basket"
+  },
+  "streaming_room_product_item_show": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "related_product_list",
+    "target_type": "item"
+  },
+  "streaming_room_product_item_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "related_product_list",
+    "target_type": "item"
+  },
+  "streaming_room_comment_bar_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "comment_bar"
+  },
+  "streaming_room_comment_send_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "send_comment"
+  },
+  "streaming_room_share_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "share"
+  },
+  "streaming_room_share_item_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "sharing_panel",
+    "target_type": "sharing_option"
+  },
+  "streaming_room_report_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "report_button"
+  },
+  "streaming_room_like_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "like"
+  },
+  "streaming_room_replay_display": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "view",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_replay_anchor_info_click": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "streamer_icon"
+  },
+  "streaming_room_replay_follow_click": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "follow_button"
+  },
+  "streaming_room_replay_item_basket_click": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "item_basket"
+  },
+  "streaming_room_replay_product_item_display": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "impression",
+    "page_section": "related_product_list",
+    "target_type": "item"
+  },
+  "streaming_room_replay_product_item_click": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "click",
+    "page_section": "related_product_list",
+    "target_type": "item"
+  },
+  "streaming_room_replay_share_click": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "share"
+  },
+  "streaming_room_replay_share_item_click": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "click",
+    "page_section": "sharing_panel",
+    "target_type": "sharing_option"
+  },
+  "streaming_room_float_window_start": {
+    "page_id": "",
+    "page_type": "",
+    "operation": "action_streaming_floating_start",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_float_window_close": {
+    "page_id": "",
+    "page_type": "",
+    "operation": "action_streaming_floating_close",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_app_went_background": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "action_app_went_background",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_app_come_foreground": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "action_app_come_foreground",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_action_exit_streaming": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "action_exit_streaming",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_ad_spot_impression": {
+    "no.": 31,
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "ad_spot"
+  },
+  "streaming_room_ad_spot_click": {
+    "no.": 32,
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "ad_spot"
+  },
+  "streaming_room_clear_mode_click": {
+    "no.": 33,
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "clear_mode"
+  },
+  "streaming_room_voucher_impression": {
+    "no.": 34,
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "voucher"
+  },
+  "streaming_room_show_voucher_click": {
+    "no.": 35,
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "show_voucher"
+  },
+  "streaming_room_voucher_click": {
+    "no.": 36,
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "voucher"
+  },
+  "streaming_room_voucher_action_voucher_claim_status": {
+    "no.": 37,
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "action_voucher_claim_status",
+    "page_section": "",
+    "target_type": "voucher"
+  },
+  "streamer_streaming_room_voucher_entrance_click": {
+    "no.": 38,
+    "page_id": "",
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "voucher_entrance"
+  },
+  "streamer_streaming_room_voucher_impression": {
+    "no.": 39,
+    "page_id": "",
+    "page_type": "streamer_streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "voucher"
+  },
+  "streamer_streaming_room_voucher_click": {
+    "no.": 40,
+    "page_id": "",
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "voucher"
+  },
+  "streamer_streaming_room_remove_voucher_click": {
+    "no.": 41,
+    "page_id": "",
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "remove_voucher"
+  },
+  "streaming_room_switch_to_horizontal_button_impression": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "switch_to_horizontal_button"
+  },
+  "streaming_room_switch_to_horizontal_button_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "switch_to_horizontal_button"
+  },
+  "streaming_room_action_enter_horizontal_view": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "action_enter_horizontal_view",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_action_exit_horizontal_view": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "action_exit_horizontal_view",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_switch_back_vertical_button_impression": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "switch_back_vertical_button"
+  },
+  "streaming_room_switch_back_vertical_button_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "switch_back_vertical_button"
+  },
+  "streaming_room_replay_switch_to_horizontal_button_impression": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "switch_to_horizontal_button"
+  },
+  "streaming_room_replay_switch_to_horizontal_button_click": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "switch_to_horizontal_button"
+  },
+  "streaming_room_replay_action_enter_horizontal_view": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "action_enter_horizontal_view",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_replay_action_exit_horizontal_view": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "action_exit_horizontal_view",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_replay_switch_back_vertical_button_impression": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "switch_back_vertical_button"
+  },
+  "streaming_room_replay_switch_back_vertical_button_click": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "switch_back_vertical_button"
+  },
+  "streaming_room_exit_clean_mode_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "exit_clean_mode"
+  },
+  "streaming_room_clean_mode_button_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "clean_mode_button"
+  },
+  "streaming_room_audience_check_in_coin_impression": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "reward_coin"
+  },
+  "streaming_room_audience_check_in_coin_claim_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "coin_claim_button"
+  },
+  "streaming_room_audience_check_in_coin_login_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "login_to_claim"
+  },
+  "streaming_room_add_to_cart_button_click": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "related_product_list",
+    "target_type": "add_to_cart_button"
+  },
+  "streaming_room_replay_add_to_cart_button_click": {
+    "page_id": "",
+    "page_type": "streaming_room_replay",
+    "operation": "click",
+    "page_section": "related_product_list",
+    "target_type": "add_to_cart_button"
+  },
+  "streaming_room_action_scroll": {
+    "page_id": "",
+    "page_type": "streaming_room",
+    "operation": "action_scroll",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_video_quality_button_click": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "video_quality_button"
+  },
+  "streaming_room_quality_variation_click": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "video_quality_panel",
+    "target_type": "quality_variation"
+  },
+  "streaming_room_action_quality_change": {
+    "page_type": "streaming_room",
+    "operation": "action_quality_change",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streamer_streaming_room_action_quality_change": {
+    "page_type": "streamer_streaming_room",
+    "operation": "action_quality_change",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_retry_button_click": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "video_quality_panel",
+    "target_type": "retry_button"
+  },
+  "streaming_room_retry_button_impression": {
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "video_quality_panel",
+    "target_type": "retry_button"
+  },
+  "streaming_room_cmt_instant_atc_item_impression": {
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "cmt_instant_atc",
+    "target_type": "item"
+  },
+  "streaming_room_cmt_instant_atc_click": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "cmt_instant_atc",
+    "target_type": "add_to_cart_button"
+  },
+  "streaming_room_action_instant_add_to_cart_success": {
+    "page_type": "streaming_room",
+    "operation": "action_instant_add_to_cart_success",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_title_click": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "title"
+  },
+  "streamer_streaming_room_title_click": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "title"
+  },
+  "streamer_streaming_preview_view": {
+    "page_type": "streamer_streaming_preview",
+    "operation": "view"
+  },
+  "streamer_streaming_preview_click_go_live": {
+    "page_type": "streamer_streaming_preview",
+    "operation": "click",
+    "target_type": "go_live"
+  },
+  "streamer_streaming_preview_click_voucher_manage_button": {
+    "page_type": "streamer_streaming_preview",
+    "operation": "click",
+    "page_section": "related_product_list",
+    "target_type": "voucher_manage_button"
+  },
+  "streamer_streaming_room_view": {
+    "page_type": "streamer_streaming_room",
+    "operation": "view"
+  },
+  "streamer_streaming_room_click_voucher_manage_button": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "related_product_list",
+    "target_type": "voucher_manage_button"
+  },
+  "streamer_voucher_manage_view": {
+    "page_type": "streamer_voucher_manage",
+    "operation": "view"
+  },
+  "streamer_voucher_manage_click_done_button": {
+    "page_type": "streamer_voucher_manage",
+    "operation": "click",
+    "target_type": "done_button"
+  },
+  "streamer_streaming_room_click_add_product_button": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "related_product_list",
+    "target_type": "add_product_button"
+  },
+  "streamer_streaming_room_click_item_basket": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "related_product_list",
+    "target_type": "item_basket"
+  },
+  "streaming_room_impression_voucher": {
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "related_product_list",
+    "target_type": "voucher"
+  },
+  "streaming_room_action_voucher_claim_status": {
+    "page_type": "streaming_room",
+    "operation": "action_voucher_claim_status",
+    "page_section": "related_product_list",
+    "target_type": "voucher"
+  },
+  "streamer_streaming_room_impression_pin_comment": {
+    "page_type": "streamer_streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "pin_comment"
+  },
+  "streamer_streaming_room_click_pin_comment": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "pin_comment"
+  },
+  "streamer_streaming_room_impression_unpin_comment": {
+    "page_type": "streamer_streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "unpin_comment"
+  },
+  "streamer_streaming_room_click_unpin_comment": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "unpin_comment"
+  },
+  "streamer_streaming_room_impression_disallow_comment": {
+    "page_type": "streamer_streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "disallow_comment"
+  },
+  "streamer_streaming_room_click_disallow_comment": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "disallow_comment"
+  },
+  "streamer_streaming_room_impression_allow_comment": {
+    "page_type": "streamer_streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "allow_comment"
+  },
+  "streamer_streaming_room_click_allow_comment": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "allow_comment"
+  },
+  "streamer_streaming_room_click_see_more": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "see_more"
+  },
+  "streamer_streaming_room_impression_see_more": {
+    "page_type": "streamer_streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "see_more"
+  },
+  "streamer_streaming_room_click_see_less": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "see_less"
+  },
+  "streamer_streaming_room_impression_see_less": {
+    "page_type": "streamer_streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "see_less"
+  },
+  "streaming_room_click_see_more": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "see_more"
+  },
+  "streaming_room_impression_see_more": {
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "see_more"
+  },
+  "streaming_room_click_see_less": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "see_less"
+  },
+  "streaming_room_impression_see_less": {
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "see_less"
+  },
+  "streaming_room_replay_impression_item_basket": {
+    "page_type": "streaming_room_replay",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "item_basket"
+  },
+  "streamer_streaming_room_impression_pin_comment_close": {
+    "page_type": "streamer_streaming_room",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "pin_comment_close"
+  },
+  "streamer_streaming_room_click_pin_comment_close": {
+    "page_type": "streamer_streaming_room",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "pin_comment_close"
+  },
+  "streaming_room_related_product_list_action_voucher_claim_status": {
+    "page_type": "streaming_room",
+    "operation": "action_voucher_claim_status",
+    "page_section": "related_product_list",
+    "target_type": "voucher"
+  },
+  "streaming_room_push_preview_view": {
+    "page_id": "",
+    "page_type": "streaming_room_push_preview",
+    "operation": "view",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_push_live_view": {
+    "page_id": "",
+    "page_type": "streaming_room_push_live",
+    "operation": "view",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_push_network_disconnect_dialog_impression": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "network_disconnect_dialog"
+  },
+  "streaming_room_push_network_disconnect_dialog_cancel_btn_click": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "click",
+    "page_section": "network_disconnect_dialog",
+    "target_type": "cancel_btn"
+  },
+  "streaming_room_push_network_disconnect_dialog_retry_btn_click": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "click",
+    "page_section": "network_disconnect_dialog",
+    "target_type": "retry_btn"
+  },
+  "streaming_room_push_weak_network_alert_impression": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "weak_network_alert"
+  },
+  "streaming_room_push_go_live_btn_click": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "go_live_btn"
+  },
+  "streaming_room_push_action_go_live_success": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "action_go_live_success",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_push_action_go_live_fail": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "action_go_live_fail",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_push_violation_alert_impression": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "violation_alert"
+  },
+  "streaming_room_push_action_receive_violation_end": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "action_receive_violation_end",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_push_close_streaming_btn_click": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "click",
+    "page_section": "",
+    "target_type": "close_streaming_btn"
+  },
+  "streaming_room_push_quit_live_confirm_impression": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "impression",
+    "page_section": "",
+    "target_type": "quit_live_confirm"
+  },
+  "streaming_room_push_quit_live_confirm_cancel_btn_click": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "click",
+    "page_section": "quit_live_confirm",
+    "target_type": "cancel_btn"
+  },
+  "streaming_room_push_quit_live_confirm_confirm_btn_click": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "click",
+    "page_section": "quit_live_confirm",
+    "target_type": "confirm_btn"
+  },
+  "streaming_room_push_action_end_live_success": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "action_end_live_success",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_push_action_end_live_fail": {
+    "page_id": "",
+    "page_type": "streaming_room_push",
+    "operation": "action_end_live_fail",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_no_internet_alert_impression": {
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "target_type": "no_internet_alert"
+  },
+  "streaming_room_no_internet_alert_cancel_btn_click": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "no_internet_alert",
+    "target_type": "cancel_btn"
+  },
+  "streaming_room_no_internet_alert_retry_btn_click": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "no_internet_alert",
+    "target_type": "retry_btn"
+  },
+  "streaming_room_video_stream_interrupt_alert_impression": {
+    "page_type": "streaming_room",
+    "operation": "impression",
+    "target_type": "video_stream_interrupt_alert"
+  },
+  "streaming_room_video_stream_interrupt_alert_retry_btn_click": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "video_stream_interrupt_alert",
+    "target_type": "retry_btn"
+  },
+  "streaming_room_video_stream_interrupt_alert_cancel_btn_click": {
+    "page_type": "streaming_room",
+    "operation": "click",
+    "page_section": "video_stream_interrupt_alert",
+    "target_type": "cancel_btn"
+  },
+  "streaming_room_push_action_live_details": {
+    "page_type": "streaming_room_push",
+    "operation": "action_live_details",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_action_live_details": {
+    "page_type": "streaming_room",
+    "operation": "action_live_details",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_action_ls_show": {
+    "page_type": "streaming_room",
+    "operation": "action_ls_show",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_action_ls_play": {
+    "page_type": "streaming_room",
+    "operation": "action_ls_play",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_replay_action_ls_play": {
+    "page_type": "streaming_room_replay",
+    "operation": "action_ls_show",
+    "page_section": "",
+    "target_type": ""
+  },
+  "streaming_room_replay_action_ls_show": {
+    "page_type": "streaming_room_replay",
+    "operation": "action_ls_play",
+    "page_section": "",
+    "target_type": ""
+  }
+}

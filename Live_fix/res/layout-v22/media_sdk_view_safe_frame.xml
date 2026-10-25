@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/v_top_mask" android:background="@drawable/media_sdk_ic_top_mask" android:layout_width="fill_parent" android:layout_height="140.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/v_bottom_mask" android:background="@drawable/media_sdk_ic_bottom_mask" android:layout_width="fill_parent" android:layout_height="290.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ll_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_back" android:padding="12.0dip" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/media_sdk_ic_back_arrow" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="18.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="191.0dip" android:text="Safe Frame" android:maxLines="1" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_safe_frame_info" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/media_sdk_ic_tip_info" android:layout_toRightOf="@id/tv_title" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_confirm" android:padding="12.0dip" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/media_sdk_ic_confirm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="24.0dip" android:layout_marginHorizontal="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <TextView android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/tv_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Safe Frame" />
+        <com.shopee.sz.mediauicomponent.widget.SSZMediaSwitchButton android:id="@id/switch_safe_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:checked="true" app:mediaSdkBackColor="@color/media_sdk_ksw_md_back_color" app:mediaSdkThumbColor="@color/white" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

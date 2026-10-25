@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="170.0dip" android:layout_height="110.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="170.0dip" android:layout_height="110.0dip" android:src="@drawable/sa_cl_status_bg" android:adjustViewBounds="true" />
+    <FrameLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip" android:paddingEnd="16.0dip">
+        <View android:id="@id/status_online_click_handle" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <View android:id="@id/status_hangup_click_handle" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="50.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/status_online" android:background="?selectableItemBackground" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/sp_label_online" android:singleLine="true" android:drawableLeft="@drawable/ic_online_status" android:drawableRight="@drawable/ic_status_tick" android:drawablePadding="10.0dip" style="@style/RobotoRNormal" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/status_hangup" android:background="?selectableItemBackground" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="50.0dip" android:text="@string/sp_label_hangup" android:singleLine="true" android:drawableLeft="@drawable/ic_hangup_status" android:drawablePadding="10.0dip" style="@style/RobotoRNormal" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-05-29 17:25:58.277",
+  "version": "1.13.1",
+  "branch": "master",
+  "commitId": "464d38b03e321206895ec011f88690602850a07b",
+  "moduleCommitId": "464d38b03e321206895ec011f88690602850a07b",
+  "lastMessage": "[3.28][update][SPLS-36681] 加载字体异步化",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "szwidget",
+  "path": ":szwidget",
+  "remoteUrl": "ssh://gitlab@git.garena.com:2222/shopee/ssz-client/android/toc/common.git"
+}

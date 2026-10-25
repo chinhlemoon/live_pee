@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/sp_black_40" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="40.0dip" android:paddingEnd="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/loaderFrame" android:background="@drawable/sp_rounded_white_4dp" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="300.0dip">
+        <com.shopee.design.loading.SPLoaderDots android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:textColor="@color/sp_black_87" android:gravity="center" android:id="@id/tvLoaderTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+        <TextView android:textColor="@color/sp_black_65" android:gravity="center" android:id="@id/tvLoaderDescription" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

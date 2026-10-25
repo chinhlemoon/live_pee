@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/p_ic_g_notification_neutral_24" android:id="@id/action_search" android:title="notificaiton" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/p_ic_g_scan_primary_24" android:id="@id/action_scan" android:title="scan" app:showAsAction="ifRoom" />
+</menu>

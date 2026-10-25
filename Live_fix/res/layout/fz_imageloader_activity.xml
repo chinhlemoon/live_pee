@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/image" android:background="#ff757575" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+        <TextView android:textAppearance="?textAppearanceSubtitle1" android:textColor="#aacc0000" android:id="@id/imageLink" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?textAppearanceSubtitle2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="Load image from URL" />
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Image URL" app:endIconDrawable="@drawable/com_garena_shopee_ic_close" app:endIconMode="clear_text" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/edtUrl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textUri" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:textAppearance="?textAppearanceSubtitle2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="Load image from image ID" />
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Image ID" app:endIconDrawable="@drawable/com_garena_shopee_ic_close" app:endIconMode="clear_text" app:helperText="Example: 184ae21720024d12470636fd1f497a22" app:helperTextEnabled="true" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/edtImageId" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textUri" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Biz ID" app:endIconDrawable="@drawable/com_garena_shopee_ic_close" app:endIconMode="clear_text" app:helperText="Example: 4234, 4227" app:helperTextEnabled="true" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/edtBizId" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="MMS suffix (optional)" app:endIconDrawable="@drawable/com_garena_shopee_ic_close" app:endIconMode="clear_text" app:helperText="Example: @blur_s25" app:helperTextEnabled="true" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/edtSuffix" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:textAppearance="?textAppearanceSubtitle2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="Image options" />
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Optimal W in pixels (optional)" app:endIconDrawable="@drawable/com_garena_shopee_ic_close" app:endIconMode="clear_text" app:helperText="Example: 30" app:helperTextEnabled="true" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/edtOptimalW" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Optimal H in pixels (optional)" app:endIconDrawable="@drawable/com_garena_shopee_ic_close" app:endIconMode="clear_text" app:helperText="Example: 30" app:helperTextEnabled="true" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/edtOptimalH" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.switchmaterial.SwitchMaterial android:gravity="center_vertical" android:id="@id/cbSkipRescale" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="Skip image rescaling" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/edtBaseContextLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Base Context ID (optional)" app:endIconDrawable="@drawable/com_garena_shopee_ic_search" app:endIconMode="custom" app:helperText="" app:helperTextEnabled="true" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/edtBaseContext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textUri" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/edtRNPageModuleLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="RN module name (optional)" app:endIconDrawable="@drawable/com_garena_shopee_ic_search" app:endIconMode="custom" app:helperText="" app:helperTextEnabled="true" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/edtRNPageModule" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textUri" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton android:id="@id/btnLoad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Load" />
+        <com.google.android.material.button.MaterialButton android:id="@id/btnClearMemCache" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Clear memory cache" />
+        <com.google.android.material.button.MaterialButton android:id="@id/btnClearDiskCache" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Clear disk cache" />
+    </LinearLayout>
+</ScrollView>

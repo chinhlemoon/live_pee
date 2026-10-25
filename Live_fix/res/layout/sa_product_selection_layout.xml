@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:divider="@null" android:layout_above="@id/sendLinkPanel" />
+    <RelativeLayout android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/sendLinkPanel">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black26" android:gravity="center" android:id="@id/emptyViewText" android:paddingTop="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sp_no_product_yet" android:layout_centerInParent="true" style="@style/RobotoRSmall" />
+        <ImageView android:id="@id/circleIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_no_product" android:layout_above="@id/emptyViewText" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/sendLinkPanel" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/white" android:id="@id/sendLinkBtn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" style="@style/RobotoRLarge" />
+    </RelativeLayout>
+</merge>

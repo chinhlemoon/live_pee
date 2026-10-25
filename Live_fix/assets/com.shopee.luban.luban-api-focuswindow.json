@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "beta",
+  "time": "2024-07-05 09:36:55.412",
+  "version": "0.0.369-v3.30-0e98407-beta",
+  "branch": "v3.30",
+  "commitId": "0e9840724b7dfe345f20aee1c1e2b2d35265c903",
+  "moduleCommitId": "60f465d909c1959080f2ab0f3b69836f37aaadf0",
+  "lastMessage": "Merge branch \u0027zhiting/bugfix/skip_redundant_pause2\u0027 into \u0027v3.30\u0027",
+  "extraInfo": "pods",
+  "groupId": "com.shopee.luban",
+  "artifactId": "luban-api-focuswindow",
+  "path": ":api-focuswindow",
+  "remoteUrl": "gitlab@git.garena.com:shopee/android/AndroidAPM/luban.git"
+}

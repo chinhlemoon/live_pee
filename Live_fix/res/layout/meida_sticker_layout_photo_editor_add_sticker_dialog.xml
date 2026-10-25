@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/media_sticker_editor_bg_magic_select" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_outbound" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/media_sticker_story_shape_image_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/list_stickers" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fail_tab" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <TextView android:textColor="@color/white_65" android:gravity="center_horizontal" android:id="@id/tv_network_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/media_sdk_magic_loading_failed" />
+                <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0sp" android:textColor="@color/white_65" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_retry" android:background="@drawable/media_sticker_retry_btn_selector" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="12.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_sdk_btn_retry" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

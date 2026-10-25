@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shopee.sz.mediasdk.trim.timelinetrim.timeline.widget.SSZTimelineAxisView android:id="@id/timeline_axis" android:background="@drawable/media_sdk_bg_timeline_trim" android:layout_width="fill_parent" android:layout_height="163.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/trim_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/media_sdk_ic_time_line_trim_delete" android:layout_marginEnd="4.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/tv_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_sdk_btn_name_delete" />
+    </LinearLayout>
+    <com.shopee.sz.mediasdk.trim.timelinetrim.timeline.widget.SSZHorizontalScrollView android:id="@id/timeline_scroll_view" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="54.0dip" android:overScrollMode="never" app:layout_constraintTop_toTopOf="parent">
+        <com.shopee.sz.mediasdk.trim.timelinetrim.layout.SSZTrimFrameLayout android:id="@id/timeline_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.shopee.sz.mediasdk.trim.timelinetrim.layout.SSZTrimFrameLayout android:id="@id/track_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.shopee.sz.mediasdk.trim.timelinetrim.layout.SSZTrimFrameLayout>
+    </com.shopee.sz.mediasdk.trim.timelinetrim.timeline.widget.SSZHorizontalScrollView>
+    <View android:background="@drawable/media_sdk_bg_timeline_trim_divide" android:layout_width="2.0dip" android:layout_height="76.0dip" app:layout_constraintBottom_toBottomOf="@id/timeline_scroll_view" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/timeline_scroll_view" />
+</com.shopee.sz.mediasdk.trim.timelinetrim.timeline.widget.SSZTimelineAxisView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/p_color_17000000" />
+        </shape>
+    </item>
+    <item android:top="@dimen/com_garena_beepay_border_width_thin_in_bg" android:bottom="@dimen/com_garena_beepay_border_width_thin_in_bg">
+        <shape>
+            <solid android:color="@color/p_color_F5F5F5" />
+        </shape>
+    </item>
+</layer-list>

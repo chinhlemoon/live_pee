@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "beta",
+  "time": "2024-06-28 22:05:25.749",
+  "version": "0.0.369-v3.30-a728707-beta",
+  "branch": "v3.30",
+  "commitId": "a72870772f7b80e7ab108d458180b9e49a84aa98",
+  "moduleCommitId": "ecaefa52cdc64642f620a66f6d60d28235e61ec7",
+  "lastMessage": "Merge branch \u0027hengna/feature/1009_sub_thread\u0027 into \u0027v3.30\u0027",
+  "extraInfo": "pods",
+  "groupId": "com.shopee.luban",
+  "artifactId": "luban-api-launch",
+  "path": ":api-launch",
+  "remoteUrl": "gitlab@git.garena.com:shopee/android/AndroidAPM/luban.git"
+}

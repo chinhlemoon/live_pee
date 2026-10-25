@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/video_frames_layout" android:layout_width="fill_parent" android:layout_height="74.0dip" android:layout_marginBottom="10.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/video_frames_recyclerView" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        <com.shopee.sz.mediasdk.trim.MediaTrimHighlightView android:layout_gravity="center_vertical" android:id="@id/trim_highlight_view" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="31.0dip" android:layout_marginRight="31.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_gravity="center_vertical" android:id="@id/view_one" android:background="@color/shadow_color" android:layout_width="20.0dip" android:layout_height="55.0dip" />
+            <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/seekBarLayout" android:layout_width="0.0dip" android:layout_height="74.0dip" android:layout_weight="1.0" />
+            <View android:layout_gravity="center_vertical" android:id="@id/view_two" android:background="@color/shadow_color" android:layout_width="20.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/video_frames_layout">
+        <RelativeLayout android:id="@id/lyt_br_menu" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/iv_br_btn" android:background="@drawable/mediasdk_ic_play_btn_selector" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="18.0dip" android:scaleType="fitXY" />
+        </RelativeLayout>
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="bottom" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="20.0s" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/grey_700" android:gravity="bottom" android:id="@id/tv_selected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="selected" android:layout_toLeftOf="@id/lyt_br_menu" android:layout_toRightOf="@id/tv_time" android:layout_alignBottom="@id/tv_time" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

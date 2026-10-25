@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingBottom="100.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_call_sdk_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Call SDK status:" />
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/et_channel_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="111111" android:hint="Channel ID" />
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/et_opposite_user_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1987" android:hint="Opposite User ID" />
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/et_opposite_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Carmy" android:hint="Opposite Username" />
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/et_call_biz_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="5" android:hint="Call Biz ID" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_start_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Start call" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_receive_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Receive call" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_end_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="End call" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_missed_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Missed call" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_log_window" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Show/hide log window" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_reset_cache" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Reset cache" />
+    <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_mock" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="Mocked" android:textOff="Real" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

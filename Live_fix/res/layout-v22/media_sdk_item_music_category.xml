@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/media_sdk_bg_music_category" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_cover" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/bs_ic_clear_light" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/media_sdk_deffffff" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="12.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:textSize="8.0dip" android:textColor="@color/media_sdk_white" android:gravity="center" android:id="@id/badge" android:background="@drawable/media_sdk_badge_music_category" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="10.0dip" android:layout_marginLeft="28.0dip" android:layout_marginTop="5.0dip" android:includeFontPadding="false" android:paddingHorizontal="3.0dip" />
+</FrameLayout>

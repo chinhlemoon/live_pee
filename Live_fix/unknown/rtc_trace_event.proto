@@ -1,0 +1,77 @@
+syntax = "proto2";
+
+option java_package = "com.shopee.sszrtc.proto";
+option java_outer_classname = "Trace";
+
+option go_package = "event";
+
+enum TraceType {
+  ClientEvent = 201;
+  SFUEvent = 202;
+  MCUEvent = 203;
+  SRSEvent = 204;
+  MTREvent = 205;
+}
+
+enum TraceKind {
+  Send = 1;
+  Recv = 2;
+}
+
+message ClientTraceEvent {
+  // clang-format off
+  required string event_type = 1;  //事件名称，客户端包含以下事件: Connect, SetRemoteDescription, SetLocalDescription, ICECandidate, DTLS, Join, Produce, CreateWebrtcTransport, ConnectWebrtcTransport, GetMediaCodecConfigs
+  // clang-format on
+  optional string room_id = 2;
+  optional uint32 ssrc = 3;
+  optional uint32 kind = 4;       //详见：Kind
+  optional string transport_id = 5;
+  optional string mime_type = 6;
+  optional string sdp_offer = 7;
+  optional string sdp_answer = 8;
+  optional string ice_candidate_pair = 9;
+  optional string ice_connection_state = 10;
+  optional string message = 11;   //备用字段，没有则为空
+  optional int32 join_state = 12;  //加入房间状态，12-15 4类状态类型，成功：0， 失败：1
+  optional int32 produce_state = 13;  //创建produce状态
+  optional int32 create_webrtc_transport = 14;    //创建webrtc transport状态
+  optional int32 connect_webrtc_transport = 15;   //连接webrtc transport状态
+}
+
+
+message SFUTraceEvent {
+  // clang-format off
+  required string event_type = 1; //事件名称，SFU 包含以下事件：CreatePipetransport, AddProducer, ConnectState, EndRoom
+  // clang-format on
+  optional string room_id = 2;
+  optional uint32 ssrc = 3;
+  optional uint32 kind = 4; //1:Audio, 2:Video
+  optional string mime_type = 5;
+  optional uint32 client_ssrc = 6;
+  optional uint32 rtx_ssrc = 7;
+  optional string uid = 8; //peer_id
+  optional string req_info = 9;  //request json
+  optional string resp_info = 10; //response json
+}
+
+
+enum MtrReplyType {
+  TTLExpired = 0;
+  Reply = 1;
+  NoReply = 2;
+  NoRoute = 3;
+}
+
+message MtrEvent {
+  required string event_type = 1; // 事件类型，mtr有Probe和Reply两种类型
+  optional uint64 start_ts = 2; // 开始mtr的毫秒时间戳，同一次mtr的事件拥有相同的start_ts
+  optional uint32 cycle = 3; // 同一次mtr中探测的序列号
+  optional uint32 ttl = 4; // 链路中节点的跳数
+  optional uint32 sn = 5; // 序列号
+  optional uint64 probe_time_out = 6; // 对于probe事件来说设置的超时时间点,单位us
+  optional string reply_dns_record = 7; // AS number
+  optional string reply_ip = 8; // reply 事件有对应的reply_ip
+  optional uint32 reply_rtt = 9; // 耗时，单位是微秒
+  optional MtrReplyType reply_type = 10; // reply 的类型
+  optional string room_id = 11; // 房间id
+}

@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "release",
+  "time": "2024-04-03 19:04:50.312",
+  "version": "0.1.0",
+  "branch": "version_3.24/main",
+  "commitId": "de91cdd37c7491d50f616b9e04c0fe461c442ba0",
+  "moduleCommitId": "0a7cb9cbae7d5a0956daafc648ced6e4e0ae6125",
+  "lastMessage": "Merge branch \u0027dss/3.24-migrate-imageurl\u0027 into \u0027version_3.24/main\u0027",
+  "extraInfo": "version_3.24/main",
+  "groupId": "com.shopee.sz",
+  "artifactId": "mmsimageurlrn",
+  "path": ":mmsimageurlrn",
+  "remoteUrl": "https://git.garena.com/shopee/mms/mms-client-sdk/android/mmsimageurlsdk.git"
+}

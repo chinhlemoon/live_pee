@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="12.0dip" android:width="13.0dip" android:viewportWidth="13.0" android:viewportHeight="12.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_star_fill__0" android:pathData="M6.5,9.938L3.265,11.721C3.046,11.842 2.784,11.657 2.824,11.41L3.446,7.611L0.801,4.907C0.63,4.732 0.728,4.438 0.97,4.401L4.612,3.846L6.228,0.412C6.336,0.182 6.663,0.182 6.771,0.412L8.387,3.846L12.03,4.401C12.271,4.438 12.37,4.732 12.199,4.907L9.554,7.611L10.175,11.41C10.216,11.657 9.954,11.842 9.734,11.721L6.5,9.938Z" android:fillType="evenOdd" />
+</vector>

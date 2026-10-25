@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/v_cover" android:background="@color/media_sdk_80000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.shopee.sz.mediasdk.bgm.trim.BGMVoiceCutView android:layout_gravity="bottom" android:id="@id/bgm_voice_cut_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="146.0dip" app:is_solid_background="true" />
+</FrameLayout>

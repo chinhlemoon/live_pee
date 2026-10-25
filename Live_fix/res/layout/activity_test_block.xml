@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/test_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Test Message" />
+    <Button android:id="@id/trigger_normal_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="触发一个普通的Block" />
+    <Button android:id="@id/trigger_idle_handler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="触发一个IdleHandler Block" />
+    <Button android:id="@id/trigger_touch_event" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="触发一个Touchevent Block" />
+</LinearLayout>

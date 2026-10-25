@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/shimmer_view_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="86.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/divide_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="4.0" app:layout_constraintBottom_toTopOf="@id/divide_guide" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:id="@id/image_first" android:background="@color/me_page_shimmer_divider" android:layout_width="57.0dip" android:layout_height="20.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:id="@id/image_second" android:background="@color/me_page_shimmer_divider" android:layout_width="57.0dip" android:layout_height="20.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:id="@id/image_third" android:background="@color/me_page_shimmer_divider" android:layout_width="57.0dip" android:layout_height="20.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:id="@id/image_fourth" android:background="@color/me_page_shimmer_divider" android:layout_width="57.0dip" android:layout_height="20.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/divide_guide">
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:id="@id/tv_first" android:background="@color/me_page_shimmer_divider" android:layout_width="57.0dip" android:layout_height="14.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:id="@id/tv_second" android:background="@color/me_page_shimmer_divider" android:layout_width="57.0dip" android:layout_height="14.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:id="@id/tv_third" android:background="@color/me_page_shimmer_divider" android:layout_width="57.0dip" android:layout_height="14.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:id="@id/tv_fourth" android:background="@color/me_page_shimmer_divider" android:layout_width="57.0dip" android:layout_height="14.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/card_content" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center" android:id="@id/product_image" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="21.0dip" android:layout_marginRight="4.0dip" android:scaleType="fitCenter" />
+        <ImageView android:layout_gravity="center" android:id="@id/adult_overlay_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="21.0dip" android:layout_marginRight="4.0dip" android:scaleType="fitCenter" />
+        <TextView android:textColor="#ffee4d2d" android:gravity="center_horizontal" android:id="@id/price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:lines="1" />
+        <com.shopee.app.ui.home.native_home.view.flashsales.FlashSaleProgressBar android:id="@id/progrss_bar" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="12.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/card_header" android:background="@drawable/ic_card_header" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:maxWidth="123.0dip" android:minWidth="82.0dip" android:includeFontPadding="false" android:textAlignment="center" style="@style/RobotoR14Bold" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/p_color_opaque_black_20" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:orientation="vertical" android:background="@drawable/p_bg_white_corner_10" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.airpay.common.widget.image.RoundedCornerImageView android:layout_gravity="center" android:id="@id/popup_img" android:layout_width="320.0dip" android:layout_height="240.0dip" android:scaleType="centerCrop" app:p_corner_radius="10.0dip" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="30.0dip" android:paddingRight="16.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="@color/p_text_dark_100" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:p_typeface="bold" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/p_text_dark_40" android:gravity="center" android:id="@id/tv_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.airpay.common.widget.dialog.BPAutoStackPopupActionSection android:orientation="horizontal" android:id="@id/com_garena_beepay_confirm_popup_btn_control_panel" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_marginTop="-10.0dip">
+            <TextView android:textSize="@dimen/p_txt_size_l_large" android:textColor="@color/p_txt_color_blue" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/p_bg_btn_popup_left_radius_8" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@color/p_border_color_normal" android:layout_width="@dimen/com_garena_beepay_border_width_thin" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/p_txt_size_l_large" android:textColor="@color/p_txt_color_blue" android:gravity="center" android:id="@id/btn_comfire" android:background="@drawable/p_bg_btn_popup_right_radius_8" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:p_typeface="bold" />
+        </com.airpay.common.widget.dialog.BPAutoStackPopupActionSection>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/flash_cell" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/zone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/flash_sale_header_background" android:layout_width="fill_parent" android:layout_height="44.0dip" android:scaleType="fitXY" />
+        <TextView android:ellipsize="end" android:id="@id/flash_header_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/label_flash_sale" android:layout_centerVertical="true" android:textAllCaps="true" style="@style/RobotoM16" />
+        <ImageView android:id="@id/flash_sale_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/ic_home_app_buy_flashsale_revamp" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_toEndOf="@id/flash_header_text" />
+        <com.shopee.app.ui.home.native_home.view.flashsales.FlashSaleCountDownWidget android:id="@id/countdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="9.0dip" android:layout_centerVertical="true" android:layout_toEndOf="@id/flash_sale_image" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/see_all_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/black54" android:id="@id/see_all_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_see_all_deals" android:singleLine="true" style="@style/RobotoR12" />
+            <ImageView android:layout_gravity="center" android:id="@id/see_all_image" android:layout_width="10.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:src="@drawable/ic_flash_sales_arrow" android:scaleType="fitXY" />
+        </LinearLayout>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/flash_sale_list" android:tag="flash_sale_item_cards_section" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Space android:layout_width="fill_parent" android:layout_height="@dimen/dp8" />
+</LinearLayout>

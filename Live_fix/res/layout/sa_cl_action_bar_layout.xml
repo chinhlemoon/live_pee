@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/home_btn" android:background="?selectableItemBackground" android:layout_width="44.0dip" android:layout_height="56.0dip" android:src="@drawable/com_garena_shopee_ic_back" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/header_container" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_marginStart="56.0dip" android:layout_marginEnd="56.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black87" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Shopagent - Timi" android:singleLine="true" style="@style/RobotoRLarge" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/status_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black87" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Online" android:singleLine="true" android:drawableLeft="@drawable/ic_online_status" android:drawablePadding="@dimen/dp8" style="@style/RobotoRSmall" />
+            <ImageView android:id="@id/status_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_down" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:layout_gravity="end" android:id="@id/action_button" android:background="?selectableItemBackground" android:layout_width="44.0dip" android:layout_height="56.0dip" android:src="@drawable/ic_contact" android:layout_centerVertical="true" />
+</merge>

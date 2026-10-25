@@ -1,0 +1,41 @@
+syntax = "proto2";
+
+package log_stream;
+option java_package = "com.shopee.sz.livelogreport";
+option java_outer_classname = "LiveLogReport";
+
+message LogList {
+  repeated LogStream streams = 1;
+  optional string report_timestamp = 2;  // 上报时间戳
+}
+
+message LogStream {
+  required string uid = 1;           // 用户ID
+  optional string device_id = 2;     // 设备ID
+  optional string device_model = 3;  // 设备类型，例如 “iPhone6 Plus”
+  optional uint32 os = 4;  // 操作系统  0：Android 1: iOS 2：PCWeb，3：BE
+  optional string os_version = 5;      // 系统版本号，例如 “10.3.1”
+  optional string client_version = 6;  // 客户端版本号，例如 “2.39”
+  optional string client_ip = 7;       // 客户端IP
+  optional uint32 network =
+      8;  // 网络类型  1: WI-FI；2：蜂窝; 3: 2G；4: 3G；5: 4G;
+  optional string country = 9;       // 地区，TW/ID/SG/VN/PH/MY/TH
+  optional string sdk_version = 10;  // 上报SDK版本
+  optional uint32 biz = 11;          // 业务id
+  optional string app_id = 12;       // app id
+  optional string data_source = 13;  // 上报源：RTC_SDK、SFU、MCU等等
+  repeated string logs = 14;         // 日志，json字符串，结构同Log
+}
+
+message Log {
+  optional string log_level = 1;      // 日志级别
+  optional string log_timestamp = 2;  // 打印日志的时间戳
+  optional string payload = 3;        // log 详情
+  optional string cmd = 4;
+  optional string cmd_type = 5;
+  map<string, string> label = 6;  // 标签
+  optional string session_id = 7;
+  optional string room_id = 8;
+  optional string ext = 9;
+  optional string ntp_time = 10;  // ntp时间戳
+}

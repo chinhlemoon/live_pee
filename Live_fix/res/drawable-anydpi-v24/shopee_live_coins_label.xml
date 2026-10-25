@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="49.0dip" android:viewportWidth="49.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$shopee_live_coins_label__0" android:pathData="M49,8C49,12.4183 45.4183,16 41,16L0,16V0L41,0C45.4183,0 49,3.5817 49,8Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black54" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/user_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginStart="8.0dip" style="@style/RobotoRSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

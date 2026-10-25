@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#66ffffff" android:layout_width="fill_parent" android:layout_height="480.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/strategy_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/debug_recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/strategy_info" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <RelativeLayout android:id="@id/detail_info" android:background="#ffffffff" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/detail_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/detail_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy" android:layout_alignParentRight="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/detail_back" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/taskKey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/index" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/vid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/taskKey" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/vid" />
+    </RelativeLayout>
+</RelativeLayout>

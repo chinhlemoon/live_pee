@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ball_1" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginTop="2.5dip" android:layout_marginBottom="2.5dip" android:src="?p_bgCycleDrawable" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/ball_2" android:layout_width="4.0dip" android:layout_height="4.0dip" android:src="?p_bgCycleDrawable" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/ball_1" app:layout_constraintStart_toEndOf="@id/ball_1" app:layout_constraintTop_toTopOf="@id/ball_1" />
+    <ImageView android:id="@id/ball_3" android:layout_width="4.0dip" android:layout_height="4.0dip" android:src="?p_bgCycleDrawable" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/ball_2" app:layout_constraintStart_toEndOf="@id/ball_2" app:layout_constraintTop_toTopOf="@id/ball_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

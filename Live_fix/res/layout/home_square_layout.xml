@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/home_square_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg_image_view" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@android:color/darker_gray" android:scaleType="centerCrop" android:layout_alignBottom="@id/inner_container" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    <com.shopee.app.ui.common.RoundedFrameLayout android:id="@id/inner_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/home_square_grid" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.shopee.app.ui.home.native_home.view.HomeSquareScrollBar android:layout_gravity="bottom|center" android:id="@id/scrollbar" android:layout_width="28.0dip" android:layout_height="4.0dip" android:layout_marginBottom="8.0dip" />
+    </com.shopee.app.ui.common.RoundedFrameLayout>
+</RelativeLayout>

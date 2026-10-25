@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/chat_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="34.0dip">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black87" android:id="@id/chat_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" style="@style/RobotoRLarge" />
+        </FrameLayout>
+        <View android:id="@id/horizontal_divider" android:background="@color/black06" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="6.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/button_container" android:layout_width="wrap_content" android:layout_height="40.0dip" android:divider="@color/black06" android:showDividers="middle">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary" android:gravity="center" android:id="@id/no_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="117.0dip" android:text="@string/sp_chat_faq_feedback_no" android:drawablePadding="8.0dip" android:layout_weight="1.0" style="@style/RobotoRNormal" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary" android:gravity="center" android:id="@id/yes_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="117.0dip" android:text="@string/sp_chat_faq_feedback_yes" android:drawablePadding="8.0dip" android:layout_weight="1.0" style="@style/RobotoRNormal" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black26" android:ellipsize="end" android:id="@id/chat_assistant_view" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="@id/time_and_status_view" app:layout_constraintEnd_toStartOf="@id/time_and_status_view" app:layout_constraintStart_toStartOf="@id/content_container" app:layout_constraintTop_toTopOf="@id/time_and_status_view" style="@style/RobotoRFootnote" />
+    <com.shopee.app.ui.chat2.subview.ChatTimeAndStatusView android:id="@id/time_and_status_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="44.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</merge>

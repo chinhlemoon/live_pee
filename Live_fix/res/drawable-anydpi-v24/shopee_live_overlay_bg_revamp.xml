@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="94.0dip" android:viewportWidth="94.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$shopee_live_overlay_bg_revamp__0" android:pathData="M0,0H94V28C94,30.209 92.209,32 90,32H4C1.791,32 0,30.209 0,28V0Z" />
+</vector>

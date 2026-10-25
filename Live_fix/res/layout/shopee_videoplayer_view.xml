@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.shopee.video_player.view.SSZProgressbar android:layout_gravity="center" android:id="@id/videoplayer_buffering" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/videoplayer_error_message" android:background="@color/videoplayer_error_message_background_color" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/videoplayer_controller_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

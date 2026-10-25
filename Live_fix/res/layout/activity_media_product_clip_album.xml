@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_pick_media_title" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/SP_action_bar_height">
+        <LinearLayout android:orientation="horizontal" android:id="@id/lyt_close" android:clickable="true" android:layout_width="44.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_close" android:visibility="visible" android:clickable="false" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/media_sdk_ic_library_back_v2" android:scaleType="fitXY" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/lyt_pick_title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="18.0dip" android:textColor="@color/media_sdk_de000000" android:gravity="center" android:id="@id/tv_pick_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:singleLine="true" app:robotoTypeface="roboto_medium" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="top" android:id="@id/tabs_gallery" android:background="@color/white" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" app:tabIndicator="@drawable/media_sdk_gallery_tablayout" app:tabIndicatorColor="@color/main_color" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="3.0dip" app:tabMode="fixed" app:tabRippleColor="@null" app:tabSelectedTextColor="@color/media_sdk_de000000" app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget" app:tabTextColor="@color/media_sdk_de000000" app:tabUnboundedRipple="true" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewpager_gallery" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="#17000000" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip">
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="12.0dip" android:textColor="@color/media_sdk_28482B" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_top_select_hint" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:enabled="false" android:textSize="14.0dip" android:textColor="@color/media_sdk_selector_text_color_btn_one_clip" android:layout_gravity="center_vertical" android:id="@id/tv_one_clip" android:background="@drawable/media_sdk_selector_bg_btn_one_clip" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/media_sdk_ic_template_oneclip" android:drawablePadding="3.0dip" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" app:robotoTypeface="roboto_medium" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_select_media" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginEnd="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

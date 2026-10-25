@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/chat_action_bar_avatar_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/chat_action_bar_additional_margin" android:layout_centerVertical="true" android:layout_marginStart="@dimen/chat_action_bar_additional_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.shopee.chat.sdk.ui.common.AvatarView android:layout_gravity="center" android:id="@id/chat_action_bar_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+</FrameLayout>

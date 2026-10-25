@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2022-04-20 11:05:02.684",
+  "version": "0.7.1",
+  "branch": "master",
+  "commitId": "6231274429c31205612ed8b797f5da40fb7867f3",
+  "moduleCommitId": "4f623782d0d08391f6a6251cdf768c819d1899b9",
+  "lastMessage": "Feature[diskusage]szlog 获取本地路径方法抽离",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "szemoji",
+  "path": ":szemoji",
+  "remoteUrl": "ssh://gitlab@git.garena.com:2222/shopee/ssz-client/android/toc/common.git"
+}

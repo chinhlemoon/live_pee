@@ -1,0 +1,10 @@
+{
+  "default": {
+    "key": "804e206a17b48f0911afc13b845b2aea",
+    "license": "http://license.vod2.myqcloud.com/license/v1/35856255861cdd17979f350482953692/TXLiveSDK.licence"
+  },
+  "com.shopee.id.debug": {
+    "key": "135d0d10a64f8c9e521686e2a927a0a3",
+    "license": "http://license.vod2.myqcloud.com/license/v1/26f33d92cb5c64c64ea66161e09ff42a/TXLiveSDK.licence"
+  }
+}

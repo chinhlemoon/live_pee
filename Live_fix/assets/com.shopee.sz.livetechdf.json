@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-07-03 18:34:37.244",
+  "version": "0.96.1",
+  "branch": "09a5215964e119a8ed6731de194562886be2006c",
+  "commitId": "09a5215964e119a8ed6731de194562886be2006c",
+  "moduleCommitId": "ffe9504801938f03eb00bd9e3d16f2ae60a0cf43",
+  "lastMessage": "Merge branch \u0027version/3.30/release\u0027 into \u0027master\u0027",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "livetechdf",
+  "path": ":livetechdf",
+  "remoteUrl": "https://git.garena.com/shopee/ssz-client/android/common/mmclivetech.git"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:gravity="center" android:id="@id/tv_tab" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.shopee.sz.mediasdk.widget.tab.ShimmerBadgeView android:textSize="9.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center|right|top" android:id="@id/tv_badge" android:background="@drawable/media_sdk_background_camera_tab_recommend" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:maxWidth="@dimen/dp48" android:maxLines="1" android:translationY="-2.0dip" app:robotoTypeface="roboto_medium" />
+</merge>

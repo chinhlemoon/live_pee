@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black87" android:ellipsize="end" android:gravity="center" android:id="@id/txt_text" android:background="@drawable/white_background_highlight" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="52.0dip" android:maxLines="1" android:singleLine="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/RobotoR16" />
+    <View android:id="@id/divider" android:background="@color/black09" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

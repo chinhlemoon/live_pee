@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/black50" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/l_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <View android:id="@id/v_transparent" android:background="@color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+        <com.shopee.app.ui.chat2.rrorder.RREligibleOrdersHeaderView_ android:id="@id/rr_eligible_orders_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/order_list" android:background="@color/white" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:paddingStart="12.0dip" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shopee.sdk.ui.DrawShadowFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:shadowDrawable="@drawable/bottom_shadow2" app:shadowVisible="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:visibility="gone" layout="@layout/media_sdk_layout_library_no_content" />
+    <include android:visibility="gone" layout="@layout/media_sdk_layout_library_no_permission" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/rl_library" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/lyt_gallery_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip">
+            <com.shopee.sz.mediasdk.ui.view.gallery.MediaPickGalleryView android:id="@id/gallery_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.shopee.sz.mediasdk.ui.view.gallery.MediaPickGalleryGroupView android:id="@id/gallery_group_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+</com.shopee.sdk.ui.DrawShadowFrameLayout>

@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-03-03 21:26:14.935",
+  "version": "0.0.7",
+  "branch": "release",
+  "commitId": "0019c2166da5481163239e7b7698719a37253a20",
+  "moduleCommitId": "07c5d3486b5ab1471211ec2a70500ebd24b62ecc",
+  "lastMessage": "Merge branch \u0027minghong/retry\u0027 into \u0027release\u0027",
+  "extraInfo": "release",
+  "groupId": "com.shopee.sz",
+  "artifactId": "flownetadapter",
+  "path": ":flownetadapter",
+  "remoteUrl": "https://git.garena.com/minghong.yang/networkmodule.git"
+}

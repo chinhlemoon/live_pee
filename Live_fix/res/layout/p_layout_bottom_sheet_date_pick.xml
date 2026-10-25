@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="316.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/p_base_color_DE000000" android:id="@id/tv_item_left" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0sp" android:textColor="?p_brandColorPrimary" android:id="@id/tv_item_right" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/view_line" android:background="@color/p_base_color_17000000" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_marginTop="3.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_item_left" />
+    <com.shopee.ui.component.picker.PDatePicker android:id="@id/date_pick" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="32.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_default="wrap" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view_line" />
+</androidx.constraintlayout.widget.ConstraintLayout>

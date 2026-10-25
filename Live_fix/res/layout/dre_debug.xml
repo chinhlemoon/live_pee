@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#fff3f4f5" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <TextView android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="download\nurl:" />
+            <EditText android:id="@id/downloadUrlView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="http://ip:port/searchModule.zip" android:maxLines="5" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="module:   " />
+            <EditText android:id="@id/moduleNameView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="searchModule" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="page:\n(optional)" />
+            <EditText android:id="@id/pageNameView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="PRE_SEARCH" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/downloadProgress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        <Button android:id="@id/downloadButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Download" />
+        <Button android:id="@id/clearButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Clear engine" />
+        <Button android:id="@id/launchButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Launch" />
+        <Button android:id="@id/clearDebugBundleButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Clear debug bundle" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/checkButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Check Env" android:layout_weight="1.0" />
+            <Button android:id="@id/changeToggle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Change Toggle" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/preloadButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Preload" android:layout_weight="1.0" />
+            <Button android:id="@id/forceGcButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Force GC" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/enableDebug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="enableDebug" />
+            <CheckBox android:id="@id/vvTrace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="vvTrace" />
+            <CheckBox android:id="@id/preCalculate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="preCalculate" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/enablePreload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="enablePreload" />
+            <CheckBox android:id="@id/autoDumpJsMemory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="autoDumpJsMemory" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/forceUseDRE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="forceUseDRE" />
+            <CheckBox android:id="@id/writeDiskLog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="writeDiskLog" />
+            <CheckBox android:id="@id/bk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="bk" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/writeImpressionLog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="writeImpressionLog" />
+            <CheckBox android:id="@id/writeCallBackLog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="writeCallBackLog" />
+        </LinearLayout>
+        <View android:background="@color/gray_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+        <LinearLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Max Log File Count:" />
+            <EditText android:id="@id/maxLogFileCount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="50" android:maxLines="5" android:layout_weight="1.0" />
+            <Button android:id="@id/confirmLogCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:checked="false" android:text="Confirm" />
+        </LinearLayout>
+        <TextView android:id="@id/diskLogSize" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="disk log size is : null" />
+        <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/clearDiskLog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="Clear Disk Log" />
+            <Button android:id="@id/shareDiskLog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="Share Disk Log" />
+        </LinearLayout>
+        <Button android:id="@id/writeMMKV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="写MMKV，文件名 mmkvtest key是 MMKV_KEY1 MMKV_KEY2" />
+        <Button android:id="@id/writeSP" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="写SP，文件名 sptest key是 SP_KEY1 SP_KEY2" />
+        <Button android:id="@id/getCodePushProfileButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Show CodePush Profile" />
+        <TextView android:id="@id/codePushProfileText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <CheckBox android:id="@id/codePushUseLocal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="codePushUseLocal" />
+        <Button android:id="@id/setCodePushCCMS" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="设置CodePush的CCMS" />
+        <EditText android:id="@id/codePushCCMSContent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/btn_codePush" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="code push 调试界面" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

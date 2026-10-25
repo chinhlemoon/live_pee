@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/media_sdk_bg_magic_select" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_effect_content" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/view_ver_divider" android:background="@color/media_sdk_25FFFFFF" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" />
+        <LinearLayout android:paddingLeft="4.0dip" android:paddingTop="20.0dip" android:paddingRight="4.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="128.0dip">
+            <com.shopee.sz.mediasdk.ui.viewpager.NoScrollViewPager android:id="@id/vp_effects" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:id="@id/view_ver_divider_2" android:background="@color/media_sdk_25FFFFFF" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <com.shopee.sz.mediauicomponent.widget.SSZTabLayout android:layout_gravity="center_horizontal" android:id="@id/tl_effects_tab" android:background="@color/media_sdk_1A1A1A" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="14.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view_ver_divider" app:tabIndicator="@drawable/media_sdk_tab_indicator" app:tabIndicatorColor="@color/transparent" app:tabMode="scrollable" app:tabSelectedTextColor="@color/media_sdk_white" app:tabTextAppearance="@style/media_sdk_music_panel_tablayout_style" app:tabTextColor="@color/media_sdk_a6ffffff" />
+    </LinearLayout>
+    <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:layout_gravity="center" android:id="@id/v_effect_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.shopee.sz.mediasdk.widget.LoadingFailedView android:layout_gravity="center" android:id="@id/v_effect_loading_failed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

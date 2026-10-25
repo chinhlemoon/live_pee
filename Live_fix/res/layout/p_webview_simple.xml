@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/com_garena_beepay_progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/com_garena_beepay_shadow_width" android:progressDrawable="@drawable/p_webview_progress_bar_sp" style="?android:progressBarStyleHorizontal" />
+        <WebView android:id="@id/com_garena_beepay_webview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:background="@color/p_border_color_normal" android:layout_width="fill_parent" android:layout_height="@dimen/com_garena_beepay_border_width_thin" />
+        <Button android:id="@id/com_garena_beepay_btn_next" android:layout_height="wrap_content" android:layout_margin="@dimen/com_garena_beepay_margin_m_normal" style="@style/com_garena_beepay_solid_btn_long" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/com_garena_beepay_layout_error" android:background="@color/com_garena_beepay_bg_color_white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p_network_error" />
+        <TextView android:textSize="@dimen/com_garena_beepay_text_size_small" android:textColor="@color/com_garena_beepay_txt_color_grey" android:gravity="center" android:paddingLeft="@dimen/com_garena_beepay_margin_normal" android:paddingRight="@dimen/com_garena_beepay_margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/com_garena_beepay_margin_small" android:text="@string/com_garena_beepay_network_error" />
+        <Button android:gravity="center" android:id="@id/com_garena_beepay_btn_refresh" android:layout_marginTop="@dimen/com_garena_beepay_margin_small" android:text="@string/com_garena_beepay_label_refresh" style="@style/com_garena_beepay_flat_btn_white" />
+    </LinearLayout>
+</FrameLayout>

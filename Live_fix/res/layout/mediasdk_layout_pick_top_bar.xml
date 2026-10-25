@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_pick_media_title" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/SP_action_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/lyt_close" android:clickable="true" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_close" android:visibility="visible" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lyt_pick_title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/lyt_close" android:layout_centerVertical="true" android:layout_marginStart="12.0dip">
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="18.0dip" android:textColor="@color/black87" android:gravity="center" android:id="@id/tv_pick_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" app:robotoTypeface="roboto_regular" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_pick_title" android:background="@drawable/media_sdk_ic_arrow_down" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="10.0dip" android:scaleType="fitXY" />
+    </LinearLayout>
+</RelativeLayout>

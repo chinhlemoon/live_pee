@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/errorIv" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/ic_web_error_120" />
+    <TextView android:textColor="@color/black65" android:gravity="center" android:id="@id/errorTitleTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/sp_web_error_title" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/RobotoM16" />
+    <TextView android:textColor="@color/black65" android:gravity="center" android:id="@id/errorMessageTv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/sp_web_error_message" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/RobotoR14" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/retryBtn" android:layout_width="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/sp_label_reload" android:paddingStart="54.0dip" android:paddingEnd="54.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/ButtonPrimary" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/media_sdk_view_art_text_edit" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/tv_add_done_dynamic" android:padding="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Done" android:layout_alignParentRight="true" android:textAllCaps="false" android:layout_alignParentEnd="true" app:robotoTypeface="roboto_medium" />
+</merge>

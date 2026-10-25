@@ -1,0 +1,8 @@
+package fhdsjfsdjfdsfdsdsff.jsdfhhhhhhhh.fksdfsalfjufewsrofeowrfeifd;
+
+/* JADX INFO: loaded from: classes.dex */
+public class hl extends gl {
+    public hl(Object obj, Class cls, String str, String str2, int i) {
+        super(obj, cls, str, str2, i);
+    }
+}

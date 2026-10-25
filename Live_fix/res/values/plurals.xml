@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="airpay_number_of_transactions">
+        <item quantity="other">@string/airpay_label_number_of_transactions_plural</item>
+        <item quantity="zero">@string/airpay_label_number_of_transactions_singular</item>
+        <item quantity="one">@string/airpay_label_number_of_transactions_singular</item>
+    </plurals>
+    <plurals name="error_image_too_long_plurals">
+        <item quantity="other">@string/error_image_too_long__other</item>
+        <item quantity="one">@string/error_image_too_long__one</item>
+        <item quantity="few">@string/error_image_too_long__few</item>
+        <item quantity="many">@string/error_image_too_long__many</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Fast forward %d seconds</item>
+        <item quantity="one">Fast forward %d second</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rewind %d seconds</item>
+        <item quantity="one">Rewind %d second</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="pluginaccount_edit_name_error_plurals">
+        <item quantity="other">@string/pluginaccount_edit_name_error__other</item>
+        <item quantity="one">@string/pluginaccount_edit_name_error__one</item>
+        <item quantity="few">@string/pluginaccount_edit_name_error__few</item>
+        <item quantity="many">@string/pluginaccount_edit_name_error__many</item>
+    </plurals>
+    <plurals name="pluginaccount_feed_bio_error_plurals">
+        <item quantity="other">@string/pluginaccount_feed_bio_error__other</item>
+        <item quantity="one">@string/pluginaccount_feed_bio_error__one</item>
+        <item quantity="few">@string/pluginaccount_feed_bio_error__few</item>
+        <item quantity="many">@string/pluginaccount_feed_bio_error__many</item>
+    </plurals>
+    <plurals name="pluginaccount_hint_for_edit_name_plurals">
+        <item quantity="other">@string/pluginaccount_hint_for_edit_name__other</item>
+        <item quantity="one">@string/pluginaccount_hint_for_edit_name__one</item>
+        <item quantity="few">@string/pluginaccount_hint_for_edit_name__few</item>
+        <item quantity="many">@string/pluginaccount_hint_for_edit_name__many</item>
+    </plurals>
+    <plurals name="pluginaccount_seller_username_change_error_plurals">
+        <item quantity="other">@string/pluginaccount_seller_username_change_error__other</item>
+        <item quantity="one">@string/pluginaccount_seller_username_change_error__one</item>
+        <item quantity="few">@string/pluginaccount_seller_username_change_error__few</item>
+        <item quantity="many">@string/pluginaccount_seller_username_change_error__many</item>
+    </plurals>
+    <plurals name="pluginaccount_username_change_error_plurals">
+        <item quantity="other">@string/pluginaccount_username_change_error__other</item>
+        <item quantity="one">@string/pluginaccount_username_change_error__one</item>
+        <item quantity="few">@string/pluginaccount_username_change_error__few</item>
+        <item quantity="many">@string/pluginaccount_username_change_error__many</item>
+    </plurals>
+    <plurals name="pluginaccount_username_change_error_try_again_plurals">
+        <item quantity="other">@string/pluginaccount_username_change_error_try_again__other</item>
+        <item quantity="one">@string/pluginaccount_username_change_error_try_again__one</item>
+        <item quantity="few">@string/pluginaccount_username_change_error_try_again__few</item>
+        <item quantity="many">@string/pluginaccount_username_change_error_try_again__many</item>
+    </plurals>
+    <plurals name="sp_add_x_shopee_coins_plurals">
+        <item quantity="other">@string/sp_add_x_shopee_coins__other</item>
+        <item quantity="one">@string/sp_add_x_shopee_coins__one</item>
+        <item quantity="few">@string/sp_add_x_shopee_coins__few</item>
+        <item quantity="many">@string/sp_add_x_shopee_coins__many</item>
+    </plurals>
+    <plurals name="sp_chat_plugins_call_duration_hour_plurals">
+        <item quantity="other">@string/sp_chat_plugins_duration_hours</item>
+        <item quantity="one">@string/sp_chat_plugins_duration_hour</item>
+    </plurals>
+    <plurals name="sp_chat_plugins_call_duration_minute_plurals">
+        <item quantity="other">@string/sp_chat_plugins_duration_minutes</item>
+        <item quantity="one">@string/sp_chat_plugins_duration_minute</item>
+    </plurals>
+    <plurals name="sp_chat_plugins_call_duration_second_plurals">
+        <item quantity="other">@string/sp_chat_plugins_duration_seconds</item>
+        <item quantity="one">@string/sp_chat_plugins_duration_second</item>
+    </plurals>
+    <plurals name="sp_edit_name_error_plurals">
+        <item quantity="other">@string/sp_edit_name_error__other</item>
+        <item quantity="one">@string/sp_edit_name_error__one</item>
+        <item quantity="few">@string/sp_edit_name_error__few</item>
+        <item quantity="many">@string/sp_edit_name_error__many</item>
+    </plurals>
+    <plurals name="sp_feed_bio_error_plurals">
+        <item quantity="other">@string/sp_feed_bio_error__other</item>
+        <item quantity="one">@string/sp_feed_bio_error__one</item>
+        <item quantity="few">@string/sp_feed_bio_error__few</item>
+        <item quantity="many">@string/sp_feed_bio_error__many</item>
+    </plurals>
+    <plurals name="sp_hint_for_edit_name_plurals">
+        <item quantity="other">@string/sp_hint_for_edit_name__other</item>
+        <item quantity="one">@string/sp_hint_for_edit_name__one</item>
+        <item quantity="few">@string/sp_hint_for_edit_name__few</item>
+        <item quantity="many">@string/sp_hint_for_edit_name__many</item>
+    </plurals>
+    <plurals name="sp_label_num_new_message_plurals">
+        <item quantity="other">@string/sp_label_num_new_message__other</item>
+        <item quantity="one">@string/sp_label_num_new_message__one</item>
+        <item quantity="few">@string/sp_label_num_new_message__few</item>
+        <item quantity="many">@string/sp_label_num_new_message__many</item>
+    </plurals>
+    <plurals name="sp_n_day_ago_plurals">
+        <item quantity="other">@string/sp_n_day_ago__other</item>
+        <item quantity="one">@string/sp_n_day_ago__one</item>
+        <item quantity="few">@string/sp_n_day_ago__few</item>
+        <item quantity="many">@string/sp_n_day_ago__many</item>
+    </plurals>
+    <plurals name="sp_n_day_plurals">
+        <item quantity="other">@string/sp_n_day__other</item>
+        <item quantity="one">@string/sp_n_day__one</item>
+        <item quantity="few">@string/sp_n_day__few</item>
+        <item quantity="many">@string/sp_n_day__many</item>
+    </plurals>
+    <plurals name="sp_n_hour_ago_plurals">
+        <item quantity="other">@string/sp_n_hour_ago__other</item>
+        <item quantity="one">@string/sp_n_hour_ago__one</item>
+        <item quantity="few">@string/sp_n_hour_ago__few</item>
+        <item quantity="many">@string/sp_n_hour_ago__many</item>
+    </plurals>
+    <plurals name="sp_n_hour_plurals">
+        <item quantity="other">@string/sp_n_hour__other</item>
+        <item quantity="one">@string/sp_n_hour__one</item>
+        <item quantity="few">@string/sp_n_hour__few</item>
+        <item quantity="many">@string/sp_n_hour__many</item>
+    </plurals>
+    <plurals name="sp_n_minute_ago_plurals">
+        <item quantity="other">@string/sp_n_minute_ago__other</item>
+        <item quantity="one">@string/sp_n_minute_ago__one</item>
+        <item quantity="few">@string/sp_n_minute_ago__few</item>
+        <item quantity="many">@string/sp_n_minute_ago__many</item>
+    </plurals>
+    <plurals name="sp_n_month_ago_plurals">
+        <item quantity="other">@string/sp_n_month_ago__other</item>
+        <item quantity="one">@string/sp_n_month_ago__one</item>
+        <item quantity="few">@string/sp_n_month_ago__few</item>
+        <item quantity="many">@string/sp_n_month_ago__many</item>
+    </plurals>
+    <plurals name="sp_n_orders_plurals">
+        <item quantity="other">@string/sp_n_orders__other</item>
+        <item quantity="one">@string/sp_n_orders__one</item>
+        <item quantity="few">@string/sp_n_orders__few</item>
+        <item quantity="many">@string/sp_n_orders__many</item>
+    </plurals>
+    <plurals name="sp_n_pending_offers_plurals">
+        <item quantity="other">@string/sp_n_pending_offers__other</item>
+        <item quantity="one">@string/sp_n_pending_offers__one</item>
+        <item quantity="few">@string/sp_n_pending_offers__few</item>
+        <item quantity="many">@string/sp_n_pending_offers__many</item>
+    </plurals>
+    <plurals name="sp_n_products_plurals">
+        <item quantity="other">@string/sp_n_products__other</item>
+        <item quantity="one">@string/sp_n_products__one</item>
+        <item quantity="few">@string/sp_n_products__few</item>
+        <item quantity="many">@string/sp_n_products__many</item>
+    </plurals>
+    <plurals name="sp_n_second_ago_plurals">
+        <item quantity="other">@string/sp_n_second_ago__other</item>
+        <item quantity="one">@string/sp_n_second_ago__one</item>
+        <item quantity="few">@string/sp_n_second_ago__few</item>
+        <item quantity="many">@string/sp_n_second_ago__many</item>
+    </plurals>
+    <plurals name="sp_n_year_ago_plurals">
+        <item quantity="other">@string/sp_n_year_ago__other</item>
+        <item quantity="one">@string/sp_n_year_ago__one</item>
+        <item quantity="few">@string/sp_n_year_ago__few</item>
+        <item quantity="many">@string/sp_n_year_ago__many</item>
+    </plurals>
+    <plurals name="sp_order_view_n_more_products_plurals">
+        <item quantity="other">@string/sp_order_view_n_more_products__other</item>
+        <item quantity="one">@string/sp_order_view_n_more_products__one</item>
+        <item quantity="few">@string/sp_order_view_n_more_products__few</item>
+        <item quantity="many">@string/sp_order_view_n_more_products__many</item>
+    </plurals>
+    <plurals name="sp_username_change_error_plurals">
+        <item quantity="other">@string/sp_username_change_error__other</item>
+        <item quantity="one">@string/sp_username_change_error__one</item>
+        <item quantity="few">@string/sp_username_change_error__few</item>
+        <item quantity="many">@string/sp_username_change_error__many</item>
+    </plurals>
+    <plurals name="sp_username_change_error_try_again_plurals">
+        <item quantity="other">@string/sp_username_change_error_try_again__other</item>
+        <item quantity="one">@string/sp_username_change_error_try_again__one</item>
+        <item quantity="few">@string/sp_username_change_error_try_again__few</item>
+        <item quantity="many">@string/sp_username_change_error_try_again__many</item>
+    </plurals>
+</resources>

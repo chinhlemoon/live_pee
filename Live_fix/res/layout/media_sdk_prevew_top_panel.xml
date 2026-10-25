@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/btn_back" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/media_sdk_ic_library_back" android:layout_marginStart="18.0dip" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="16.0dip" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/tv_finish_using_brush" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/media_sdk_4d000000" android:shadowDx="0.0" android:shadowDy="0.5" android:shadowRadius="2.0" android:layout_marginStart="16.0dip" app:robotoTypeface="roboto_medium" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/menu_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="60.0dip">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

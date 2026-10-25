@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-07-04 18:08:50.788",
+  "version": "0.91.1",
+  "branch": "master",
+  "commitId": "70a3da5a4314779bc7178c5a471ce5f1a0d519c7",
+  "moduleCommitId": "1b17373865eceeff09c892d4357bebb1a8a1ea61",
+  "lastMessage": "Merge branch \u0027feature/3.30/post_tabrl_mixtab\u0027 into \u0027master\u0027",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "luckycommon",
+  "path": ":luckycommon",
+  "remoteUrl": "ssh://gitlab@git.garena.com:2222/shopee/feed/luckyvideo/android.git"
+}

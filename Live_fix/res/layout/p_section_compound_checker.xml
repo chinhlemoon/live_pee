@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/p_view_touchable_white_bg" android:paddingLeft="@dimen/com_garena_beepay_margin_lll_normal" android:paddingRight="@dimen/com_garena_beepay_margin_lll_normal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/com_garena_beepay_text_size_large" android:textColor="@color/p_txt_color_dark" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/bs_section_checker_title" android:paddingTop="@dimen/com_garena_beepay_margin_small" android:paddingBottom="@dimen/com_garena_beepay_margin_small" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/bs_section_checker_button" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p_circular_checkbox_selector" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@color/p_border_color_normal" android:layout_width="fill_parent" android:layout_height="@dimen/com_garena_beepay_border_width_thin" />
+</FrameLayout>

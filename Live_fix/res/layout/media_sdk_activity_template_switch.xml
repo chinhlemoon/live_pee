@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/media_sdk_template_switch_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="60.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <ImageView android:id="@id/iv_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_sdk_ic_back" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="18.0dip" android:textColor="@android:color/white" android:id="@id/tv_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_confirm_user_flow_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_sdk_ic_confirm" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@android:color/white" android:id="@id/tv_confirm_user_flow_b" android:background="@drawable/media_sdk_bg_template_guide_card_confirm" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <FrameLayout android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/video_player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_video_stop" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/media_trim_ic_video_stop" android:scaleType="fitXY" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/media_sdk_bg_template_switch_bottom" android:layout_width="fill_parent" android:layout_height="204.0dip">
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="12.0dip" android:textColor="@android:color/white" android:id="@id/tv_hint_change_template" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="13.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_template_switch" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingStart="13.0dip" android:paddingEnd="13.0dip" />
+        <com.shopee.sz.mediasdk.widget.loading.SSZMediaLoadingView android:layout_gravity="center_horizontal" android:id="@id/loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="62.0dip" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_retry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/media_sdk_8affffff" android:id="@id/tv_loading_fail" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/white_87" android:gravity="center_horizontal" android:id="@id/tv_retry" android:background="@drawable/media_sdk_bg_template_switch_retry" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

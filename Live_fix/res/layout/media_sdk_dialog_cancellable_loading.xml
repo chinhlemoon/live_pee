@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/media_sdk_bg_dialog_cancellable_loading" android:layout_width="132.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <com.pnikosis.materialishprogress.ProgressWheel android:id="@id/progress_wheel" android:layout_width="48.0dip" android:layout_height="48.0dip" app:matProg_barColor="@color/white" app:matProg_barWidth="3.0dip" app:matProg_rimColor="@color/white_50" app:matProg_rimWidth="3.0dip" />
+        <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="12.0dip" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" app:robotoTypeface="roboto_medium" />
+    </FrameLayout>
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/tv_loading_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" app:robotoTypeface="roboto_medium" />
+    <com.shopee.sz.szwidget.roboto.RobotoButton android:textColor="@color/media_sdk_deffffff" android:gravity="center_horizontal" android:id="@id/btn_cancel" android:background="@drawable/media_sdk_bg_btn_cancel_loading_dialog" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:textAllCaps="false" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:gravity="center_vertical" android:id="@id/module_name" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:gravity="center_vertical" android:id="@id/version" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:gravity="center_vertical" android:id="@id/version_code" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:gravity="center_vertical" android:id="@id/md5" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="#ff222222" android:gravity="center_vertical" android:id="@id/url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:minHeight="30.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:gravity="center_vertical" android:id="@id/pfb" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" />
+    <View android:background="#ffbbbbbb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="5.0dip" />
+</LinearLayout>

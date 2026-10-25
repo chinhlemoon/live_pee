@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_feedback_positive" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_feedback_negative" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="6.0dip" app:layout_constraintStart_toEndOf="@id/iv_feedback_positive" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginStart="0.0dip" />
+</merge>

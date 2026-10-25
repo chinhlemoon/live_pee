@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/notice_text" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="8.0dip" android:layout_centerVertical="true" android:layout_toStartOf="@id/notice_cross" android:layout_alignParentStart="true" style="@style/RobotoRSmall" />
+    <ImageView android:id="@id/notice_cross" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_close_banner" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:tint="#fffbfbfb" />
+    <View android:background="@color/black09" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</RelativeLayout>

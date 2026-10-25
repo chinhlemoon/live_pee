@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingBottom="100.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/l_recycler_view_monitor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.shopee.app.ui.setting.cell.SettingTwoLineItemView_ android:id="@id/sv_recycler_view" android:layout_width="fill_parent" android:layout_height="@dimen/dp64" app:primaryText="RecyclerView Monitor" app:showCheck="true" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/l_recycler_view_params" android:background="@color/white" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <androidx.appcompat.widget.AppCompatEditText android:id="@id/et_recycler_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" app:layout_constraintEnd_toStartOf="@id/btn_recycler_view_threshold" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/RobotoR14" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_recycler_view_threshold" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginBottom="8.0dip" android:text="SET" app:layout_constraintBottom_toBottomOf="@id/et_recycler_view" app:layout_constraintEnd_toEndOf="parent" style="@style/ButtonSecondaryPrimary" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black60" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Recycler view duration threshold (in ms)" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/et_recycler_view" style="@style/RobotoR12" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:background="@color/black09" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.shopee.app.ui.setting.cell.SettingTwoLineItemView_ android:id="@id/sv_chat_debug_message" android:layout_width="fill_parent" android:layout_height="@dimen/dp64" app:primaryText="Chat Debug Message" app:showCheck="true" />
+    <com.shopee.app.ui.setting.cell.SettingTwoLineItemView_ android:id="@id/sv_mini_chat_activity" android:layout_width="fill_parent" android:layout_height="@dimen/dp64" app:primaryText="Mini Chat Activity" />
+    <com.shopee.app.ui.setting.cell.SettingTwoLineItemView_ android:id="@id/sv_in_app_notification" android:layout_width="fill_parent" android:layout_height="@dimen/dp64" app:primaryText="In App Notification" />
+    <TextView android:layout_gravity="center" android:id="@id/tv_in_app_notification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/bt_reset_unreplied_flags" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Reset Unreplied Flags" />
+</androidx.appcompat.widget.LinearLayoutCompat>

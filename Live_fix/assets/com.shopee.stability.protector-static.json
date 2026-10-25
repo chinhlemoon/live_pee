@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "beta",
+  "time": "2023-10-11 16:51:23.716",
+  "version": "0.0.2-master-19854b4-beta",
+  "branch": "master",
+  "commitId": "19854b4e66182b2b5f17f246486256112441ff97",
+  "moduleCommitId": "c218a9d41ac140ae44d93a881d23d88053efd329",
+  "lastMessage": "Merge branch \u0027lucas/addbgcheck\u0027 into \u0027master\u0027",
+  "extraInfo": "pods",
+  "groupId": "com.shopee.stability",
+  "artifactId": "protector-static",
+  "path": ":crashprotector",
+  "remoteUrl": "gitlab@git.garena.com:lucas.chen/crashprotector.git"
+}

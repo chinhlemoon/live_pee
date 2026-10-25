@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/productImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/com_garena_shopee_ic_product_default" />
+    <ImageView android:id="@id/productDiscountTagImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_discount_flag" app:layout_constraintEnd_toEndOf="@id/productImageView" app:layout_constraintTop_toTopOf="@id/productImageView" />
+    <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/discountTagTextView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/productDiscountTagImageView" app:layout_constraintEnd_toEndOf="@id/productDiscountTagImageView" app:layout_constraintStart_toStartOf="@id/productDiscountTagImageView" app:layout_constraintTop_toTopOf="@id/productDiscountTagImageView" style="@style/RobotoR11" />
+</merge>

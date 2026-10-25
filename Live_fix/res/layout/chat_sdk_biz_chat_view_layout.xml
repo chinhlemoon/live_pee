@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.shopee.chat.sdk.ui.chatroom.view.stickybanner.BizChatStickyBannerView android:id="@id/stickyBanner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.shopee.chat.sdk.ui.common.KeyboardPane android:id="@id/keyboardPanel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.shopee.chat.sdk.ui.common.ChatRecyclerView android:id="@id/chatListView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:stackFromBottom="true" android:divider="@null" />
+        <RelativeLayout android:id="@id/parentInput" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/hintText" android:background="@color/black54" android:paddingLeft="16.0dip" android:paddingTop="6.0dip" android:paddingRight="16.0dip" android:paddingBottom="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_above="@id/offsetLayout" style="@style/CplRobotoRNormal" />
+            <ImageButton android:id="@id/goToLastMessageBtn" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="12.0dip" android:src="@drawable/chat_sdk_ic_back_to_bottom" android:layout_above="@id/offsetLayout" android:layout_alignParentEnd="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/offsetLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <HorizontalScrollView android:id="@id/shortcutContainer" android:background="@color/white" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.shopee.chat.sdk.ui.chatroom.view.ChatShortcutView android:id="@id/shortcutView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </HorizontalScrollView>
+                <FrameLayout android:id="@id/chatInputSection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.shopee.chat.sdk.ui.common.send.ChatSendView2 android:id="@id/chatSendView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/readOnlySection" android:background="#fffafafa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/chat_sdk_read_only_section" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" style="@style/CplRobotoRNormal" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.shopee.chat.sdk.ui.common.KeyboardPane>
+</merge>

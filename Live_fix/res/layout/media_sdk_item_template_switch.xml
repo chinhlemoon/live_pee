@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="90.0dip" android:layout_height="120.0dip">
+        <com.shopee.sz.mediauicomponent.roundedimageview.RoundedImageView android:id="@id/iv_item_template_switch" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_edit" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_sdk_ic_template_switch_edit" android:scaleType="centerCrop" />
+            <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="11.0dip" android:textColor="@android:color/white" android:id="@id/tv_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="end" android:id="@id/iv_progress" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:indeterminateDrawable="@drawable/media_sdk_download_progress" android:layout_marginEnd="8.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/iv_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/media_sdk_ic_download_effects" android:scaleType="centerCrop" android:layout_marginEnd="8.0dip" />
+        <View android:id="@id/border_view" android:background="@drawable/media_sdk_bg_template_switch_item_border" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="12.0dip" android:textColor="@color/media_sdk_A6FFFFFF" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/tv_item_template_switch" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+</LinearLayout>

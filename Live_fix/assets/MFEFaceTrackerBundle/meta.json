@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        {
+            "name": "MFECommonCMake",
+            "version": "1.+"
+        }
+    ],
+    "name": "MFEFaceTracker-default-data",
+    "version": "4.0.1"
+}

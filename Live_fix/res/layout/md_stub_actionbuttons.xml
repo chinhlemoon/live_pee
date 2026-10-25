@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shopee.materialdialogs.internal.MDButtonLayout android:id="@id/md_button_layout" android:background="@drawable/md_bg_rounded" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.shopee.materialdialogs.internal.MDButton android:id="@id/buttonDefaultNeutral" android:fontFamily="sans-serif" style="@style/MD_ActionButton.Text" />
+    <View android:id="@id/dividerNeutral" style="@style/MD_Button_Divider" />
+    <com.shopee.materialdialogs.internal.MDButton android:id="@id/buttonDefaultNegative" android:fontFamily="sans-serif" style="@style/MD_ActionButton.Text" />
+    <View android:id="@id/dividerNegative" style="@style/MD_Button_Divider" />
+    <com.shopee.materialdialogs.internal.MDButton android:id="@id/buttonDefaultPositive" android:fontFamily="sans-serif" style="@style/MD_ActionButton.Text" />
+</com.shopee.materialdialogs.internal.MDButtonLayout>

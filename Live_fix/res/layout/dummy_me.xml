@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="47.0dip" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/divide_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+            <View android:background="@color/me_page_shimmer_divider" android:layout_width="60.0dip" android:layout_height="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/divide_guide" app:layout_constraintTop_toTopOf="parent" />
+            <View android:background="@color/me_page_shimmer_divider" android:layout_width="60.0dip" android:layout_height="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/divide_guide" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_text" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_small" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_text" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_text" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_text" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_text" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_small" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_text" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_text" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+    <View android:background="@color/me_page_shimmer_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.shopee.app.ui.common.ShopeeShimmerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmer_angle="20" app:shimmer_animation_duration="1200" app:shimmer_auto_start="true" app:shimmer_color="@color/me_page_shimmer_layer" app:shimmer_mask_width="1.0">
+        <include layout="@layout/dummy_me_square_text" />
+    </com.shopee.app.ui.common.ShopeeShimmerLayout>
+</LinearLayout>

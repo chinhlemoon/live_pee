@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-07-05 14:15:15.715",
+  "version": "1.54.3",
+  "branch": "dev-3.30",
+  "commitId": "ffff83695ea4ceb0d8ddc23850f49445fc9b7cf6",
+  "moduleCommitId": "2537b530ee357c262ce09b04c46e10e57259b1e2",
+  "lastMessage": "Merge branch \u0027zemingliu/dev-3.30\u0027 into \u0027dev-3.30\u0027",
+  "extraInfo": "dev-3.30",
+  "groupId": "com.shopee.sz",
+  "artifactId": "mediasticker",
+  "path": ":mediasticker",
+  "remoteUrl": "https://git.garena.com/shopee/ssz-client/android/toc/mediasdk.git"
+}

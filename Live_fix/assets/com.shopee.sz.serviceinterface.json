@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-06-29 20:11:37.669",
+  "version": "0.2.7",
+  "branch": "master",
+  "commitId": "8d2c294f6608cd6d7e27ccbc2e666ce757f156f2",
+  "moduleCommitId": "7cad1fa2d88049a472e4134042a275d2905ac915",
+  "lastMessage": "Merge branch \u0027v3.30/tms-zhoujian\u0027 into \u0027master\u0027",
+  "extraInfo": "master",
+  "groupId": "com.shopee.sz",
+  "artifactId": "serviceinterface",
+  "path": ":serviceinterface",
+  "remoteUrl": "https://git.garena.com/jian.zhouzj/serviceinterface.git"
+}

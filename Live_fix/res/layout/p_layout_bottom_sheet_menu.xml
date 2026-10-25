@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="?p_brandColorPrimary" android:gravity="center" android:id="@id/positive_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <View android:background="@color/p_base_color_F5F5F5" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/p_base_color_DE000000" android:gravity="center" android:id="@id/negative_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/p_bg_opaque_black_round_rectangle" android:padding="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="130.0dip" android:minHeight="124.0dip">
+        <com.airpay.common.widget.loading.CoinCloudLoadingView android:id="@id/view_cloud_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" app:p_colorBackground="@color/com_garena_beepay_bg_color_transparent" app:p_colorForeground="@color/com_garena_beepay_bg_color_white" app:p_colorSymbol="@color/p_bg_color_opaque_black" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/p_text_light_100" android:id="@id/tv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/com_garena_beepay_label_loading" android:maxLines="2" />
+    </LinearLayout>
+    <com.shopee.ui.component.loading.PDefaultLoaderBox android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

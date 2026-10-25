@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_cb" android:background="@drawable/media_sdk_check_box_bg" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+    <com.shopee.sz.szwidget.roboto.RobotoTextView android:textSize="12.0dip" android:textColor="@color/media_sdk_text_color_bg_remove" android:id="@id/tv_cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:alpha="0.87" />
+</LinearLayout>

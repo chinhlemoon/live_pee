@@ -1,0 +1,15 @@
+{
+  "protocol": "v1",
+  "mode": "patch",
+  "time": "2024-06-28 18:17:00.780",
+  "version": "0.23.118",
+  "branch": "v3.30/test_app_3.30",
+  "commitId": "93be7b4ba21897ab75864b823fa0607f627f79ac",
+  "moduleCommitId": "05c6dc6b0d4ee532b0e2246b9ac6eeafe9ea5b54",
+  "lastMessage": "Merge branch \u0027chengxiang/3.30_playerinfo\u0027 into \u0027v3.30/test_app_3.30\u0027",
+  "extraInfo": "v3.30/test_app_3.30",
+  "groupId": "com.shopee.sz",
+  "artifactId": "loadtask",
+  "path": ":loadtask",
+  "remoteUrl": "https://git.garena.com/shopee/ssz-client/android/toc/mmsplayer.git"
+}

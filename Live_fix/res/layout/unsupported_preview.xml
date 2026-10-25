@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="0.0dip" android:layout_height="120.0dip" />
+    <TextView android:textAppearance="@style/TitleTextAppearance" android:gravity="center_horizontal" android:id="@id/file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Space android:layout_width="0.0dip" android:layout_height="@dimen/stack_spacing" />
+    <TextView android:textAppearance="@style/SubtitleTextAppearance" android:id="@id/file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Space android:layout_width="0.0dip" android:layout_height="32.0dip" />
+    <TextView android:id="@id/file_open_button" android:layout_width="240.0dip" android:layout_height="wrap_content" android:text="@string/sp_open_in_other_apps" style="@style/ShopeeButton" />
+</merge>

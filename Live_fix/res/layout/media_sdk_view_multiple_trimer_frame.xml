@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_br_btn" android:background="@drawable/mediasdk_ic_multiple_play_btn_selector" android:padding="2.0dip" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="14.0dip" android:scaleType="fitXY" android:layout_marginEnd="14.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/video_frames_layout" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_time">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/video_frames_recyclerView" android:layout_width="fill_parent" android:layout_height="52.0dip" />
+        <com.shopee.sz.mediasdk.ui.view.edit.tts.SSZAudioWaveView android:layout_gravity="center_vertical" android:id="@id/audio_wave_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginLeft="34.0dip" android:layout_marginRight="34.0dip" />
+        <com.shopee.sz.mediasdk.trim.MediaTrimHighlightView android:layout_gravity="center_vertical" android:id="@id/trim_highlight_view" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_marginLeft="34.0dip" android:layout_marginRight="34.0dip" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/seekBarLayout" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </FrameLayout>
+</merge>

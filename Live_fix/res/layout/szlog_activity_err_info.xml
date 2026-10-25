@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0e68c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/msg_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="This is a Error Message\nMessage have multi lines!" android:singleLine="false" />
+    </ScrollView>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.0sp" android:id="@id/stacktrace_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:text="This is stacktrace\n Stacktrace like this." android:singleLine="false" />
+    </ScrollView>
+    <Button android:textSize="18.0sp" android:id="@id/close_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="关闭 (可以从⚠️图标点进去里查看)" />
+</LinearLayout>
